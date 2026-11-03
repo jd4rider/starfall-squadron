@@ -1,0 +1,8667 @@
+{
+  "generator": "starfall-squadron-v1",
+  "generatedAt": "2026-11-03T09:01:15.290Z",
+  "total": 300,
+  "verified": 300,
+  "rejected": 0,
+  "unknown": 0,
+  "duplicateIds": [],
+  "nearDuplicates": 0,
+  "largest": {
+    "id": "ss-029",
+    "enemies": 53
+  },
+  "maxEnemies": 53,
+  "maxThreat": 153.6,
+  "sectors": {
+    "1": 30,
+    "2": 30,
+    "3": 30,
+    "4": 30,
+    "5": 30,
+    "6": 30,
+    "7": 30,
+    "8": 30,
+    "9": 30,
+    "10": 30
+  },
+  "bosses": 10,
+  "levels": [
+    {
+      "id": "ss-001",
+      "index": 1,
+      "sector": 1,
+      "local": 1,
+      "seed": 940782301,
+      "name": "First Contact",
+      "type": "eliminate",
+      "objective": {
+        "kind": "eliminate",
+        "target": 13,
+        "label": "Destroy 13 hostiles"
+      },
+      "boss": null,
+      "hazards": [],
+      "difficulty": 0.1,
+      "waves": 3,
+      "enemies": 23,
+      "threat": 27.2,
+      "starScore": [
+        1300,
+        2000,
+        2900
+      ],
+      "status": "VERIFIED",
+      "issues": [],
+      "verification": "static-structural"
+    },
+    {
+      "id": "ss-002",
+      "index": 2,
+      "sector": 1,
+      "local": 2,
+      "seed": 890449444,
+      "name": "Two Directions",
+      "type": "eliminate",
+      "objective": {
+        "kind": "eliminate",
+        "target": 8,
+        "label": "Destroy 8 hostiles"
+      },
+      "boss": null,
+      "hazards": [],
+      "difficulty": 0.21,
+      "waves": 3,
+      "enemies": 15,
+      "threat": 23,
+      "starScore": [
+        800,
+        1300,
+        1900
+      ],
+      "status": "VERIFIED",
+      "issues": [],
+      "verification": "static-structural"
+    },
+    {
+      "id": "ss-003",
+      "index": 3,
+      "sector": 1,
+      "local": 3,
+      "seed": 907227063,
+      "name": "Formation Flying",
+      "type": "eliminate",
+      "objective": {
+        "kind": "eliminate",
+        "target": 13,
+        "label": "Destroy 13 hostiles"
+      },
+      "boss": null,
+      "hazards": [],
+      "difficulty": 0.31,
+      "waves": 3,
+      "enemies": 23,
+      "threat": 30.2,
+      "starScore": [
+        1300,
+        2000,
+        2900
+      ],
+      "status": "VERIFIED",
+      "issues": [],
+      "verification": "static-structural"
+    },
+    {
+      "id": "ss-004",
+      "index": 4,
+      "sector": 1,
+      "local": 4,
+      "seed": 856894206,
+      "name": "Hold the Line",
+      "type": "survive",
+      "objective": {
+        "kind": "survive",
+        "target": 37,
+        "label": "Survive 37s"
+      },
+      "boss": null,
+      "hazards": [],
+      "difficulty": 0.41,
+      "waves": 3,
+      "enemies": 22,
+      "threat": 31.4,
+      "starScore": [
+        1200,
+        1900,
+        2800
+      ],
+      "status": "VERIFIED",
+      "issues": [],
+      "verification": "static-structural"
+    },
+    {
+      "id": "ss-005",
+      "index": 5,
+      "sector": 1,
+      "local": 5,
+      "seed": 873671825,
+      "name": "Salvage",
+      "type": "resource",
+      "objective": {
+        "kind": "resource",
+        "target": 3,
+        "label": "Recover 3 energy cores"
+      },
+      "boss": null,
+      "hazards": [],
+      "difficulty": 0.52,
+      "waves": 4,
+      "enemies": 23,
+      "threat": 29.8,
+      "starScore": [
+        1300,
+        2000,
+        2900
+      ],
+      "status": "VERIFIED",
+      "issues": [],
+      "verification": "static-structural"
+    },
+    {
+      "id": "ss-006",
+      "index": 6,
+      "sector": 1,
+      "local": 6,
+      "seed": 823338968,
+      "name": "First Blood",
+      "type": "eliminate",
+      "objective": {
+        "kind": "eliminate",
+        "target": 16,
+        "label": "Destroy 16 hostiles"
+      },
+      "boss": null,
+      "hazards": [],
+      "difficulty": 0.62,
+      "waves": 4,
+      "enemies": 29,
+      "threat": 39,
+      "starScore": [
+        1600,
+        2500,
+        3700
+      ],
+      "status": "VERIFIED",
+      "issues": [],
+      "verification": "static-structural"
+    },
+    {
+      "id": "ss-007",
+      "index": 7,
+      "sector": 1,
+      "local": 7,
+      "seed": 840116587,
+      "name": "Runners",
+      "type": "interception",
+      "objective": {
+        "kind": "interception",
+        "target": 2,
+        "label": "Stop 2 runners escaping"
+      },
+      "boss": null,
+      "hazards": [],
+      "difficulty": 0.72,
+      "waves": 4,
+      "enemies": 21,
+      "threat": 28.2,
+      "starScore": [
+        1200,
+        1800,
+        2700
+      ],
+      "status": "VERIFIED",
+      "issues": [],
+      "verification": "static-structural"
+    },
+    {
+      "id": "ss-008",
+      "index": 8,
+      "sector": 1,
+      "local": 8,
+      "seed": 789783730,
+      "name": "Debris",
+      "type": "asteroid",
+      "objective": {
+        "kind": "asteroid",
+        "target": 39,
+        "label": "Survive the debris field for 39s"
+      },
+      "boss": null,
+      "hazards": [
+        "asteroid"
+      ],
+      "difficulty": 0.83,
+      "waves": 4,
+      "enemies": 22,
+      "threat": 32.4,
+      "starScore": [
+        1200,
+        1900,
+        2800
+      ],
+      "status": "VERIFIED",
+      "issues": [],
+      "verification": "static-structural"
+    },
+    {
+      "id": "ss-009",
+      "index": 9,
+      "sector": 1,
+      "local": 9,
+      "seed": 806561349,
+      "name": "Cover",
+      "type": "escort",
+      "objective": {
+        "kind": "escort",
+        "target": 40,
+        "label": "Protect the courier for 40s"
+      },
+      "boss": null,
+      "hazards": [],
+      "difficulty": 0.93,
+      "waves": 4,
+      "enemies": 25,
+      "threat": 38,
+      "starScore": [
+        1400,
+        2100,
+        3200
+      ],
+      "status": "VERIFIED",
+      "issues": [],
+      "verification": "static-structural"
+    },
+    {
+      "id": "ss-010",
+      "index": 10,
+      "sector": 1,
+      "local": 10,
+      "seed": 859384599,
+      "name": "Station Watch",
+      "type": "defense",
+      "objective": {
+        "kind": "defense",
+        "target": 40,
+        "label": "Defend the relay for 40s"
+      },
+      "boss": null,
+      "hazards": [],
+      "difficulty": 1.03,
+      "waves": 5,
+      "enemies": 31,
+      "threat": 39.8,
+      "starScore": [
+        1700,
+        2600,
+        3900
+      ],
+      "status": "VERIFIED",
+      "issues": [],
+      "verification": "static-structural"
+    },
+    {
+      "id": "ss-011",
+      "index": 11,
+      "sector": 1,
+      "local": 11,
+      "seed": 842606980,
+      "name": "Wingmates",
+      "type": "eliminate",
+      "objective": {
+        "kind": "eliminate",
+        "target": 15,
+        "label": "Destroy 15 hostiles"
+      },
+      "boss": null,
+      "hazards": [],
+      "difficulty": 1.14,
+      "waves": 5,
+      "enemies": 28,
+      "threat": 39.2,
+      "starScore": [
+        1500,
+        2400,
+        3500
+      ],
+      "status": "VERIFIED",
+      "issues": [],
+      "verification": "static-structural"
+    },
+    {
+      "id": "ss-012",
+      "index": 12,
+      "sector": 1,
+      "local": 12,
+      "seed": 892939837,
+      "name": "Ace",
+      "type": "elite",
+      "objective": {
+        "kind": "elite",
+        "target": 1,
+        "label": "Destroy 1 elite ace"
+      },
+      "boss": null,
+      "hazards": [],
+      "difficulty": 1.24,
+      "waves": 5,
+      "enemies": 33,
+      "threat": 50.6,
+      "starScore": [
+        1800,
+        2800,
+        4200
+      ],
+      "status": "VERIFIED",
+      "issues": [],
+      "verification": "static-structural"
+    },
+    {
+      "id": "ss-013",
+      "index": 13,
+      "sector": 1,
+      "local": 13,
+      "seed": 876162218,
+      "name": "Gauntlet",
+      "type": "gauntlet",
+      "objective": {
+        "kind": "gauntlet",
+        "target": 36,
+        "label": "Clear all 36 hostiles"
+      },
+      "boss": null,
+      "hazards": [],
+      "difficulty": 1.34,
+      "waves": 5,
+      "enemies": 36,
+      "threat": 47.2,
+      "starScore": [
+        2000,
+        3100,
+        4600
+      ],
+      "status": "VERIFIED",
+      "issues": [],
+      "verification": "static-structural"
+    },
+    {
+      "id": "ss-014",
+      "index": 14,
+      "sector": 1,
+      "local": 14,
+      "seed": 792274123,
+      "name": "Long Patrol",
+      "type": "survive",
+      "objective": {
+        "kind": "survive",
+        "target": 37,
+        "label": "Survive 37s"
+      },
+      "boss": null,
+      "hazards": [],
+      "difficulty": 1.45,
+      "waves": 5,
+      "enemies": 36,
+      "threat": 45.2,
+      "starScore": [
+        2000,
+        3100,
+        4600
+      ],
+      "status": "VERIFIED",
+      "issues": [],
+      "verification": "static-structural"
+    },
+    {
+      "id": "ss-015",
+      "index": 15,
+      "sector": 1,
+      "local": 15,
+      "seed": 775496504,
+      "name": "Ace Wing",
+      "type": "elite",
+      "objective": {
+        "kind": "elite",
+        "target": 1,
+        "label": "Destroy 1 elite ace"
+      },
+      "boss": null,
+      "hazards": [],
+      "difficulty": 1.55,
+      "waves": 6,
+      "enemies": 38,
+      "threat": 54,
+      "starScore": [
+        2100,
+        3200,
+        4800
+      ],
+      "status": "VERIFIED",
+      "issues": [],
+      "verification": "static-structural"
+    },
+    {
+      "id": "ss-016",
+      "index": 16,
+      "sector": 1,
+      "local": 16,
+      "seed": 825829361,
+      "name": "Contact Report",
+      "type": "eliminate",
+      "objective": {
+        "kind": "eliminate",
+        "target": 17,
+        "label": "Destroy 17 hostiles"
+      },
+      "boss": null,
+      "hazards": [],
+      "difficulty": 1.65,
+      "waves": 6,
+      "enemies": 31,
+      "threat": 44.8,
+      "starScore": [
+        1700,
+        2600,
+        3900
+      ],
+      "status": "VERIFIED",
+      "issues": [],
+      "verification": "static-structural"
+    },
+    {
+      "id": "ss-017",
+      "index": 17,
+      "sector": 1,
+      "local": 17,
+      "seed": 809051742,
+      "name": "Shepherd",
+      "type": "escort",
+      "objective": {
+        "kind": "escort",
+        "target": 45,
+        "label": "Protect the courier for 45s"
+      },
+      "boss": null,
+      "hazards": [],
+      "difficulty": 1.76,
+      "waves": 6,
+      "enemies": 38,
+      "threat": 48.4,
+      "starScore": [
+        2100,
+        3200,
+        4800
+      ],
+      "status": "VERIFIED",
+      "issues": [],
+      "verification": "static-structural"
+    },
+    {
+      "id": "ss-018",
+      "index": 18,
+      "sector": 1,
+      "local": 18,
+      "seed": 725163647,
+      "name": "Clear the Lane",
+      "type": "eliminate",
+      "objective": {
+        "kind": "eliminate",
+        "target": 22,
+        "label": "Destroy 22 hostiles"
+      },
+      "boss": null,
+      "hazards": [],
+      "difficulty": 1.86,
+      "waves": 6,
+      "enemies": 40,
+      "threat": 50.6,
+      "starScore": [
+        2200,
+        3400,
+        5100
+      ],
+      "status": "VERIFIED",
+      "issues": [],
+      "verification": "static-structural"
+    },
+    {
+      "id": "ss-019",
+      "index": 19,
+      "sector": 1,
+      "local": 19,
+      "seed": 708386028,
+      "name": "Contact Report",
+      "type": "eliminate",
+      "objective": {
+        "kind": "eliminate",
+        "target": 23,
+        "label": "Destroy 23 hostiles"
+      },
+      "boss": null,
+      "hazards": [],
+      "difficulty": 1.96,
+      "waves": 6,
+      "enemies": 41,
+      "threat": 51.2,
+      "starScore": [
+        2300,
+        3500,
+        5200
+      ],
+      "status": "VERIFIED",
+      "issues": [],
+      "verification": "static-structural"
+    },
+    {
+      "id": "ss-020",
+      "index": 20,
+      "sector": 1,
+      "local": 20,
+      "seed": 2704378236,
+      "name": "Ace Down",
+      "type": "elite",
+      "objective": {
+        "kind": "elite",
+        "target": 1,
+        "label": "Destroy 1 elite ace"
+      },
+      "boss": null,
+      "hazards": [],
+      "difficulty": 2.07,
+      "waves": 7,
+      "enemies": 45,
+      "threat": 65.8,
+      "starScore": [
+        2500,
+        3800,
+        5700
+      ],
+      "status": "VERIFIED",
+      "issues": [],
+      "verification": "static-structural"
+    },
+    {
+      "id": "ss-021",
+      "index": 21,
+      "sector": 1,
+      "local": 21,
+      "seed": 2721155855,
+      "name": "Gather and Go",
+      "type": "resource",
+      "objective": {
+        "kind": "resource",
+        "target": 3,
+        "label": "Recover 3 energy cores"
+      },
+      "boss": null,
+      "hazards": [],
+      "difficulty": 2.17,
+      "waves": 7,
+      "enemies": 34,
+      "threat": 47.6,
+      "starScore": [
+        1900,
+        2900,
+        4300
+      ],
+      "status": "VERIFIED",
+      "issues": [],
+      "verification": "static-structural"
+    },
+    {
+      "id": "ss-022",
+      "index": 22,
+      "sector": 1,
+      "local": 22,
+      "seed": 2737933474,
+      "name": "Tight Quarters",
+      "type": "asteroid",
+      "objective": {
+        "kind": "asteroid",
+        "target": 48,
+        "label": "Survive the debris field for 48s"
+      },
+      "boss": null,
+      "hazards": [
+        "asteroid"
+      ],
+      "difficulty": 2.27,
+      "waves": 7,
+      "enemies": 39,
+      "threat": 53.6,
+      "starScore": [
+        2100,
+        3300,
+        4900
+      ],
+      "status": "VERIFIED",
+      "issues": [],
+      "verification": "static-structural"
+    },
+    {
+      "id": "ss-023",
+      "index": 23,
+      "sector": 1,
+      "local": 23,
+      "seed": 2754711093,
+      "name": "Sweep and Burn",
+      "type": "eliminate",
+      "objective": {
+        "kind": "eliminate",
+        "target": 23,
+        "label": "Destroy 23 hostiles"
+      },
+      "boss": null,
+      "hazards": [],
+      "difficulty": 2.38,
+      "waves": 7,
+      "enemies": 41,
+      "threat": 52,
+      "starScore": [
+        2300,
+        3500,
+        5200
+      ],
+      "status": "VERIFIED",
+      "issues": [],
+      "verification": "static-structural"
+    },
+    {
+      "id": "ss-024",
+      "index": 24,
+      "sector": 1,
+      "local": 24,
+      "seed": 2637267760,
+      "name": "Escort Duty",
+      "type": "escort",
+      "objective": {
+        "kind": "escort",
+        "target": 49,
+        "label": "Protect the courier for 49s"
+      },
+      "boss": null,
+      "hazards": [],
+      "difficulty": 2.48,
+      "waves": 7,
+      "enemies": 45,
+      "threat": 56,
+      "starScore": [
+        2500,
+        3800,
+        5700
+      ],
+      "status": "VERIFIED",
+      "issues": [],
+      "verification": "static-structural"
+    },
+    {
+      "id": "ss-025",
+      "index": 25,
+      "sector": 1,
+      "local": 25,
+      "seed": 2654045379,
+      "name": "Wave After Wave",
+      "type": "gauntlet",
+      "objective": {
+        "kind": "gauntlet",
+        "target": 42,
+        "label": "Clear all 42 hostiles"
+      },
+      "boss": null,
+      "hazards": [],
+      "difficulty": 2.58,
+      "waves": 8,
+      "enemies": 42,
+      "threat": 53.8,
+      "starScore": [
+        2300,
+        3600,
+        5300
+      ],
+      "status": "VERIFIED",
+      "issues": [],
+      "verification": "static-structural"
+    },
+    {
+      "id": "ss-026",
+      "index": 26,
+      "sector": 1,
+      "local": 26,
+      "seed": 2670822998,
+      "name": "Hunter Detail",
+      "type": "eliminate",
+      "objective": {
+        "kind": "eliminate",
+        "target": 19,
+        "label": "Destroy 19 hostiles"
+      },
+      "boss": null,
+      "hazards": [],
+      "difficulty": 2.69,
+      "waves": 8,
+      "enemies": 34,
+      "threat": 50.2,
+      "starScore": [
+        1900,
+        2900,
+        4300
+      ],
+      "status": "VERIFIED",
+      "issues": [],
+      "verification": "static-structural"
+    },
+    {
+      "id": "ss-027",
+      "index": 27,
+      "sector": 1,
+      "local": 27,
+      "seed": 2687600617,
+      "name": "Hold the Line",
+      "type": "survive",
+      "objective": {
+        "kind": "survive",
+        "target": 37,
+        "label": "Survive 37s"
+      },
+      "boss": null,
+      "hazards": [],
+      "difficulty": 2.79,
+      "waves": 8,
+      "enemies": 44,
+      "threat": 59.4,
+      "starScore": [
+        2400,
+        3800,
+        5600
+      ],
+      "status": "VERIFIED",
+      "issues": [],
+      "verification": "static-structural"
+    },
+    {
+      "id": "ss-028",
+      "index": 28,
+      "sector": 1,
+      "local": 28,
+      "seed": 2838599188,
+      "name": "Gather and Go",
+      "type": "resource",
+      "objective": {
+        "kind": "resource",
+        "target": 3,
+        "label": "Recover 3 energy cores"
+      },
+      "boss": null,
+      "hazards": [],
+      "difficulty": 2.89,
+      "waves": 8,
+      "enemies": 41,
+      "threat": 59.2,
+      "starScore": [
+        2300,
+        3500,
+        5200
+      ],
+      "status": "VERIFIED",
+      "issues": [],
+      "verification": "static-structural"
+    },
+    {
+      "id": "ss-029",
+      "index": 29,
+      "sector": 1,
+      "local": 29,
+      "seed": 2855376807,
+      "name": "Rock Run",
+      "type": "asteroid",
+      "objective": {
+        "kind": "asteroid",
+        "target": 52,
+        "label": "Survive the debris field for 52s"
+      },
+      "boss": null,
+      "hazards": [
+        "asteroid"
+      ],
+      "difficulty": 3,
+      "waves": 8,
+      "enemies": 53,
+      "threat": 66.6,
+      "starScore": [
+        2900,
+        4500,
+        6700
+      ],
+      "status": "VERIFIED",
+      "issues": [],
+      "verification": "static-structural"
+    },
+    {
+      "id": "ss-030",
+      "index": 30,
+      "sector": 1,
+      "local": 30,
+      "seed": 2805191045,
+      "name": "Break the Hull",
+      "type": "boss",
+      "objective": {
+        "kind": "boss",
+        "target": 1,
+        "label": "Destroy The Dreadnought"
+      },
+      "boss": "dreadnought",
+      "hazards": [],
+      "difficulty": 3.1,
+      "waves": 2,
+      "enemies": 19,
+      "threat": 23.8,
+      "starScore": [
+        3200,
+        5000,
+        7500
+      ],
+      "status": "VERIFIED",
+      "issues": [],
+      "verification": "static-structural"
+    },
+    {
+      "id": "ss-031",
+      "index": 31,
+      "sector": 2,
+      "local": 1,
+      "seed": 2788413426,
+      "name": "Keep It Alive",
+      "type": "escort",
+      "objective": {
+        "kind": "escort",
+        "target": 37,
+        "label": "Protect the courier for 37s"
+      },
+      "boss": null,
+      "hazards": [],
+      "difficulty": 1.02,
+      "waves": 3,
+      "enemies": 22,
+      "threat": 40.4,
+      "starScore": [
+        1200,
+        1900,
+        2800
+      ],
+      "status": "VERIFIED",
+      "issues": [],
+      "verification": "static-structural"
+    },
+    {
+      "id": "ss-032",
+      "index": 32,
+      "sector": 2,
+      "local": 2,
+      "seed": 2771635807,
+      "name": "Clear the Lane",
+      "type": "eliminate",
+      "objective": {
+        "kind": "eliminate",
+        "target": 12,
+        "label": "Destroy 12 hostiles"
+      },
+      "boss": null,
+      "hazards": [],
+      "difficulty": 1.13,
+      "waves": 3,
+      "enemies": 21,
+      "threat": 37.2,
+      "starScore": [
+        1200,
+        1800,
+        2700
+      ],
+      "status": "VERIFIED",
+      "issues": [],
+      "verification": "static-structural"
+    },
+    {
+      "id": "ss-033",
+      "index": 33,
+      "sector": 2,
+      "local": 3,
+      "seed": 2754858188,
+      "name": "Hunter Detail",
+      "type": "eliminate",
+      "objective": {
+        "kind": "eliminate",
+        "target": 13,
+        "label": "Destroy 13 hostiles"
+      },
+      "boss": null,
+      "hazards": [],
+      "difficulty": 1.23,
+      "waves": 3,
+      "enemies": 23,
+      "threat": 36.5,
+      "starScore": [
+        1300,
+        2000,
+        2900
+      ],
+      "status": "VERIFIED",
+      "issues": [],
+      "verification": "static-structural"
+    },
+    {
+      "id": "ss-034",
+      "index": 34,
+      "sector": 2,
+      "local": 4,
+      "seed": 2738080569,
+      "name": "Under Siege",
+      "type": "survive",
+      "objective": {
+        "kind": "survive",
+        "target": 39,
+        "label": "Survive 39s"
+      },
+      "boss": null,
+      "hazards": [],
+      "difficulty": 1.33,
+      "waves": 3,
+      "enemies": 21,
+      "threat": 36.3,
+      "starScore": [
+        1200,
+        1800,
+        2700
+      ],
+      "status": "VERIFIED",
+      "issues": [],
+      "verification": "static-structural"
+    },
+    {
+      "id": "ss-035",
+      "index": 35,
+      "sector": 2,
+      "local": 5,
+      "seed": 2721302950,
+      "name": "Supply Drop",
+      "type": "resource",
+      "objective": {
+        "kind": "resource",
+        "target": 3,
+        "label": "Recover 3 energy cores"
+      },
+      "boss": null,
+      "hazards": [],
+      "difficulty": 1.44,
+      "waves": 4,
+      "enemies": 27,
+      "threat": 50.1,
+      "starScore": [
+        1500,
+        2300,
+        3400
+      ],
+      "status": "VERIFIED",
+      "issues": [],
+      "verification": "static-structural"
+    },
+    {
+      "id": "ss-036",
+      "index": 36,
+      "sector": 2,
+      "local": 6,
+      "seed": 2704525331,
+      "name": "Rock Run",
+      "type": "asteroid",
+      "objective": {
+        "kind": "asteroid",
+        "target": 40,
+        "label": "Survive the debris field for 40s"
+      },
+      "boss": null,
+      "hazards": [
+        "asteroid"
+      ],
+      "difficulty": 1.54,
+      "waves": 4,
+      "enemies": 20,
+      "threat": 43.2,
+      "starScore": [
+        1100,
+        1700,
+        2500
+      ],
+      "status": "VERIFIED",
+      "issues": [],
+      "verification": "static-structural"
+    },
+    {
+      "id": "ss-037",
+      "index": 37,
+      "sector": 2,
+      "local": 7,
+      "seed": 2687747712,
+      "name": "Patrol Sweep",
+      "type": "eliminate",
+      "objective": {
+        "kind": "eliminate",
+        "target": 14,
+        "label": "Destroy 14 hostiles"
+      },
+      "boss": null,
+      "hazards": [],
+      "difficulty": 1.64,
+      "waves": 4,
+      "enemies": 25,
+      "threat": 44.2,
+      "starScore": [
+        1400,
+        2100,
+        3200
+      ],
+      "status": "VERIFIED",
+      "issues": [],
+      "verification": "static-structural"
+    },
+    {
+      "id": "ss-038",
+      "index": 38,
+      "sector": 2,
+      "local": 8,
+      "seed": 2939411997,
+      "name": "Safe Passage",
+      "type": "escort",
+      "objective": {
+        "kind": "escort",
+        "target": 41,
+        "label": "Protect the courier for 41s"
+      },
+      "boss": null,
+      "hazards": [],
+      "difficulty": 1.75,
+      "waves": 4,
+      "enemies": 23,
+      "threat": 40.8,
+      "starScore": [
+        1300,
+        2000,
+        2900
+      ],
+      "status": "VERIFIED",
+      "issues": [],
+      "verification": "static-structural"
+    },
+    {
+      "id": "ss-039",
+      "index": 39,
+      "sector": 2,
+      "local": 9,
+      "seed": 2922634378,
+      "name": "Sweep and Burn",
+      "type": "eliminate",
+      "objective": {
+        "kind": "eliminate",
+        "target": 13,
+        "label": "Destroy 13 hostiles"
+      },
+      "boss": null,
+      "hazards": [],
+      "difficulty": 1.85,
+      "waves": 4,
+      "enemies": 24,
+      "threat": 47.5,
+      "starScore": [
+        1300,
+        2000,
+        3000
+      ],
+      "status": "VERIFIED",
+      "issues": [],
+      "verification": "static-structural"
+    },
+    {
+      "id": "ss-040",
+      "index": 40,
+      "sector": 2,
+      "local": 10,
+      "seed": 892101194,
+      "name": "Stop Them",
+      "type": "interception",
+      "objective": {
+        "kind": "interception",
+        "target": 3,
+        "label": "Stop 3 runners escaping"
+      },
+      "boss": null,
+      "hazards": [],
+      "difficulty": 1.95,
+      "waves": 5,
+      "enemies": 24,
+      "threat": 35.5,
+      "starScore": [
+        1300,
+        2000,
+        3000
+      ],
+      "status": "VERIFIED",
+      "issues": [],
+      "verification": "static-structural"
+    },
+    {
+      "id": "ss-041",
+      "index": 41,
+      "sector": 2,
+      "local": 11,
+      "seed": 908878813,
+      "name": "Hold the Line",
+      "type": "survive",
+      "objective": {
+        "kind": "survive",
+        "target": 39,
+        "label": "Survive 39s"
+      },
+      "boss": null,
+      "hazards": [],
+      "difficulty": 2.06,
+      "waves": 5,
+      "enemies": 33,
+      "threat": 47.6,
+      "starScore": [
+        1800,
+        2800,
+        4200
+      ],
+      "status": "VERIFIED",
+      "issues": [],
+      "verification": "static-structural"
+    },
+    {
+      "id": "ss-042",
+      "index": 42,
+      "sector": 2,
+      "local": 12,
+      "seed": 858545956,
+      "name": "Recovery",
+      "type": "resource",
+      "objective": {
+        "kind": "resource",
+        "target": 3,
+        "label": "Recover 3 energy cores"
+      },
+      "boss": null,
+      "hazards": [],
+      "difficulty": 2.16,
+      "waves": 5,
+      "enemies": 28,
+      "threat": 46.8,
+      "starScore": [
+        1500,
+        2400,
+        3500
+      ],
+      "status": "VERIFIED",
+      "issues": [],
+      "verification": "static-structural"
+    },
+    {
+      "id": "ss-043",
+      "index": 43,
+      "sector": 2,
+      "local": 13,
+      "seed": 875323575,
+      "name": "Tight Quarters",
+      "type": "asteroid",
+      "objective": {
+        "kind": "asteroid",
+        "target": 44,
+        "label": "Survive the debris field for 44s"
+      },
+      "boss": null,
+      "hazards": [
+        "asteroid"
+      ],
+      "difficulty": 2.26,
+      "waves": 5,
+      "enemies": 36,
+      "threat": 48.4,
+      "starScore": [
+        2000,
+        3100,
+        4600
+      ],
+      "status": "VERIFIED",
+      "issues": [],
+      "verification": "static-structural"
+    },
+    {
+      "id": "ss-044",
+      "index": 44,
+      "sector": 2,
+      "local": 14,
+      "seed": 824990718,
+      "name": "Contact Report",
+      "type": "eliminate",
+      "objective": {
+        "kind": "eliminate",
+        "target": 21,
+        "label": "Destroy 21 hostiles"
+      },
+      "boss": null,
+      "hazards": [],
+      "difficulty": 2.37,
+      "waves": 5,
+      "enemies": 39,
+      "threat": 65.9,
+      "starScore": [
+        2100,
+        3300,
+        4900
+      ],
+      "status": "VERIFIED",
+      "issues": [],
+      "verification": "static-structural"
+    },
+    {
+      "id": "ss-045",
+      "index": 45,
+      "sector": 2,
+      "local": 15,
+      "seed": 841768337,
+      "name": "Protect the Relay",
+      "type": "defense",
+      "objective": {
+        "kind": "defense",
+        "target": 45,
+        "label": "Defend the relay for 45s"
+      },
+      "boss": null,
+      "hazards": [],
+      "difficulty": 2.47,
+      "waves": 6,
+      "enemies": 33,
+      "threat": 56.9,
+      "starScore": [
+        1800,
+        2800,
+        4200
+      ],
+      "status": "VERIFIED",
+      "issues": [],
+      "verification": "static-structural"
+    },
+    {
+      "id": "ss-046",
+      "index": 46,
+      "sector": 2,
+      "local": 16,
+      "seed": 791435480,
+      "name": "Sweep and Burn",
+      "type": "eliminate",
+      "objective": {
+        "kind": "eliminate",
+        "target": 16,
+        "label": "Destroy 16 hostiles"
+      },
+      "boss": null,
+      "hazards": [],
+      "difficulty": 2.57,
+      "waves": 6,
+      "enemies": 29,
+      "threat": 54,
+      "starScore": [
+        1600,
+        2500,
+        3700
+      ],
+      "status": "VERIFIED",
+      "issues": [],
+      "verification": "static-structural"
+    },
+    {
+      "id": "ss-047",
+      "index": 47,
+      "sector": 2,
+      "local": 17,
+      "seed": 808213099,
+      "name": "Sweep and Burn",
+      "type": "eliminate",
+      "objective": {
+        "kind": "eliminate",
+        "target": 18,
+        "label": "Destroy 18 hostiles"
+      },
+      "boss": null,
+      "hazards": [],
+      "difficulty": 2.68,
+      "waves": 6,
+      "enemies": 32,
+      "threat": 56.3,
+      "starScore": [
+        1800,
+        2700,
+        4000
+      ],
+      "status": "VERIFIED",
+      "issues": [],
+      "verification": "static-structural"
+    },
+    {
+      "id": "ss-048",
+      "index": 48,
+      "sector": 2,
+      "local": 18,
+      "seed": 757880242,
+      "name": "Last Stand",
+      "type": "survive",
+      "objective": {
+        "kind": "survive",
+        "target": 39,
+        "label": "Survive 39s"
+      },
+      "boss": null,
+      "hazards": [],
+      "difficulty": 2.78,
+      "waves": 6,
+      "enemies": 29,
+      "threat": 63.8,
+      "starScore": [
+        1600,
+        2500,
+        3700
+      ],
+      "status": "VERIFIED",
+      "issues": [],
+      "verification": "static-structural"
+    },
+    {
+      "id": "ss-049",
+      "index": 49,
+      "sector": 2,
+      "local": 19,
+      "seed": 774657861,
+      "name": "Supply Drop",
+      "type": "resource",
+      "objective": {
+        "kind": "resource",
+        "target": 3,
+        "label": "Recover 3 energy cores"
+      },
+      "boss": null,
+      "hazards": [],
+      "difficulty": 2.88,
+      "waves": 6,
+      "enemies": 30,
+      "threat": 65.1,
+      "starScore": [
+        1700,
+        2600,
+        3800
+      ],
+      "status": "VERIFIED",
+      "issues": [],
+      "verification": "static-structural"
+    },
+    {
+      "id": "ss-050",
+      "index": 50,
+      "sector": 2,
+      "local": 20,
+      "seed": 2603565427,
+      "name": "Cruiser Hunt",
+      "type": "elite",
+      "objective": {
+        "kind": "elite",
+        "target": 1,
+        "label": "Destroy 1 elite ace"
+      },
+      "boss": null,
+      "hazards": [],
+      "difficulty": 2.99,
+      "waves": 7,
+      "enemies": 43,
+      "threat": 78.9,
+      "starScore": [
+        2400,
+        3700,
+        5400
+      ],
+      "status": "VERIFIED",
+      "issues": [],
+      "verification": "static-structural"
+    },
+    {
+      "id": "ss-051",
+      "index": 51,
+      "sector": 2,
+      "local": 21,
+      "seed": 2586787808,
+      "name": "Patrol Sweep",
+      "type": "eliminate",
+      "objective": {
+        "kind": "eliminate",
+        "target": 21,
+        "label": "Destroy 21 hostiles"
+      },
+      "boss": null,
+      "hazards": [],
+      "difficulty": 3.09,
+      "waves": 7,
+      "enemies": 39,
+      "threat": 60.2,
+      "starScore": [
+        2100,
+        3300,
+        4900
+      ],
+      "status": "VERIFIED",
+      "issues": [],
+      "verification": "static-structural"
+    },
+    {
+      "id": "ss-052",
+      "index": 52,
+      "sector": 2,
+      "local": 22,
+      "seed": 2637120665,
+      "name": "Keep It Alive",
+      "type": "escort",
+      "objective": {
+        "kind": "escort",
+        "target": 50,
+        "label": "Protect the courier for 50s"
+      },
+      "boss": null,
+      "hazards": [],
+      "difficulty": 3.19,
+      "waves": 7,
+      "enemies": 34,
+      "threat": 60.2,
+      "starScore": [
+        1900,
+        2900,
+        4300
+      ],
+      "status": "VERIFIED",
+      "issues": [],
+      "verification": "static-structural"
+    },
+    {
+      "id": "ss-053",
+      "index": 53,
+      "sector": 2,
+      "local": 23,
+      "seed": 2620343046,
+      "name": "Patrol Sweep",
+      "type": "eliminate",
+      "objective": {
+        "kind": "eliminate",
+        "target": 22,
+        "label": "Destroy 22 hostiles"
+      },
+      "boss": null,
+      "hazards": [],
+      "difficulty": 3.3,
+      "waves": 7,
+      "enemies": 40,
+      "threat": 73.2,
+      "starScore": [
+        2200,
+        3400,
+        5100
+      ],
+      "status": "VERIFIED",
+      "issues": [],
+      "verification": "static-structural"
+    },
+    {
+      "id": "ss-054",
+      "index": 54,
+      "sector": 2,
+      "local": 24,
+      "seed": 2670675903,
+      "name": "Contact Report",
+      "type": "eliminate",
+      "objective": {
+        "kind": "eliminate",
+        "target": 17,
+        "label": "Destroy 17 hostiles"
+      },
+      "boss": null,
+      "hazards": [],
+      "difficulty": 3.4,
+      "waves": 7,
+      "enemies": 31,
+      "threat": 66.1,
+      "starScore": [
+        1700,
+        2600,
+        3900
+      ],
+      "status": "VERIFIED",
+      "issues": [],
+      "verification": "static-structural"
+    },
+    {
+      "id": "ss-055",
+      "index": 55,
+      "sector": 2,
+      "local": 25,
+      "seed": 2653898284,
+      "name": "Wave After Wave",
+      "type": "gauntlet",
+      "objective": {
+        "kind": "gauntlet",
+        "target": 41,
+        "label": "Clear all 41 hostiles"
+      },
+      "boss": null,
+      "hazards": [],
+      "difficulty": 3.5,
+      "waves": 8,
+      "enemies": 41,
+      "threat": 68.5,
+      "starScore": [
+        2300,
+        3500,
+        5200
+      ],
+      "status": "VERIFIED",
+      "issues": [],
+      "verification": "static-structural"
+    },
+    {
+      "id": "ss-056",
+      "index": 56,
+      "sector": 2,
+      "local": 26,
+      "seed": 2704231141,
+      "name": "Salvage Run",
+      "type": "resource",
+      "objective": {
+        "kind": "resource",
+        "target": 3,
+        "label": "Recover 3 energy cores"
+      },
+      "boss": null,
+      "hazards": [],
+      "difficulty": 3.61,
+      "waves": 8,
+      "enemies": 32,
+      "threat": 67,
+      "starScore": [
+        1800,
+        2700,
+        4000
+      ],
+      "status": "VERIFIED",
+      "issues": [],
+      "verification": "static-structural"
+    },
+    {
+      "id": "ss-057",
+      "index": 57,
+      "sector": 2,
+      "local": 27,
+      "seed": 2687453522,
+      "name": "Tight Quarters",
+      "type": "asteroid",
+      "objective": {
+        "kind": "asteroid",
+        "target": 53,
+        "label": "Survive the debris field for 53s"
+      },
+      "boss": null,
+      "hazards": [
+        "asteroid"
+      ],
+      "difficulty": 3.71,
+      "waves": 8,
+      "enemies": 30,
+      "threat": 65.7,
+      "starScore": [
+        1700,
+        2600,
+        3800
+      ],
+      "status": "VERIFIED",
+      "issues": [],
+      "verification": "static-structural"
+    },
+    {
+      "id": "ss-058",
+      "index": 58,
+      "sector": 2,
+      "local": 28,
+      "seed": 2737786379,
+      "name": "Contact Report",
+      "type": "eliminate",
+      "objective": {
+        "kind": "eliminate",
+        "target": 20,
+        "label": "Destroy 20 hostiles"
+      },
+      "boss": null,
+      "hazards": [],
+      "difficulty": 3.81,
+      "waves": 8,
+      "enemies": 37,
+      "threat": 69,
+      "starScore": [
+        2000,
+        3200,
+        4700
+      ],
+      "status": "VERIFIED",
+      "issues": [],
+      "verification": "static-structural"
+    },
+    {
+      "id": "ss-059",
+      "index": 59,
+      "sector": 2,
+      "local": 29,
+      "seed": 2721008760,
+      "name": "Shepherd",
+      "type": "escort",
+      "objective": {
+        "kind": "escort",
+        "target": 54,
+        "label": "Protect the courier for 54s"
+      },
+      "boss": null,
+      "hazards": [],
+      "difficulty": 3.92,
+      "waves": 8,
+      "enemies": 47,
+      "threat": 68.9,
+      "starScore": [
+        2600,
+        4000,
+        5900
+      ],
+      "status": "VERIFIED",
+      "issues": [],
+      "verification": "static-structural"
+    },
+    {
+      "id": "ss-060",
+      "index": 60,
+      "sector": 2,
+      "local": 30,
+      "seed": 690475576,
+      "name": "Break the Hull",
+      "type": "boss",
+      "objective": {
+        "kind": "boss",
+        "target": 1,
+        "label": "Destroy The Crimson Serpent"
+      },
+      "boss": "serpent",
+      "hazards": [],
+      "difficulty": 4.02,
+      "waves": 2,
+      "enemies": 15,
+      "threat": 29,
+      "starScore": [
+        3000,
+        4700,
+        7000
+      ],
+      "status": "VERIFIED",
+      "issues": [],
+      "verification": "static-structural"
+    },
+    {
+      "id": "ss-061",
+      "index": 61,
+      "sector": 3,
+      "local": 1,
+      "seed": 707253195,
+      "name": "Sweep and Burn",
+      "type": "eliminate",
+      "objective": {
+        "kind": "eliminate",
+        "target": 16,
+        "label": "Destroy 16 hostiles"
+      },
+      "boss": null,
+      "hazards": [],
+      "difficulty": 1.94,
+      "waves": 3,
+      "enemies": 29,
+      "threat": 45.4,
+      "starScore": [
+        1600,
+        2500,
+        3700
+      ],
+      "status": "VERIFIED",
+      "issues": [],
+      "verification": "static-structural"
+    },
+    {
+      "id": "ss-062",
+      "index": 62,
+      "sector": 3,
+      "local": 2,
+      "seed": 724030814,
+      "name": "Holding Pattern",
+      "type": "survive",
+      "objective": {
+        "kind": "survive",
+        "target": 42,
+        "label": "Survive 42s"
+      },
+      "boss": null,
+      "hazards": [],
+      "difficulty": 2.05,
+      "waves": 3,
+      "enemies": 18,
+      "threat": 52.1,
+      "starScore": [
+        1000,
+        1500,
+        2300
+      ],
+      "status": "VERIFIED",
+      "issues": [],
+      "verification": "static-structural"
+    },
+    {
+      "id": "ss-063",
+      "index": 63,
+      "sector": 3,
+      "local": 3,
+      "seed": 740808433,
+      "name": "Supply Drop",
+      "type": "resource",
+      "objective": {
+        "kind": "resource",
+        "target": 4,
+        "label": "Recover 4 energy cores"
+      },
+      "boss": null,
+      "hazards": [],
+      "difficulty": 2.15,
+      "waves": 3,
+      "enemies": 21,
+      "threat": 47.3,
+      "starScore": [
+        1200,
+        1800,
+        2700
+      ],
+      "status": "VERIFIED",
+      "issues": [],
+      "verification": "static-structural"
+    },
+    {
+      "id": "ss-064",
+      "index": 64,
+      "sector": 3,
+      "local": 4,
+      "seed": 757586052,
+      "name": "Tight Quarters",
+      "type": "asteroid",
+      "objective": {
+        "kind": "asteroid",
+        "target": 40,
+        "label": "Survive the debris field for 40s"
+      },
+      "boss": null,
+      "hazards": [
+        "asteroid"
+      ],
+      "difficulty": 2.25,
+      "waves": 3,
+      "enemies": 20,
+      "threat": 41.6,
+      "starScore": [
+        1100,
+        1700,
+        2500
+      ],
+      "status": "VERIFIED",
+      "issues": [],
+      "verification": "static-structural"
+    },
+    {
+      "id": "ss-065",
+      "index": 65,
+      "sector": 3,
+      "local": 5,
+      "seed": 774363671,
+      "name": "Hunter Detail",
+      "type": "eliminate",
+      "objective": {
+        "kind": "eliminate",
+        "target": 14,
+        "label": "Destroy 14 hostiles"
+      },
+      "boss": null,
+      "hazards": [],
+      "difficulty": 2.36,
+      "waves": 4,
+      "enemies": 26,
+      "threat": 52,
+      "starScore": [
+        1400,
+        2200,
+        3300
+      ],
+      "status": "VERIFIED",
+      "issues": [],
+      "verification": "static-structural"
+    },
+    {
+      "id": "ss-066",
+      "index": 66,
+      "sector": 3,
+      "local": 6,
+      "seed": 791141290,
+      "name": "Escort Duty",
+      "type": "escort",
+      "objective": {
+        "kind": "escort",
+        "target": 42,
+        "label": "Protect the courier for 42s"
+      },
+      "boss": null,
+      "hazards": [],
+      "difficulty": 2.46,
+      "waves": 4,
+      "enemies": 25,
+      "threat": 56.1,
+      "starScore": [
+        1400,
+        2100,
+        3200
+      ],
+      "status": "VERIFIED",
+      "issues": [],
+      "verification": "static-structural"
+    },
+    {
+      "id": "ss-067",
+      "index": 67,
+      "sector": 3,
+      "local": 7,
+      "seed": 807918909,
+      "name": "Clear the Lane",
+      "type": "eliminate",
+      "objective": {
+        "kind": "eliminate",
+        "target": 14,
+        "label": "Destroy 14 hostiles"
+      },
+      "boss": null,
+      "hazards": [],
+      "difficulty": 2.56,
+      "waves": 4,
+      "enemies": 25,
+      "threat": 61.4,
+      "starScore": [
+        1400,
+        2100,
+        3200
+      ],
+      "status": "VERIFIED",
+      "issues": [],
+      "verification": "static-structural"
+    },
+    {
+      "id": "ss-068",
+      "index": 68,
+      "sector": 3,
+      "local": 8,
+      "seed": 556254624,
+      "name": "Hunter Detail",
+      "type": "eliminate",
+      "objective": {
+        "kind": "eliminate",
+        "target": 12,
+        "label": "Destroy 12 hostiles"
+      },
+      "boss": null,
+      "hazards": [],
+      "difficulty": 2.67,
+      "waves": 4,
+      "enemies": 21,
+      "threat": 49,
+      "starScore": [
+        1200,
+        1800,
+        2700
+      ],
+      "status": "VERIFIED",
+      "issues": [],
+      "verification": "static-structural"
+    },
+    {
+      "id": "ss-069",
+      "index": 69,
+      "sector": 3,
+      "local": 9,
+      "seed": 573032243,
+      "name": "Under Siege",
+      "type": "survive",
+      "objective": {
+        "kind": "survive",
+        "target": 42,
+        "label": "Survive 42s"
+      },
+      "boss": null,
+      "hazards": [],
+      "difficulty": 2.77,
+      "waves": 4,
+      "enemies": 27,
+      "threat": 55.8,
+      "starScore": [
+        1500,
+        2300,
+        3400
+      ],
+      "status": "VERIFIED",
+      "issues": [],
+      "verification": "static-structural"
+    },
+    {
+      "id": "ss-070",
+      "index": 70,
+      "sector": 3,
+      "local": 10,
+      "seed": 791288385,
+      "name": "Runners",
+      "type": "interception",
+      "objective": {
+        "kind": "interception",
+        "target": 3,
+        "label": "Stop 3 runners escaping"
+      },
+      "boss": null,
+      "hazards": [],
+      "difficulty": 2.87,
+      "waves": 5,
+      "enemies": 27,
+      "threat": 60.8,
+      "starScore": [
+        1500,
+        2300,
+        3400
+      ],
+      "status": "VERIFIED",
+      "issues": [],
+      "verification": "static-structural"
+    },
+    {
+      "id": "ss-071",
+      "index": 71,
+      "sector": 3,
+      "local": 11,
+      "seed": 774510766,
+      "name": "Through the Belt",
+      "type": "asteroid",
+      "objective": {
+        "kind": "asteroid",
+        "target": 45,
+        "label": "Survive the debris field for 45s"
+      },
+      "boss": null,
+      "hazards": [
+        "asteroid"
+      ],
+      "difficulty": 2.98,
+      "waves": 5,
+      "enemies": 30,
+      "threat": 63.9,
+      "starScore": [
+        1700,
+        2600,
+        3800
+      ],
+      "status": "VERIFIED",
+      "issues": [],
+      "verification": "static-structural"
+    },
+    {
+      "id": "ss-072",
+      "index": 72,
+      "sector": 3,
+      "local": 12,
+      "seed": 757733147,
+      "name": "Patrol Sweep",
+      "type": "eliminate",
+      "objective": {
+        "kind": "eliminate",
+        "target": 19,
+        "label": "Destroy 19 hostiles"
+      },
+      "boss": null,
+      "hazards": [],
+      "difficulty": 3.08,
+      "waves": 5,
+      "enemies": 34,
+      "threat": 74.6,
+      "starScore": [
+        1900,
+        2900,
+        4300
+      ],
+      "status": "VERIFIED",
+      "issues": [],
+      "verification": "static-structural"
+    },
+    {
+      "id": "ss-073",
+      "index": 73,
+      "sector": 3,
+      "local": 13,
+      "seed": 740955528,
+      "name": "Shepherd",
+      "type": "escort",
+      "objective": {
+        "kind": "escort",
+        "target": 46,
+        "label": "Protect the courier for 46s"
+      },
+      "boss": null,
+      "hazards": [],
+      "difficulty": 3.18,
+      "waves": 5,
+      "enemies": 29,
+      "threat": 66.4,
+      "starScore": [
+        1600,
+        2500,
+        3700
+      ],
+      "status": "VERIFIED",
+      "issues": [],
+      "verification": "static-structural"
+    },
+    {
+      "id": "ss-074",
+      "index": 74,
+      "sector": 3,
+      "local": 14,
+      "seed": 858398861,
+      "name": "Contact Report",
+      "type": "eliminate",
+      "objective": {
+        "kind": "eliminate",
+        "target": 16,
+        "label": "Destroy 16 hostiles"
+      },
+      "boss": null,
+      "hazards": [],
+      "difficulty": 3.29,
+      "waves": 5,
+      "enemies": 29,
+      "threat": 66.4,
+      "starScore": [
+        1600,
+        2500,
+        3700
+      ],
+      "status": "VERIFIED",
+      "issues": [],
+      "verification": "static-structural"
+    },
+    {
+      "id": "ss-075",
+      "index": 75,
+      "sector": 3,
+      "local": 15,
+      "seed": 841621242,
+      "name": "Shield Wall",
+      "type": "defense",
+      "objective": {
+        "kind": "defense",
+        "target": 47,
+        "label": "Defend the relay for 47s"
+      },
+      "boss": null,
+      "hazards": [],
+      "difficulty": 3.39,
+      "waves": 6,
+      "enemies": 28,
+      "threat": 66.1,
+      "starScore": [
+        1500,
+        2400,
+        3500
+      ],
+      "status": "VERIFIED",
+      "issues": [],
+      "verification": "static-structural"
+    },
+    {
+      "id": "ss-076",
+      "index": 76,
+      "sector": 3,
+      "local": 16,
+      "seed": 824843623,
+      "name": "Under Siege",
+      "type": "survive",
+      "objective": {
+        "kind": "survive",
+        "target": 42,
+        "label": "Survive 42s"
+      },
+      "boss": null,
+      "hazards": [],
+      "difficulty": 3.49,
+      "waves": 6,
+      "enemies": 32,
+      "threat": 81.6,
+      "starScore": [
+        1800,
+        2700,
+        4000
+      ],
+      "status": "VERIFIED",
+      "issues": [],
+      "verification": "static-structural"
+    },
+    {
+      "id": "ss-077",
+      "index": 77,
+      "sector": 3,
+      "local": 17,
+      "seed": 808066004,
+      "name": "Recovery",
+      "type": "resource",
+      "objective": {
+        "kind": "resource",
+        "target": 4,
+        "label": "Recover 4 energy cores"
+      },
+      "boss": null,
+      "hazards": [],
+      "difficulty": 3.6,
+      "waves": 6,
+      "enemies": 29,
+      "threat": 61,
+      "starScore": [
+        1600,
+        2500,
+        3700
+      ],
+      "status": "VERIFIED",
+      "issues": [],
+      "verification": "static-structural"
+    },
+    {
+      "id": "ss-078",
+      "index": 78,
+      "sector": 3,
+      "local": 18,
+      "seed": 657067433,
+      "name": "Asteroid Alley",
+      "type": "asteroid",
+      "objective": {
+        "kind": "asteroid",
+        "target": 49,
+        "label": "Survive the debris field for 49s"
+      },
+      "boss": null,
+      "hazards": [
+        "asteroid"
+      ],
+      "difficulty": 3.7,
+      "waves": 6,
+      "enemies": 27,
+      "threat": 72.6,
+      "starScore": [
+        1500,
+        2300,
+        3400
+      ],
+      "status": "VERIFIED",
+      "issues": [],
+      "verification": "static-structural"
+    },
+    {
+      "id": "ss-079",
+      "index": 79,
+      "sector": 3,
+      "local": 19,
+      "seed": 640289814,
+      "name": "Hunter Detail",
+      "type": "eliminate",
+      "objective": {
+        "kind": "eliminate",
+        "target": 15,
+        "label": "Destroy 15 hostiles"
+      },
+      "boss": null,
+      "hazards": [],
+      "difficulty": 3.8,
+      "waves": 6,
+      "enemies": 28,
+      "threat": 64.8,
+      "starScore": [
+        1500,
+        2400,
+        3500
+      ],
+      "status": "VERIFIED",
+      "issues": [],
+      "verification": "static-structural"
+    },
+    {
+      "id": "ss-080",
+      "index": 80,
+      "sector": 3,
+      "local": 20,
+      "seed": 2636282022,
+      "name": "Priority Kill",
+      "type": "elite",
+      "objective": {
+        "kind": "elite",
+        "target": 1,
+        "label": "Destroy 1 elite ace"
+      },
+      "boss": null,
+      "hazards": [],
+      "difficulty": 3.91,
+      "waves": 7,
+      "enemies": 19,
+      "threat": 63.4,
+      "starScore": [
+        1000,
+        1600,
+        2400
+      ],
+      "status": "VERIFIED",
+      "issues": [],
+      "verification": "static-structural"
+    },
+    {
+      "id": "ss-081",
+      "index": 81,
+      "sector": 3,
+      "local": 21,
+      "seed": 2653059641,
+      "name": "Sweep and Burn",
+      "type": "eliminate",
+      "objective": {
+        "kind": "eliminate",
+        "target": 20,
+        "label": "Destroy 20 hostiles"
+      },
+      "boss": null,
+      "hazards": [],
+      "difficulty": 4.01,
+      "waves": 7,
+      "enemies": 36,
+      "threat": 92.6,
+      "starScore": [
+        2000,
+        3100,
+        4600
+      ],
+      "status": "VERIFIED",
+      "issues": [],
+      "verification": "static-structural"
+    },
+    {
+      "id": "ss-082",
+      "index": 82,
+      "sector": 3,
+      "local": 22,
+      "seed": 2602726784,
+      "name": "Contact Report",
+      "type": "eliminate",
+      "objective": {
+        "kind": "eliminate",
+        "target": 17,
+        "label": "Destroy 17 hostiles"
+      },
+      "boss": null,
+      "hazards": [],
+      "difficulty": 4.11,
+      "waves": 7,
+      "enemies": 31,
+      "threat": 90,
+      "starScore": [
+        1700,
+        2600,
+        3900
+      ],
+      "status": "VERIFIED",
+      "issues": [],
+      "verification": "static-structural"
+    },
+    {
+      "id": "ss-083",
+      "index": 83,
+      "sector": 3,
+      "local": 23,
+      "seed": 2619504403,
+      "name": "Last Stand",
+      "type": "survive",
+      "objective": {
+        "kind": "survive",
+        "target": 42,
+        "label": "Survive 42s"
+      },
+      "boss": null,
+      "hazards": [],
+      "difficulty": 4.22,
+      "waves": 7,
+      "enemies": 39,
+      "threat": 85.6,
+      "starScore": [
+        2100,
+        3300,
+        4900
+      ],
+      "status": "VERIFIED",
+      "issues": [],
+      "verification": "static-structural"
+    },
+    {
+      "id": "ss-084",
+      "index": 84,
+      "sector": 3,
+      "local": 24,
+      "seed": 2703392498,
+      "name": "Supply Drop",
+      "type": "resource",
+      "objective": {
+        "kind": "resource",
+        "target": 4,
+        "label": "Recover 4 energy cores"
+      },
+      "boss": null,
+      "hazards": [],
+      "difficulty": 4.32,
+      "waves": 7,
+      "enemies": 39,
+      "threat": 84.6,
+      "starScore": [
+        2100,
+        3300,
+        4900
+      ],
+      "status": "VERIFIED",
+      "issues": [],
+      "verification": "static-structural"
+    },
+    {
+      "id": "ss-085",
+      "index": 85,
+      "sector": 3,
+      "local": 25,
+      "seed": 2720170117,
+      "name": "No Respite",
+      "type": "gauntlet",
+      "objective": {
+        "kind": "gauntlet",
+        "target": 34,
+        "label": "Clear all 34 hostiles"
+      },
+      "boss": null,
+      "hazards": [],
+      "difficulty": 4.42,
+      "waves": 8,
+      "enemies": 34,
+      "threat": 77.6,
+      "starScore": [
+        1900,
+        2900,
+        4300
+      ],
+      "status": "VERIFIED",
+      "issues": [],
+      "verification": "static-structural"
+    },
+    {
+      "id": "ss-086",
+      "index": 86,
+      "sector": 3,
+      "local": 26,
+      "seed": 2669837260,
+      "name": "Patrol Sweep",
+      "type": "eliminate",
+      "objective": {
+        "kind": "eliminate",
+        "target": 19,
+        "label": "Destroy 19 hostiles"
+      },
+      "boss": null,
+      "hazards": [],
+      "difficulty": 4.53,
+      "waves": 8,
+      "enemies": 35,
+      "threat": 89.7,
+      "starScore": [
+        1900,
+        3000,
+        4400
+      ],
+      "status": "VERIFIED",
+      "issues": [],
+      "verification": "static-structural"
+    },
+    {
+      "id": "ss-087",
+      "index": 87,
+      "sector": 3,
+      "local": 27,
+      "seed": 2686614879,
+      "name": "Safe Passage",
+      "type": "escort",
+      "objective": {
+        "kind": "escort",
+        "target": 55,
+        "label": "Protect the courier for 55s"
+      },
+      "boss": null,
+      "hazards": [],
+      "difficulty": 4.63,
+      "waves": 8,
+      "enemies": 35,
+      "threat": 74.8,
+      "starScore": [
+        1900,
+        3000,
+        4400
+      ],
+      "status": "VERIFIED",
+      "issues": [],
+      "verification": "static-structural"
+    },
+    {
+      "id": "ss-088",
+      "index": 88,
+      "sector": 3,
+      "local": 28,
+      "seed": 2770502974,
+      "name": "Contact Report",
+      "type": "eliminate",
+      "objective": {
+        "kind": "eliminate",
+        "target": 17,
+        "label": "Destroy 17 hostiles"
+      },
+      "boss": null,
+      "hazards": [],
+      "difficulty": 4.73,
+      "waves": 8,
+      "enemies": 30,
+      "threat": 71.6,
+      "starScore": [
+        1700,
+        2600,
+        3800
+      ],
+      "status": "VERIFIED",
+      "issues": [],
+      "verification": "static-structural"
+    },
+    {
+      "id": "ss-089",
+      "index": 89,
+      "sector": 3,
+      "local": 29,
+      "seed": 2787280593,
+      "name": "Sweep and Burn",
+      "type": "eliminate",
+      "objective": {
+        "kind": "eliminate",
+        "target": 24,
+        "label": "Destroy 24 hostiles"
+      },
+      "boss": null,
+      "hazards": [],
+      "difficulty": 4.84,
+      "waves": 8,
+      "enemies": 43,
+      "threat": 104,
+      "starScore": [
+        2400,
+        3700,
+        5400
+      ],
+      "status": "VERIFIED",
+      "issues": [],
+      "verification": "static-structural"
+    },
+    {
+      "id": "ss-090",
+      "index": 90,
+      "sector": 3,
+      "local": 30,
+      "seed": 589662767,
+      "name": "Final Approach",
+      "type": "boss",
+      "objective": {
+        "kind": "boss",
+        "target": 1,
+        "label": "Destroy The Crystal Empress"
+      },
+      "boss": "empress",
+      "hazards": [],
+      "difficulty": 4.94,
+      "waves": 2,
+      "enemies": 21,
+      "threat": 37,
+      "starScore": [
+        3400,
+        5200,
+        7700
+      ],
+      "status": "VERIFIED",
+      "issues": [],
+      "verification": "static-structural"
+    },
+    {
+      "id": "ss-091",
+      "index": 91,
+      "sector": 4,
+      "local": 1,
+      "seed": 572885148,
+      "name": "Recovery",
+      "type": "resource",
+      "objective": {
+        "kind": "resource",
+        "target": 4,
+        "label": "Recover 4 energy cores"
+      },
+      "boss": null,
+      "hazards": [
+        "asteroid"
+      ],
+      "difficulty": 2.86,
+      "waves": 3,
+      "enemies": 22,
+      "threat": 54.1,
+      "starScore": [
+        1200,
+        1900,
+        2800
+      ],
+      "status": "VERIFIED",
+      "issues": [],
+      "verification": "static-structural"
+    },
+    {
+      "id": "ss-092",
+      "index": 92,
+      "sector": 4,
+      "local": 2,
+      "seed": 623218005,
+      "name": "Asteroid Alley",
+      "type": "asteroid",
+      "objective": {
+        "kind": "asteroid",
+        "target": 41,
+        "label": "Survive the debris field for 41s"
+      },
+      "boss": null,
+      "hazards": [
+        "asteroid"
+      ],
+      "difficulty": 2.97,
+      "waves": 3,
+      "enemies": 16,
+      "threat": 51.5,
+      "starScore": [
+        900,
+        1400,
+        2000
+      ],
+      "status": "VERIFIED",
+      "issues": [],
+      "verification": "static-structural"
+    },
+    {
+      "id": "ss-093",
+      "index": 93,
+      "sector": 4,
+      "local": 3,
+      "seed": 606440386,
+      "name": "Clear the Lane",
+      "type": "eliminate",
+      "objective": {
+        "kind": "eliminate",
+        "target": 13,
+        "label": "Destroy 13 hostiles"
+      },
+      "boss": null,
+      "hazards": [
+        "asteroid"
+      ],
+      "difficulty": 3.07,
+      "waves": 3,
+      "enemies": 23,
+      "threat": 50.2,
+      "starScore": [
+        1300,
+        2000,
+        2900
+      ],
+      "status": "VERIFIED",
+      "issues": [],
+      "verification": "static-structural"
+    },
+    {
+      "id": "ss-094",
+      "index": 94,
+      "sector": 4,
+      "local": 4,
+      "seed": 522552291,
+      "name": "Keep It Alive",
+      "type": "escort",
+      "objective": {
+        "kind": "escort",
+        "target": 42,
+        "label": "Protect the courier for 42s"
+      },
+      "boss": null,
+      "hazards": [
+        "asteroid"
+      ],
+      "difficulty": 3.17,
+      "waves": 3,
+      "enemies": 22,
+      "threat": 54.6,
+      "starScore": [
+        1200,
+        1900,
+        2800
+      ],
+      "status": "VERIFIED",
+      "issues": [],
+      "verification": "static-structural"
+    },
+    {
+      "id": "ss-095",
+      "index": 95,
+      "sector": 4,
+      "local": 5,
+      "seed": 505774672,
+      "name": "Clear the Lane",
+      "type": "eliminate",
+      "objective": {
+        "kind": "eliminate",
+        "target": 14,
+        "label": "Destroy 14 hostiles"
+      },
+      "boss": null,
+      "hazards": [
+        "asteroid"
+      ],
+      "difficulty": 3.28,
+      "waves": 4,
+      "enemies": 26,
+      "threat": 64.9,
+      "starScore": [
+        1400,
+        2200,
+        3300
+      ],
+      "status": "VERIFIED",
+      "issues": [],
+      "verification": "static-structural"
+    },
+    {
+      "id": "ss-096",
+      "index": 96,
+      "sector": 4,
+      "local": 6,
+      "seed": 556107529,
+      "name": "Sweep and Burn",
+      "type": "eliminate",
+      "objective": {
+        "kind": "eliminate",
+        "target": 15,
+        "label": "Destroy 15 hostiles"
+      },
+      "boss": null,
+      "hazards": [
+        "asteroid"
+      ],
+      "difficulty": 3.38,
+      "waves": 4,
+      "enemies": 27,
+      "threat": 61.3,
+      "starScore": [
+        1500,
+        2300,
+        3400
+      ],
+      "status": "VERIFIED",
+      "issues": [],
+      "verification": "static-structural"
+    },
+    {
+      "id": "ss-097",
+      "index": 97,
+      "sector": 4,
+      "local": 7,
+      "seed": 539329910,
+      "name": "Last Stand",
+      "type": "survive",
+      "objective": {
+        "kind": "survive",
+        "target": 44,
+        "label": "Survive 44s"
+      },
+      "boss": null,
+      "hazards": [
+        "asteroid"
+      ],
+      "difficulty": 3.48,
+      "waves": 4,
+      "enemies": 28,
+      "threat": 79.4,
+      "starScore": [
+        1500,
+        2400,
+        3500
+      ],
+      "status": "VERIFIED",
+      "issues": [],
+      "verification": "static-structural"
+    },
+    {
+      "id": "ss-098",
+      "index": 98,
+      "sector": 4,
+      "local": 8,
+      "seed": 723883719,
+      "name": "Cores First",
+      "type": "resource",
+      "objective": {
+        "kind": "resource",
+        "target": 4,
+        "label": "Recover 4 energy cores"
+      },
+      "boss": null,
+      "hazards": [
+        "asteroid"
+      ],
+      "difficulty": 3.59,
+      "waves": 4,
+      "enemies": 23,
+      "threat": 72.1,
+      "starScore": [
+        1300,
+        2000,
+        2900
+      ],
+      "status": "VERIFIED",
+      "issues": [],
+      "verification": "static-structural"
+    },
+    {
+      "id": "ss-099",
+      "index": 99,
+      "sector": 4,
+      "local": 9,
+      "seed": 707106100,
+      "name": "Asteroid Alley",
+      "type": "asteroid",
+      "objective": {
+        "kind": "asteroid",
+        "target": 45,
+        "label": "Survive the debris field for 45s"
+      },
+      "boss": null,
+      "hazards": [
+        "asteroid"
+      ],
+      "difficulty": 3.69,
+      "waves": 4,
+      "enemies": 20,
+      "threat": 61.7,
+      "starScore": [
+        1100,
+        1700,
+        2500
+      ],
+      "status": "VERIFIED",
+      "issues": [],
+      "verification": "static-structural"
+    },
+    {
+      "id": "ss-100",
+      "index": 100,
+      "sector": 4,
+      "local": 10,
+      "seed": 3388927589,
+      "name": "Stop Them",
+      "type": "interception",
+      "objective": {
+        "kind": "interception",
+        "target": 3,
+        "label": "Stop 3 runners escaping"
+      },
+      "boss": null,
+      "hazards": [
+        "asteroid"
+      ],
+      "difficulty": 3.79,
+      "waves": 5,
+      "enemies": 19,
+      "threat": 58.2,
+      "starScore": [
+        1000,
+        1600,
+        2400
+      ],
+      "status": "VERIFIED",
+      "issues": [],
+      "verification": "static-structural"
+    },
+    {
+      "id": "ss-101",
+      "index": 101,
+      "sector": 4,
+      "local": 11,
+      "seed": 3372149970,
+      "name": "Escort Duty",
+      "type": "escort",
+      "objective": {
+        "kind": "escort",
+        "target": 47,
+        "label": "Protect the courier for 47s"
+      },
+      "boss": null,
+      "hazards": [
+        "asteroid"
+      ],
+      "difficulty": 3.9,
+      "waves": 5,
+      "enemies": 24,
+      "threat": 65.2,
+      "starScore": [
+        1300,
+        2000,
+        3000
+      ],
+      "status": "VERIFIED",
+      "issues": [],
+      "verification": "static-structural"
+    },
+    {
+      "id": "ss-102",
+      "index": 102,
+      "sector": 4,
+      "local": 12,
+      "seed": 3355372351,
+      "name": "Patrol Sweep",
+      "type": "eliminate",
+      "objective": {
+        "kind": "eliminate",
+        "target": 18,
+        "label": "Destroy 18 hostiles"
+      },
+      "boss": null,
+      "hazards": [
+        "asteroid"
+      ],
+      "difficulty": 4,
+      "waves": 5,
+      "enemies": 32,
+      "threat": 86.4,
+      "starScore": [
+        1800,
+        2700,
+        4000
+      ],
+      "status": "VERIFIED",
+      "issues": [],
+      "verification": "static-structural"
+    },
+    {
+      "id": "ss-103",
+      "index": 103,
+      "sector": 4,
+      "local": 13,
+      "seed": 3338594732,
+      "name": "Clear the Lane",
+      "type": "eliminate",
+      "objective": {
+        "kind": "eliminate",
+        "target": 19,
+        "label": "Destroy 19 hostiles"
+      },
+      "boss": null,
+      "hazards": [
+        "asteroid"
+      ],
+      "difficulty": 4.1,
+      "waves": 5,
+      "enemies": 35,
+      "threat": 87.6,
+      "starScore": [
+        1900,
+        3000,
+        4400
+      ],
+      "status": "VERIFIED",
+      "issues": [],
+      "verification": "static-structural"
+    },
+    {
+      "id": "ss-104",
+      "index": 104,
+      "sector": 4,
+      "local": 14,
+      "seed": 3321817113,
+      "name": "Last Stand",
+      "type": "survive",
+      "objective": {
+        "kind": "survive",
+        "target": 44,
+        "label": "Survive 44s"
+      },
+      "boss": null,
+      "hazards": [
+        "asteroid"
+      ],
+      "difficulty": 4.21,
+      "waves": 5,
+      "enemies": 29,
+      "threat": 69.2,
+      "starScore": [
+        1600,
+        2500,
+        3700
+      ],
+      "status": "VERIFIED",
+      "issues": [],
+      "verification": "static-structural"
+    },
+    {
+      "id": "ss-105",
+      "index": 105,
+      "sector": 4,
+      "local": 15,
+      "seed": 3305039494,
+      "name": "Station Watch",
+      "type": "defense",
+      "objective": {
+        "kind": "defense",
+        "target": 49,
+        "label": "Defend the relay for 49s"
+      },
+      "boss": null,
+      "hazards": [
+        "asteroid"
+      ],
+      "difficulty": 4.31,
+      "waves": 6,
+      "enemies": 29,
+      "threat": 67.6,
+      "starScore": [
+        1600,
+        2500,
+        3700
+      ],
+      "status": "VERIFIED",
+      "issues": [],
+      "verification": "static-structural"
+    },
+    {
+      "id": "ss-106",
+      "index": 106,
+      "sector": 4,
+      "local": 16,
+      "seed": 3288261875,
+      "name": "Debris Field",
+      "type": "asteroid",
+      "objective": {
+        "kind": "asteroid",
+        "target": 50,
+        "label": "Survive the debris field for 50s"
+      },
+      "boss": null,
+      "hazards": [
+        "asteroid"
+      ],
+      "difficulty": 4.41,
+      "waves": 6,
+      "enemies": 32,
+      "threat": 89.2,
+      "starScore": [
+        1800,
+        2700,
+        4000
+      ],
+      "status": "VERIFIED",
+      "issues": [],
+      "verification": "static-structural"
+    },
+    {
+      "id": "ss-107",
+      "index": 107,
+      "sector": 4,
+      "local": 17,
+      "seed": 3271484256,
+      "name": "Hunter Detail",
+      "type": "eliminate",
+      "objective": {
+        "kind": "eliminate",
+        "target": 17,
+        "label": "Destroy 17 hostiles"
+      },
+      "boss": null,
+      "hazards": [
+        "asteroid"
+      ],
+      "difficulty": 4.52,
+      "waves": 6,
+      "enemies": 31,
+      "threat": 82,
+      "starScore": [
+        1700,
+        2600,
+        3900
+      ],
+      "status": "VERIFIED",
+      "issues": [],
+      "verification": "static-structural"
+    },
+    {
+      "id": "ss-108",
+      "index": 108,
+      "sector": 4,
+      "local": 18,
+      "seed": 3523148541,
+      "name": "Safe Passage",
+      "type": "escort",
+      "objective": {
+        "kind": "escort",
+        "target": 51,
+        "label": "Protect the courier for 51s"
+      },
+      "boss": null,
+      "hazards": [
+        "asteroid"
+      ],
+      "difficulty": 4.62,
+      "waves": 6,
+      "enemies": 29,
+      "threat": 79.5,
+      "starScore": [
+        1600,
+        2500,
+        3700
+      ],
+      "status": "VERIFIED",
+      "issues": [],
+      "verification": "static-structural"
+    },
+    {
+      "id": "ss-109",
+      "index": 109,
+      "sector": 4,
+      "local": 19,
+      "seed": 3506370922,
+      "name": "Clear the Lane",
+      "type": "eliminate",
+      "objective": {
+        "kind": "eliminate",
+        "target": 20,
+        "label": "Destroy 20 hostiles"
+      },
+      "boss": null,
+      "hazards": [
+        "asteroid"
+      ],
+      "difficulty": 4.72,
+      "waves": 6,
+      "enemies": 37,
+      "threat": 101.1,
+      "starScore": [
+        2000,
+        3200,
+        4700
+      ],
+      "status": "VERIFIED",
+      "issues": [],
+      "verification": "static-structural"
+    },
+    {
+      "id": "ss-110",
+      "index": 110,
+      "sector": 4,
+      "local": 20,
+      "seed": 3288114780,
+      "name": "Cruiser Hunt",
+      "type": "elite",
+      "objective": {
+        "kind": "elite",
+        "target": 1,
+        "label": "Destroy 1 elite ace"
+      },
+      "boss": null,
+      "hazards": [
+        "asteroid"
+      ],
+      "difficulty": 4.83,
+      "waves": 7,
+      "enemies": 25,
+      "threat": 89.4,
+      "starScore": [
+        1400,
+        2100,
+        3200
+      ],
+      "status": "VERIFIED",
+      "issues": [],
+      "verification": "static-structural"
+    },
+    {
+      "id": "ss-111",
+      "index": 111,
+      "sector": 4,
+      "local": 21,
+      "seed": 3304892399,
+      "name": "Hold the Line",
+      "type": "survive",
+      "objective": {
+        "kind": "survive",
+        "target": 44,
+        "label": "Survive 44s"
+      },
+      "boss": null,
+      "hazards": [
+        "asteroid"
+      ],
+      "difficulty": 4.93,
+      "waves": 7,
+      "enemies": 30,
+      "threat": 86.2,
+      "starScore": [
+        1700,
+        2600,
+        3800
+      ],
+      "status": "VERIFIED",
+      "issues": [],
+      "verification": "static-structural"
+    },
+    {
+      "id": "ss-112",
+      "index": 112,
+      "sector": 4,
+      "local": 22,
+      "seed": 3321670018,
+      "name": "Gather and Go",
+      "type": "resource",
+      "objective": {
+        "kind": "resource",
+        "target": 4,
+        "label": "Recover 4 energy cores"
+      },
+      "boss": null,
+      "hazards": [
+        "asteroid"
+      ],
+      "difficulty": 5.03,
+      "waves": 7,
+      "enemies": 29,
+      "threat": 79.1,
+      "starScore": [
+        1600,
+        2500,
+        3700
+      ],
+      "status": "VERIFIED",
+      "issues": [],
+      "verification": "static-structural"
+    },
+    {
+      "id": "ss-113",
+      "index": 113,
+      "sector": 4,
+      "local": 23,
+      "seed": 3338447637,
+      "name": "Debris Field",
+      "type": "asteroid",
+      "objective": {
+        "kind": "asteroid",
+        "target": 54,
+        "label": "Survive the debris field for 54s"
+      },
+      "boss": null,
+      "hazards": [
+        "asteroid"
+      ],
+      "difficulty": 5.14,
+      "waves": 7,
+      "enemies": 24,
+      "threat": 76.4,
+      "starScore": [
+        1300,
+        2000,
+        3000
+      ],
+      "status": "VERIFIED",
+      "issues": [],
+      "verification": "static-structural"
+    },
+    {
+      "id": "ss-114",
+      "index": 114,
+      "sector": 4,
+      "local": 24,
+      "seed": 3221004304,
+      "name": "Patrol Sweep",
+      "type": "eliminate",
+      "objective": {
+        "kind": "eliminate",
+        "target": 14,
+        "label": "Destroy 14 hostiles"
+      },
+      "boss": null,
+      "hazards": [
+        "asteroid"
+      ],
+      "difficulty": 5.24,
+      "waves": 7,
+      "enemies": 25,
+      "threat": 75.7,
+      "starScore": [
+        1400,
+        2100,
+        3200
+      ],
+      "status": "VERIFIED",
+      "issues": [],
+      "verification": "static-structural"
+    },
+    {
+      "id": "ss-115",
+      "index": 115,
+      "sector": 4,
+      "local": 25,
+      "seed": 3237781923,
+      "name": "Attrition",
+      "type": "gauntlet",
+      "objective": {
+        "kind": "gauntlet",
+        "target": 41,
+        "label": "Clear all 41 hostiles"
+      },
+      "boss": null,
+      "hazards": [
+        "asteroid"
+      ],
+      "difficulty": 5.34,
+      "waves": 8,
+      "enemies": 41,
+      "threat": 94.5,
+      "starScore": [
+        2300,
+        3500,
+        5200
+      ],
+      "status": "VERIFIED",
+      "issues": [],
+      "verification": "static-structural"
+    },
+    {
+      "id": "ss-116",
+      "index": 116,
+      "sector": 4,
+      "local": 26,
+      "seed": 3254559542,
+      "name": "Contact Report",
+      "type": "eliminate",
+      "objective": {
+        "kind": "eliminate",
+        "target": 18,
+        "label": "Destroy 18 hostiles"
+      },
+      "boss": null,
+      "hazards": [
+        "asteroid"
+      ],
+      "difficulty": 5.45,
+      "waves": 8,
+      "enemies": 32,
+      "threat": 85.9,
+      "starScore": [
+        1800,
+        2700,
+        4000
+      ],
+      "status": "VERIFIED",
+      "issues": [],
+      "verification": "static-structural"
+    },
+    {
+      "id": "ss-117",
+      "index": 117,
+      "sector": 4,
+      "local": 27,
+      "seed": 3271337161,
+      "name": "Hunter Detail",
+      "type": "eliminate",
+      "objective": {
+        "kind": "eliminate",
+        "target": 18,
+        "label": "Destroy 18 hostiles"
+      },
+      "boss": null,
+      "hazards": [
+        "asteroid"
+      ],
+      "difficulty": 5.55,
+      "waves": 8,
+      "enemies": 32,
+      "threat": 94.8,
+      "starScore": [
+        1800,
+        2700,
+        4000
+      ],
+      "status": "VERIFIED",
+      "issues": [],
+      "verification": "static-structural"
+    },
+    {
+      "id": "ss-118",
+      "index": 118,
+      "sector": 4,
+      "local": 28,
+      "seed": 3422335732,
+      "name": "Holding Pattern",
+      "type": "survive",
+      "objective": {
+        "kind": "survive",
+        "target": 44,
+        "label": "Survive 44s"
+      },
+      "boss": null,
+      "hazards": [
+        "asteroid"
+      ],
+      "difficulty": 5.65,
+      "waves": 8,
+      "enemies": 36,
+      "threat": 97.1,
+      "starScore": [
+        2000,
+        3100,
+        4600
+      ],
+      "status": "VERIFIED",
+      "issues": [],
+      "verification": "static-structural"
+    },
+    {
+      "id": "ss-119",
+      "index": 119,
+      "sector": 4,
+      "local": 29,
+      "seed": 3439113351,
+      "name": "Recovery",
+      "type": "resource",
+      "objective": {
+        "kind": "resource",
+        "target": 4,
+        "label": "Recover 4 energy cores"
+      },
+      "boss": null,
+      "hazards": [
+        "asteroid"
+      ],
+      "difficulty": 5.76,
+      "waves": 8,
+      "enemies": 38,
+      "threat": 100,
+      "starScore": [
+        2100,
+        3200,
+        4800
+      ],
+      "status": "VERIFIED",
+      "issues": [],
+      "verification": "static-structural"
+    },
+    {
+      "id": "ss-120",
+      "index": 120,
+      "sector": 4,
+      "local": 30,
+      "seed": 3590553207,
+      "name": "Capital Contact",
+      "type": "boss",
+      "objective": {
+        "kind": "boss",
+        "target": 1,
+        "label": "Destroy The Inferno Carrier"
+      },
+      "boss": "inferno",
+      "hazards": [
+        "asteroid"
+      ],
+      "difficulty": 5.86,
+      "waves": 2,
+      "enemies": 19,
+      "threat": 46.5,
+      "starScore": [
+        3200,
+        5000,
+        7500
+      ],
+      "status": "VERIFIED",
+      "issues": [],
+      "verification": "static-structural"
+    },
+    {
+      "id": "ss-121",
+      "index": 121,
+      "sector": 5,
+      "local": 1,
+      "seed": 3573775588,
+      "name": "Contact Report",
+      "type": "eliminate",
+      "objective": {
+        "kind": "eliminate",
+        "target": 10,
+        "label": "Destroy 10 hostiles"
+      },
+      "boss": null,
+      "hazards": [],
+      "difficulty": 3.78,
+      "waves": 3,
+      "enemies": 18,
+      "threat": 59.8,
+      "starScore": [
+        1000,
+        1500,
+        2300
+      ],
+      "status": "VERIFIED",
+      "issues": [],
+      "verification": "static-structural"
+    },
+    {
+      "id": "ss-122",
+      "index": 122,
+      "sector": 5,
+      "local": 2,
+      "seed": 3624108445,
+      "name": "Escort Duty",
+      "type": "escort",
+      "objective": {
+        "kind": "escort",
+        "target": 43,
+        "label": "Protect the courier for 43s"
+      },
+      "boss": null,
+      "hazards": [],
+      "difficulty": 3.89,
+      "waves": 3,
+      "enemies": 17,
+      "threat": 59.6,
+      "starScore": [
+        900,
+        1400,
+        2200
+      ],
+      "status": "VERIFIED",
+      "issues": [],
+      "verification": "static-structural"
+    },
+    {
+      "id": "ss-123",
+      "index": 123,
+      "sector": 5,
+      "local": 3,
+      "seed": 3607330826,
+      "name": "Sweep and Burn",
+      "type": "eliminate",
+      "objective": {
+        "kind": "eliminate",
+        "target": 10,
+        "label": "Destroy 10 hostiles"
+      },
+      "boss": null,
+      "hazards": [],
+      "difficulty": 3.99,
+      "waves": 3,
+      "enemies": 19,
+      "threat": 64.6,
+      "starScore": [
+        1000,
+        1600,
+        2400
+      ],
+      "status": "VERIFIED",
+      "issues": [],
+      "verification": "static-structural"
+    },
+    {
+      "id": "ss-124",
+      "index": 124,
+      "sector": 5,
+      "local": 4,
+      "seed": 3523442731,
+      "name": "Clear the Lane",
+      "type": "eliminate",
+      "objective": {
+        "kind": "eliminate",
+        "target": 9,
+        "label": "Destroy 9 hostiles"
+      },
+      "boss": null,
+      "hazards": [],
+      "difficulty": 4.09,
+      "waves": 3,
+      "enemies": 17,
+      "threat": 59.1,
+      "starScore": [
+        900,
+        1400,
+        2200
+      ],
+      "status": "VERIFIED",
+      "issues": [],
+      "verification": "static-structural"
+    },
+    {
+      "id": "ss-125",
+      "index": 125,
+      "sector": 5,
+      "local": 5,
+      "seed": 3506665112,
+      "name": "Under Siege",
+      "type": "survive",
+      "objective": {
+        "kind": "survive",
+        "target": 47,
+        "label": "Survive 47s"
+      },
+      "boss": null,
+      "hazards": [],
+      "difficulty": 4.2,
+      "waves": 4,
+      "enemies": 22,
+      "threat": 72.8,
+      "starScore": [
+        1200,
+        1900,
+        2800
+      ],
+      "status": "VERIFIED",
+      "issues": [],
+      "verification": "static-structural"
+    },
+    {
+      "id": "ss-126",
+      "index": 126,
+      "sector": 5,
+      "local": 6,
+      "seed": 3556997969,
+      "name": "Supply Drop",
+      "type": "resource",
+      "objective": {
+        "kind": "resource",
+        "target": 4,
+        "label": "Recover 4 energy cores"
+      },
+      "boss": null,
+      "hazards": [],
+      "difficulty": 4.3,
+      "waves": 4,
+      "enemies": 18,
+      "threat": 60.1,
+      "starScore": [
+        1000,
+        1500,
+        2300
+      ],
+      "status": "VERIFIED",
+      "issues": [],
+      "verification": "static-structural"
+    },
+    {
+      "id": "ss-127",
+      "index": 127,
+      "sector": 5,
+      "local": 7,
+      "seed": 3540220350,
+      "name": "Debris Field",
+      "type": "asteroid",
+      "objective": {
+        "kind": "asteroid",
+        "target": 46,
+        "label": "Survive the debris field for 46s"
+      },
+      "boss": null,
+      "hazards": [
+        "asteroid"
+      ],
+      "difficulty": 4.4,
+      "waves": 4,
+      "enemies": 26,
+      "threat": 83.4,
+      "starScore": [
+        1400,
+        2200,
+        3300
+      ],
+      "status": "VERIFIED",
+      "issues": [],
+      "verification": "static-structural"
+    },
+    {
+      "id": "ss-128",
+      "index": 128,
+      "sector": 5,
+      "local": 8,
+      "seed": 3456332255,
+      "name": "Sweep and Burn",
+      "type": "eliminate",
+      "objective": {
+        "kind": "eliminate",
+        "target": 12,
+        "label": "Destroy 12 hostiles"
+      },
+      "boss": null,
+      "hazards": [],
+      "difficulty": 4.51,
+      "waves": 4,
+      "enemies": 21,
+      "threat": 67.6,
+      "starScore": [
+        1200,
+        1800,
+        2700
+      ],
+      "status": "VERIFIED",
+      "issues": [],
+      "verification": "static-structural"
+    },
+    {
+      "id": "ss-129",
+      "index": 129,
+      "sector": 5,
+      "local": 9,
+      "seed": 3439554636,
+      "name": "Shepherd",
+      "type": "escort",
+      "objective": {
+        "kind": "escort",
+        "target": 47,
+        "label": "Protect the courier for 47s"
+      },
+      "boss": null,
+      "hazards": [],
+      "difficulty": 4.61,
+      "waves": 4,
+      "enemies": 25,
+      "threat": 84.1,
+      "starScore": [
+        1400,
+        2100,
+        3200
+      ],
+      "status": "VERIFIED",
+      "issues": [],
+      "verification": "static-structural"
+    },
+    {
+      "id": "ss-130",
+      "index": 130,
+      "sector": 5,
+      "local": 10,
+      "seed": 3489740398,
+      "name": "Intercept",
+      "type": "interception",
+      "objective": {
+        "kind": "interception",
+        "target": 3,
+        "label": "Stop 3 runners escaping"
+      },
+      "boss": null,
+      "hazards": [],
+      "difficulty": 4.71,
+      "waves": 5,
+      "enemies": 20,
+      "threat": 62.4,
+      "starScore": [
+        1100,
+        1700,
+        2500
+      ],
+      "status": "VERIFIED",
+      "issues": [],
+      "verification": "static-structural"
+    },
+    {
+      "id": "ss-131",
+      "index": 131,
+      "sector": 5,
+      "local": 11,
+      "seed": 3506518017,
+      "name": "Clear the Lane",
+      "type": "eliminate",
+      "objective": {
+        "kind": "eliminate",
+        "target": 14,
+        "label": "Destroy 14 hostiles"
+      },
+      "boss": null,
+      "hazards": [],
+      "difficulty": 4.82,
+      "waves": 5,
+      "enemies": 26,
+      "threat": 83.6,
+      "starScore": [
+        1400,
+        2200,
+        3300
+      ],
+      "status": "VERIFIED",
+      "issues": [],
+      "verification": "static-structural"
+    },
+    {
+      "id": "ss-132",
+      "index": 132,
+      "sector": 5,
+      "local": 12,
+      "seed": 3456185160,
+      "name": "Hold the Line",
+      "type": "survive",
+      "objective": {
+        "kind": "survive",
+        "target": 47,
+        "label": "Survive 47s"
+      },
+      "boss": null,
+      "hazards": [],
+      "difficulty": 4.92,
+      "waves": 5,
+      "enemies": 25,
+      "threat": 81.5,
+      "starScore": [
+        1400,
+        2100,
+        3200
+      ],
+      "status": "VERIFIED",
+      "issues": [],
+      "verification": "static-structural"
+    },
+    {
+      "id": "ss-133",
+      "index": 133,
+      "sector": 5,
+      "local": 13,
+      "seed": 3472962779,
+      "name": "Supply Drop",
+      "type": "resource",
+      "objective": {
+        "kind": "resource",
+        "target": 4,
+        "label": "Recover 4 energy cores"
+      },
+      "boss": null,
+      "hazards": [],
+      "difficulty": 5.02,
+      "waves": 5,
+      "enemies": 22,
+      "threat": 74,
+      "starScore": [
+        1200,
+        1900,
+        2800
+      ],
+      "status": "VERIFIED",
+      "issues": [],
+      "verification": "static-structural"
+    },
+    {
+      "id": "ss-134",
+      "index": 134,
+      "sector": 5,
+      "local": 14,
+      "seed": 3556850874,
+      "name": "Debris Field",
+      "type": "asteroid",
+      "objective": {
+        "kind": "asteroid",
+        "target": 50,
+        "label": "Survive the debris field for 50s"
+      },
+      "boss": null,
+      "hazards": [
+        "asteroid"
+      ],
+      "difficulty": 5.13,
+      "waves": 5,
+      "enemies": 29,
+      "threat": 90.7,
+      "starScore": [
+        1600,
+        2500,
+        3700
+      ],
+      "status": "VERIFIED",
+      "issues": [],
+      "verification": "static-structural"
+    },
+    {
+      "id": "ss-135",
+      "index": 135,
+      "sector": 5,
+      "local": 15,
+      "seed": 3573628493,
+      "name": "Garrison",
+      "type": "defense",
+      "objective": {
+        "kind": "defense",
+        "target": 51,
+        "label": "Defend the relay for 51s"
+      },
+      "boss": null,
+      "hazards": [],
+      "difficulty": 5.23,
+      "waves": 6,
+      "enemies": 24,
+      "threat": 82.4,
+      "starScore": [
+        1300,
+        2000,
+        3000
+      ],
+      "status": "VERIFIED",
+      "issues": [],
+      "verification": "static-structural"
+    },
+    {
+      "id": "ss-136",
+      "index": 136,
+      "sector": 5,
+      "local": 16,
+      "seed": 3523295636,
+      "name": "Escort Duty",
+      "type": "escort",
+      "objective": {
+        "kind": "escort",
+        "target": 51,
+        "label": "Protect the courier for 51s"
+      },
+      "boss": null,
+      "hazards": [],
+      "difficulty": 5.33,
+      "waves": 6,
+      "enemies": 23,
+      "threat": 72.6,
+      "starScore": [
+        1300,
+        2000,
+        2900
+      ],
+      "status": "VERIFIED",
+      "issues": [],
+      "verification": "static-structural"
+    },
+    {
+      "id": "ss-137",
+      "index": 137,
+      "sector": 5,
+      "local": 17,
+      "seed": 3540073255,
+      "name": "Clear the Lane",
+      "type": "eliminate",
+      "objective": {
+        "kind": "eliminate",
+        "target": 14,
+        "label": "Destroy 14 hostiles"
+      },
+      "boss": null,
+      "hazards": [],
+      "difficulty": 5.44,
+      "waves": 6,
+      "enemies": 25,
+      "threat": 78.9,
+      "starScore": [
+        1400,
+        2100,
+        3200
+      ],
+      "status": "VERIFIED",
+      "issues": [],
+      "verification": "static-structural"
+    },
+    {
+      "id": "ss-138",
+      "index": 138,
+      "sector": 5,
+      "local": 18,
+      "seed": 3355519446,
+      "name": "Sweep and Burn",
+      "type": "eliminate",
+      "objective": {
+        "kind": "eliminate",
+        "target": 13,
+        "label": "Destroy 13 hostiles"
+      },
+      "boss": null,
+      "hazards": [],
+      "difficulty": 5.54,
+      "waves": 6,
+      "enemies": 24,
+      "threat": 80.8,
+      "starScore": [
+        1300,
+        2000,
+        3000
+      ],
+      "status": "VERIFIED",
+      "issues": [],
+      "verification": "static-structural"
+    },
+    {
+      "id": "ss-139",
+      "index": 139,
+      "sector": 5,
+      "local": 19,
+      "seed": 3372297065,
+      "name": "Hold the Line",
+      "type": "survive",
+      "objective": {
+        "kind": "survive",
+        "target": 47,
+        "label": "Survive 47s"
+      },
+      "boss": null,
+      "hazards": [],
+      "difficulty": 5.64,
+      "waves": 6,
+      "enemies": 28,
+      "threat": 94.7,
+      "starScore": [
+        1500,
+        2400,
+        3500
+      ],
+      "status": "VERIFIED",
+      "issues": [],
+      "verification": "static-structural"
+    },
+    {
+      "id": "ss-140",
+      "index": 140,
+      "sector": 5,
+      "local": 20,
+      "seed": 1375024929,
+      "name": "Cruiser Hunt",
+      "type": "elite",
+      "objective": {
+        "kind": "elite",
+        "target": 2,
+        "label": "Destroy 2 elite aces"
+      },
+      "boss": null,
+      "hazards": [],
+      "difficulty": 5.75,
+      "waves": 7,
+      "enemies": 30,
+      "threat": 101.3,
+      "starScore": [
+        1700,
+        2600,
+        3800
+      ],
+      "status": "VERIFIED",
+      "issues": [],
+      "verification": "static-structural"
+    },
+    {
+      "id": "ss-141",
+      "index": 141,
+      "sector": 5,
+      "local": 21,
+      "seed": 1358247310,
+      "name": "Through the Belt",
+      "type": "asteroid",
+      "objective": {
+        "kind": "asteroid",
+        "target": 55,
+        "label": "Survive the debris field for 55s"
+      },
+      "boss": null,
+      "hazards": [
+        "asteroid"
+      ],
+      "difficulty": 5.85,
+      "waves": 7,
+      "enemies": 32,
+      "threat": 104.7,
+      "starScore": [
+        1800,
+        2700,
+        4000
+      ],
+      "status": "VERIFIED",
+      "issues": [],
+      "verification": "static-structural"
+    },
+    {
+      "id": "ss-142",
+      "index": 142,
+      "sector": 5,
+      "local": 22,
+      "seed": 1341469691,
+      "name": "Hunter Detail",
+      "type": "eliminate",
+      "objective": {
+        "kind": "eliminate",
+        "target": 15,
+        "label": "Destroy 15 hostiles"
+      },
+      "boss": null,
+      "hazards": [],
+      "difficulty": 5.95,
+      "waves": 7,
+      "enemies": 28,
+      "threat": 90.1,
+      "starScore": [
+        1500,
+        2400,
+        3500
+      ],
+      "status": "VERIFIED",
+      "issues": [],
+      "verification": "static-structural"
+    },
+    {
+      "id": "ss-143",
+      "index": 143,
+      "sector": 5,
+      "local": 23,
+      "seed": 1324692072,
+      "name": "Escort Duty",
+      "type": "escort",
+      "objective": {
+        "kind": "escort",
+        "target": 56,
+        "label": "Protect the courier for 56s"
+      },
+      "boss": null,
+      "hazards": [],
+      "difficulty": 6.06,
+      "waves": 7,
+      "enemies": 22,
+      "threat": 75.8,
+      "starScore": [
+        1200,
+        1900,
+        2800
+      ],
+      "status": "VERIFIED",
+      "issues": [],
+      "verification": "static-structural"
+    },
+    {
+      "id": "ss-144",
+      "index": 144,
+      "sector": 5,
+      "local": 24,
+      "seed": 1442135405,
+      "name": "Sweep and Burn",
+      "type": "eliminate",
+      "objective": {
+        "kind": "eliminate",
+        "target": 17,
+        "label": "Destroy 17 hostiles"
+      },
+      "boss": null,
+      "hazards": [],
+      "difficulty": 6.16,
+      "waves": 7,
+      "enemies": 31,
+      "threat": 96.4,
+      "starScore": [
+        1700,
+        2600,
+        3900
+      ],
+      "status": "VERIFIED",
+      "issues": [],
+      "verification": "static-structural"
+    },
+    {
+      "id": "ss-145",
+      "index": 145,
+      "sector": 5,
+      "local": 25,
+      "seed": 1425357786,
+      "name": "Wave After Wave",
+      "type": "gauntlet",
+      "objective": {
+        "kind": "gauntlet",
+        "target": 34,
+        "label": "Clear all 34 hostiles"
+      },
+      "boss": null,
+      "hazards": [],
+      "difficulty": 6.26,
+      "waves": 8,
+      "enemies": 34,
+      "threat": 111.7,
+      "starScore": [
+        1900,
+        2900,
+        4300
+      ],
+      "status": "VERIFIED",
+      "issues": [],
+      "verification": "static-structural"
+    },
+    {
+      "id": "ss-146",
+      "index": 146,
+      "sector": 5,
+      "local": 26,
+      "seed": 1408580167,
+      "name": "Hold the Line",
+      "type": "survive",
+      "objective": {
+        "kind": "survive",
+        "target": 47,
+        "label": "Survive 47s"
+      },
+      "boss": null,
+      "hazards": [],
+      "difficulty": 6.37,
+      "waves": 8,
+      "enemies": 27,
+      "threat": 87.6,
+      "starScore": [
+        1500,
+        2300,
+        3400
+      ],
+      "status": "VERIFIED",
+      "issues": [],
+      "verification": "static-structural"
+    },
+    {
+      "id": "ss-147",
+      "index": 147,
+      "sector": 5,
+      "local": 27,
+      "seed": 1391802548,
+      "name": "Cores First",
+      "type": "resource",
+      "objective": {
+        "kind": "resource",
+        "target": 4,
+        "label": "Recover 4 energy cores"
+      },
+      "boss": null,
+      "hazards": [],
+      "difficulty": 6.47,
+      "waves": 8,
+      "enemies": 29,
+      "threat": 99.1,
+      "starScore": [
+        1600,
+        2500,
+        3700
+      ],
+      "status": "VERIFIED",
+      "issues": [],
+      "verification": "static-structural"
+    },
+    {
+      "id": "ss-148",
+      "index": 148,
+      "sector": 5,
+      "local": 28,
+      "seed": 1240803977,
+      "name": "Through the Belt",
+      "type": "asteroid",
+      "objective": {
+        "kind": "asteroid",
+        "target": 59,
+        "label": "Survive the debris field for 59s"
+      },
+      "boss": null,
+      "hazards": [
+        "asteroid"
+      ],
+      "difficulty": 6.57,
+      "waves": 8,
+      "enemies": 35,
+      "threat": 111.7,
+      "starScore": [
+        1900,
+        3000,
+        4400
+      ],
+      "status": "VERIFIED",
+      "issues": [],
+      "verification": "static-structural"
+    },
+    {
+      "id": "ss-149",
+      "index": 149,
+      "sector": 5,
+      "local": 29,
+      "seed": 1224026358,
+      "name": "Patrol Sweep",
+      "type": "eliminate",
+      "objective": {
+        "kind": "eliminate",
+        "target": 18,
+        "label": "Destroy 18 hostiles"
+      },
+      "boss": null,
+      "hazards": [],
+      "difficulty": 6.68,
+      "waves": 8,
+      "enemies": 32,
+      "threat": 107.7,
+      "starScore": [
+        1800,
+        2700,
+        4000
+      ],
+      "status": "VERIFIED",
+      "issues": [],
+      "verification": "static-structural"
+    },
+    {
+      "id": "ss-150",
+      "index": 150,
+      "sector": 5,
+      "local": 30,
+      "seed": 3421644184,
+      "name": "Citadel Gate",
+      "type": "boss",
+      "objective": {
+        "kind": "boss",
+        "target": 1,
+        "label": "Destroy The Frost Leviathan"
+      },
+      "boss": "leviathan",
+      "hazards": [],
+      "difficulty": 6.78,
+      "waves": 2,
+      "enemies": 15,
+      "threat": 49.8,
+      "starScore": [
+        3000,
+        4700,
+        7000
+      ],
+      "status": "VERIFIED",
+      "issues": [],
+      "verification": "static-structural"
+    },
+    {
+      "id": "ss-151",
+      "index": 151,
+      "sector": 6,
+      "local": 1,
+      "seed": 3438421803,
+      "name": "Patrol Sweep",
+      "type": "eliminate",
+      "objective": {
+        "kind": "eliminate",
+        "target": 10,
+        "label": "Destroy 10 hostiles"
+      },
+      "boss": null,
+      "hazards": [],
+      "difficulty": 4.7,
+      "waves": 3,
+      "enemies": 18,
+      "threat": 65,
+      "starScore": [
+        1000,
+        1500,
+        2300
+      ],
+      "status": "VERIFIED",
+      "issues": [],
+      "verification": "static-structural"
+    },
+    {
+      "id": "ss-152",
+      "index": 152,
+      "sector": 6,
+      "local": 2,
+      "seed": 3455199422,
+      "name": "Contact Report",
+      "type": "eliminate",
+      "objective": {
+        "kind": "eliminate",
+        "target": 10,
+        "label": "Destroy 10 hostiles"
+      },
+      "boss": null,
+      "hazards": [],
+      "difficulty": 4.81,
+      "waves": 3,
+      "enemies": 19,
+      "threat": 68.4,
+      "starScore": [
+        1000,
+        1600,
+        2400
+      ],
+      "status": "VERIFIED",
+      "issues": [],
+      "verification": "static-structural"
+    },
+    {
+      "id": "ss-153",
+      "index": 153,
+      "sector": 6,
+      "local": 3,
+      "seed": 3471977041,
+      "name": "Hold the Line",
+      "type": "survive",
+      "objective": {
+        "kind": "survive",
+        "target": 49,
+        "label": "Survive 49s"
+      },
+      "boss": null,
+      "hazards": [],
+      "difficulty": 4.91,
+      "waves": 3,
+      "enemies": 14,
+      "threat": 66,
+      "starScore": [
+        800,
+        1200,
+        1800
+      ],
+      "status": "VERIFIED",
+      "issues": [],
+      "verification": "static-structural"
+    },
+    {
+      "id": "ss-154",
+      "index": 154,
+      "sector": 6,
+      "local": 4,
+      "seed": 3488754660,
+      "name": "Recovery",
+      "type": "resource",
+      "objective": {
+        "kind": "resource",
+        "target": 5,
+        "label": "Recover 5 energy cores"
+      },
+      "boss": null,
+      "hazards": [],
+      "difficulty": 5.01,
+      "waves": 3,
+      "enemies": 20,
+      "threat": 66.8,
+      "starScore": [
+        1100,
+        1700,
+        2500
+      ],
+      "status": "VERIFIED",
+      "issues": [],
+      "verification": "static-structural"
+    },
+    {
+      "id": "ss-155",
+      "index": 155,
+      "sector": 6,
+      "local": 5,
+      "seed": 3505532279,
+      "name": "Debris Field",
+      "type": "asteroid",
+      "objective": {
+        "kind": "asteroid",
+        "target": 47,
+        "label": "Survive the debris field for 47s"
+      },
+      "boss": null,
+      "hazards": [
+        "asteroid"
+      ],
+      "difficulty": 5.12,
+      "waves": 4,
+      "enemies": 21,
+      "threat": 79.4,
+      "starScore": [
+        1200,
+        1800,
+        2700
+      ],
+      "status": "VERIFIED",
+      "issues": [],
+      "verification": "static-structural"
+    },
+    {
+      "id": "ss-156",
+      "index": 156,
+      "sector": 6,
+      "local": 6,
+      "seed": 3522309898,
+      "name": "Clear the Lane",
+      "type": "eliminate",
+      "objective": {
+        "kind": "eliminate",
+        "target": 12,
+        "label": "Destroy 12 hostiles"
+      },
+      "boss": null,
+      "hazards": [],
+      "difficulty": 5.22,
+      "waves": 4,
+      "enemies": 21,
+      "threat": 78.8,
+      "starScore": [
+        1200,
+        1800,
+        2700
+      ],
+      "status": "VERIFIED",
+      "issues": [],
+      "verification": "static-structural"
+    },
+    {
+      "id": "ss-157",
+      "index": 157,
+      "sector": 6,
+      "local": 7,
+      "seed": 3539087517,
+      "name": "Courier Run",
+      "type": "escort",
+      "objective": {
+        "kind": "escort",
+        "target": 48,
+        "label": "Protect the courier for 48s"
+      },
+      "boss": null,
+      "hazards": [
+        "asteroid"
+      ],
+      "difficulty": 5.32,
+      "waves": 4,
+      "enemies": 23,
+      "threat": 79.4,
+      "starScore": [
+        1300,
+        2000,
+        2900
+      ],
+      "status": "VERIFIED",
+      "issues": [],
+      "verification": "static-structural"
+    },
+    {
+      "id": "ss-158",
+      "index": 158,
+      "sector": 6,
+      "local": 8,
+      "seed": 3287423232,
+      "name": "Hunter Detail",
+      "type": "eliminate",
+      "objective": {
+        "kind": "eliminate",
+        "target": 13,
+        "label": "Destroy 13 hostiles"
+      },
+      "boss": null,
+      "hazards": [],
+      "difficulty": 5.43,
+      "waves": 4,
+      "enemies": 23,
+      "threat": 90,
+      "starScore": [
+        1300,
+        2000,
+        2900
+      ],
+      "status": "VERIFIED",
+      "issues": [],
+      "verification": "static-structural"
+    },
+    {
+      "id": "ss-159",
+      "index": 159,
+      "sector": 6,
+      "local": 9,
+      "seed": 3304200851,
+      "name": "Clear the Lane",
+      "type": "eliminate",
+      "objective": {
+        "kind": "eliminate",
+        "target": 14,
+        "label": "Destroy 14 hostiles"
+      },
+      "boss": null,
+      "hazards": [],
+      "difficulty": 5.53,
+      "waves": 4,
+      "enemies": 25,
+      "threat": 88.8,
+      "starScore": [
+        1400,
+        2100,
+        3200
+      ],
+      "status": "VERIFIED",
+      "issues": [],
+      "verification": "static-structural"
+    },
+    {
+      "id": "ss-160",
+      "index": 160,
+      "sector": 6,
+      "local": 10,
+      "seed": 1039766739,
+      "name": "Stop Them",
+      "type": "interception",
+      "objective": {
+        "kind": "interception",
+        "target": 4,
+        "label": "Stop 4 runners escaping"
+      },
+      "boss": null,
+      "hazards": [],
+      "difficulty": 5.63,
+      "waves": 5,
+      "enemies": 17,
+      "threat": 66.2,
+      "starScore": [
+        900,
+        1400,
+        2200
+      ],
+      "status": "VERIFIED",
+      "issues": [],
+      "verification": "static-structural"
+    },
+    {
+      "id": "ss-161",
+      "index": 161,
+      "sector": 6,
+      "local": 11,
+      "seed": 1022989120,
+      "name": "Cores First",
+      "type": "resource",
+      "objective": {
+        "kind": "resource",
+        "target": 5,
+        "label": "Recover 5 energy cores"
+      },
+      "boss": null,
+      "hazards": [],
+      "difficulty": 5.74,
+      "waves": 5,
+      "enemies": 24,
+      "threat": 90,
+      "starScore": [
+        1300,
+        2000,
+        3000
+      ],
+      "status": "VERIFIED",
+      "issues": [],
+      "verification": "static-structural"
+    },
+    {
+      "id": "ss-162",
+      "index": 162,
+      "sector": 6,
+      "local": 12,
+      "seed": 1073321977,
+      "name": "Rock Run",
+      "type": "asteroid",
+      "objective": {
+        "kind": "asteroid",
+        "target": 51,
+        "label": "Survive the debris field for 51s"
+      },
+      "boss": null,
+      "hazards": [
+        "asteroid"
+      ],
+      "difficulty": 5.84,
+      "waves": 5,
+      "enemies": 24,
+      "threat": 95.4,
+      "starScore": [
+        1300,
+        2000,
+        3000
+      ],
+      "status": "VERIFIED",
+      "issues": [],
+      "verification": "static-structural"
+    },
+    {
+      "id": "ss-163",
+      "index": 163,
+      "sector": 6,
+      "local": 13,
+      "seed": 1056544358,
+      "name": "Clear the Lane",
+      "type": "eliminate",
+      "objective": {
+        "kind": "eliminate",
+        "target": 13,
+        "label": "Destroy 13 hostiles"
+      },
+      "boss": null,
+      "hazards": [],
+      "difficulty": 5.94,
+      "waves": 5,
+      "enemies": 23,
+      "threat": 91.8,
+      "starScore": [
+        1300,
+        2000,
+        2900
+      ],
+      "status": "VERIFIED",
+      "issues": [],
+      "verification": "static-structural"
+    },
+    {
+      "id": "ss-164",
+      "index": 164,
+      "sector": 6,
+      "local": 14,
+      "seed": 1106877215,
+      "name": "Courier Run",
+      "type": "escort",
+      "objective": {
+        "kind": "escort",
+        "target": 52,
+        "label": "Protect the courier for 52s"
+      },
+      "boss": null,
+      "hazards": [
+        "asteroid"
+      ],
+      "difficulty": 6.05,
+      "waves": 5,
+      "enemies": 26,
+      "threat": 90,
+      "starScore": [
+        1400,
+        2200,
+        3300
+      ],
+      "status": "VERIFIED",
+      "issues": [],
+      "verification": "static-structural"
+    },
+    {
+      "id": "ss-165",
+      "index": 165,
+      "sector": 6,
+      "local": 15,
+      "seed": 1090099596,
+      "name": "Hold the Dock",
+      "type": "defense",
+      "objective": {
+        "kind": "defense",
+        "target": 53,
+        "label": "Defend the relay for 53s"
+      },
+      "boss": null,
+      "hazards": [],
+      "difficulty": 6.15,
+      "waves": 6,
+      "enemies": 28,
+      "threat": 99,
+      "starScore": [
+        1500,
+        2400,
+        3500
+      ],
+      "status": "VERIFIED",
+      "issues": [],
+      "verification": "static-structural"
+    },
+    {
+      "id": "ss-166",
+      "index": 166,
+      "sector": 6,
+      "local": 16,
+      "seed": 1140432453,
+      "name": "Patrol Sweep",
+      "type": "eliminate",
+      "objective": {
+        "kind": "eliminate",
+        "target": 14,
+        "label": "Destroy 14 hostiles"
+      },
+      "boss": null,
+      "hazards": [],
+      "difficulty": 6.25,
+      "waves": 6,
+      "enemies": 25,
+      "threat": 94.8,
+      "starScore": [
+        1400,
+        2100,
+        3200
+      ],
+      "status": "VERIFIED",
+      "issues": [],
+      "verification": "static-structural"
+    },
+    {
+      "id": "ss-167",
+      "index": 167,
+      "sector": 6,
+      "local": 17,
+      "seed": 1123654834,
+      "name": "Hold the Line",
+      "type": "survive",
+      "objective": {
+        "kind": "survive",
+        "target": 49,
+        "label": "Survive 49s"
+      },
+      "boss": null,
+      "hazards": [],
+      "difficulty": 6.36,
+      "waves": 6,
+      "enemies": 26,
+      "threat": 90.6,
+      "starScore": [
+        1400,
+        2200,
+        3300
+      ],
+      "status": "VERIFIED",
+      "issues": [],
+      "verification": "static-structural"
+    },
+    {
+      "id": "ss-168",
+      "index": 168,
+      "sector": 6,
+      "local": 18,
+      "seed": 1173987691,
+      "name": "Gather and Go",
+      "type": "resource",
+      "objective": {
+        "kind": "resource",
+        "target": 5,
+        "label": "Recover 5 energy cores"
+      },
+      "boss": null,
+      "hazards": [],
+      "difficulty": 6.46,
+      "waves": 6,
+      "enemies": 35,
+      "threat": 108.4,
+      "starScore": [
+        1900,
+        3000,
+        4400
+      ],
+      "status": "VERIFIED",
+      "issues": [],
+      "verification": "static-structural"
+    },
+    {
+      "id": "ss-169",
+      "index": 169,
+      "sector": 6,
+      "local": 19,
+      "seed": 1157210072,
+      "name": "Rock Run",
+      "type": "asteroid",
+      "objective": {
+        "kind": "asteroid",
+        "target": 55,
+        "label": "Survive the debris field for 55s"
+      },
+      "boss": null,
+      "hazards": [
+        "asteroid"
+      ],
+      "difficulty": 6.56,
+      "waves": 6,
+      "enemies": 29,
+      "threat": 99.8,
+      "starScore": [
+        1600,
+        2500,
+        3700
+      ],
+      "status": "VERIFIED",
+      "issues": [],
+      "verification": "static-structural"
+    },
+    {
+      "id": "ss-170",
+      "index": 170,
+      "sector": 6,
+      "local": 20,
+      "seed": 1475837738,
+      "name": "Heavy Contact",
+      "type": "elite",
+      "objective": {
+        "kind": "elite",
+        "target": 2,
+        "label": "Destroy 2 elite aces"
+      },
+      "boss": null,
+      "hazards": [],
+      "difficulty": 6.67,
+      "waves": 7,
+      "enemies": 30,
+      "threat": 116.4,
+      "starScore": [
+        1700,
+        2600,
+        3800
+      ],
+      "status": "VERIFIED",
+      "issues": [],
+      "verification": "static-structural"
+    },
+    {
+      "id": "ss-171",
+      "index": 171,
+      "sector": 6,
+      "local": 21,
+      "seed": 1492615357,
+      "name": "Escort Duty",
+      "type": "escort",
+      "objective": {
+        "kind": "escort",
+        "target": 56,
+        "label": "Protect the courier for 56s"
+      },
+      "boss": null,
+      "hazards": [
+        "asteroid"
+      ],
+      "difficulty": 6.77,
+      "waves": 7,
+      "enemies": 25,
+      "threat": 91.4,
+      "starScore": [
+        1400,
+        2100,
+        3200
+      ],
+      "status": "VERIFIED",
+      "issues": [],
+      "verification": "static-structural"
+    },
+    {
+      "id": "ss-172",
+      "index": 172,
+      "sector": 6,
+      "local": 22,
+      "seed": 1442282500,
+      "name": "Contact Report",
+      "type": "eliminate",
+      "objective": {
+        "kind": "eliminate",
+        "target": 13,
+        "label": "Destroy 13 hostiles"
+      },
+      "boss": null,
+      "hazards": [],
+      "difficulty": 6.87,
+      "waves": 7,
+      "enemies": 24,
+      "threat": 95.6,
+      "starScore": [
+        1300,
+        2000,
+        3000
+      ],
+      "status": "VERIFIED",
+      "issues": [],
+      "verification": "static-structural"
+    },
+    {
+      "id": "ss-173",
+      "index": 173,
+      "sector": 6,
+      "local": 23,
+      "seed": 1459060119,
+      "name": "Hunter Detail",
+      "type": "eliminate",
+      "objective": {
+        "kind": "eliminate",
+        "target": 14,
+        "label": "Destroy 14 hostiles"
+      },
+      "boss": null,
+      "hazards": [],
+      "difficulty": 6.98,
+      "waves": 7,
+      "enemies": 26,
+      "threat": 102.6,
+      "starScore": [
+        1400,
+        2200,
+        3300
+      ],
+      "status": "VERIFIED",
+      "issues": [],
+      "verification": "static-structural"
+    },
+    {
+      "id": "ss-174",
+      "index": 174,
+      "sector": 6,
+      "local": 24,
+      "seed": 1408727262,
+      "name": "Last Stand",
+      "type": "survive",
+      "objective": {
+        "kind": "survive",
+        "target": 49,
+        "label": "Survive 49s"
+      },
+      "boss": null,
+      "hazards": [],
+      "difficulty": 7.08,
+      "waves": 7,
+      "enemies": 20,
+      "threat": 90.6,
+      "starScore": [
+        1100,
+        1700,
+        2500
+      ],
+      "status": "VERIFIED",
+      "issues": [],
+      "verification": "static-structural"
+    },
+    {
+      "id": "ss-175",
+      "index": 175,
+      "sector": 6,
+      "local": 25,
+      "seed": 1425504881,
+      "name": "Gauntlet",
+      "type": "gauntlet",
+      "objective": {
+        "kind": "gauntlet",
+        "target": 23,
+        "label": "Clear all 23 hostiles"
+      },
+      "boss": null,
+      "hazards": [],
+      "difficulty": 7.18,
+      "waves": 8,
+      "enemies": 23,
+      "threat": 98.8,
+      "starScore": [
+        1300,
+        2000,
+        2900
+      ],
+      "status": "VERIFIED",
+      "issues": [],
+      "verification": "static-structural"
+    },
+    {
+      "id": "ss-176",
+      "index": 176,
+      "sector": 6,
+      "local": 26,
+      "seed": 1375172024,
+      "name": "Debris Field",
+      "type": "asteroid",
+      "objective": {
+        "kind": "asteroid",
+        "target": 60,
+        "label": "Survive the debris field for 60s"
+      },
+      "boss": null,
+      "hazards": [
+        "asteroid"
+      ],
+      "difficulty": 7.29,
+      "waves": 8,
+      "enemies": 25,
+      "threat": 102.8,
+      "starScore": [
+        1400,
+        2100,
+        3200
+      ],
+      "status": "VERIFIED",
+      "issues": [],
+      "verification": "static-structural"
+    },
+    {
+      "id": "ss-177",
+      "index": 177,
+      "sector": 6,
+      "local": 27,
+      "seed": 1391949643,
+      "name": "Sweep and Burn",
+      "type": "eliminate",
+      "objective": {
+        "kind": "eliminate",
+        "target": 14,
+        "label": "Destroy 14 hostiles"
+      },
+      "boss": null,
+      "hazards": [],
+      "difficulty": 7.39,
+      "waves": 8,
+      "enemies": 26,
+      "threat": 105,
+      "starScore": [
+        1400,
+        2200,
+        3300
+      ],
+      "status": "VERIFIED",
+      "issues": [],
+      "verification": "static-structural"
+    },
+    {
+      "id": "ss-178",
+      "index": 178,
+      "sector": 6,
+      "local": 28,
+      "seed": 1341616786,
+      "name": "Safe Passage",
+      "type": "escort",
+      "objective": {
+        "kind": "escort",
+        "target": 61,
+        "label": "Protect the courier for 61s"
+      },
+      "boss": null,
+      "hazards": [
+        "asteroid"
+      ],
+      "difficulty": 7.49,
+      "waves": 8,
+      "enemies": 29,
+      "threat": 96.2,
+      "starScore": [
+        1600,
+        2500,
+        3700
+      ],
+      "status": "VERIFIED",
+      "issues": [],
+      "verification": "static-structural"
+    },
+    {
+      "id": "ss-179",
+      "index": 179,
+      "sector": 6,
+      "local": 29,
+      "seed": 1358394405,
+      "name": "Sweep and Burn",
+      "type": "eliminate",
+      "objective": {
+        "kind": "eliminate",
+        "target": 18,
+        "label": "Destroy 18 hostiles"
+      },
+      "boss": null,
+      "hazards": [],
+      "difficulty": 7.6,
+      "waves": 8,
+      "enemies": 32,
+      "threat": 102.8,
+      "starScore": [
+        1800,
+        2700,
+        4000
+      ],
+      "status": "VERIFIED",
+      "issues": [],
+      "verification": "static-structural"
+    },
+    {
+      "id": "ss-180",
+      "index": 180,
+      "sector": 6,
+      "local": 30,
+      "seed": 1508554333,
+      "name": "Final Approach",
+      "type": "boss",
+      "objective": {
+        "kind": "boss",
+        "target": 1,
+        "label": "Destroy The Volt Sovereign"
+      },
+      "boss": "sovereign",
+      "hazards": [],
+      "difficulty": 7.7,
+      "waves": 2,
+      "enemies": 15,
+      "threat": 53.4,
+      "starScore": [
+        3000,
+        4700,
+        7000
+      ],
+      "status": "VERIFIED",
+      "issues": [],
+      "verification": "static-structural"
+    },
+    {
+      "id": "ss-181",
+      "index": 181,
+      "sector": 7,
+      "local": 1,
+      "seed": 1491776714,
+      "name": "Under Siege",
+      "type": "survive",
+      "objective": {
+        "kind": "survive",
+        "target": 51,
+        "label": "Survive 51s"
+      },
+      "boss": null,
+      "hazards": [
+        "gravity"
+      ],
+      "difficulty": 5.62,
+      "waves": 3,
+      "enemies": 18,
+      "threat": 71.8,
+      "starScore": [
+        1000,
+        1500,
+        2300
+      ],
+      "status": "VERIFIED",
+      "issues": [],
+      "verification": "static-structural"
+    },
+    {
+      "id": "ss-182",
+      "index": 182,
+      "sector": 7,
+      "local": 2,
+      "seed": 1474999095,
+      "name": "Salvage Run",
+      "type": "resource",
+      "objective": {
+        "kind": "resource",
+        "target": 5,
+        "label": "Recover 5 energy cores"
+      },
+      "boss": null,
+      "hazards": [],
+      "difficulty": 5.73,
+      "waves": 3,
+      "enemies": 22,
+      "threat": 87.6,
+      "starScore": [
+        1200,
+        1900,
+        2800
+      ],
+      "status": "VERIFIED",
+      "issues": [],
+      "verification": "static-structural"
+    },
+    {
+      "id": "ss-183",
+      "index": 183,
+      "sector": 7,
+      "local": 3,
+      "seed": 1458221476,
+      "name": "Rock Run",
+      "type": "asteroid",
+      "objective": {
+        "kind": "asteroid",
+        "target": 47,
+        "label": "Survive the debris field for 47s"
+      },
+      "boss": null,
+      "hazards": [
+        "asteroid"
+      ],
+      "difficulty": 5.83,
+      "waves": 3,
+      "enemies": 20,
+      "threat": 76.4,
+      "starScore": [
+        1100,
+        1700,
+        2500
+      ],
+      "status": "VERIFIED",
+      "issues": [],
+      "verification": "static-structural"
+    },
+    {
+      "id": "ss-184",
+      "index": 184,
+      "sector": 7,
+      "local": 4,
+      "seed": 1441443857,
+      "name": "Patrol Sweep",
+      "type": "eliminate",
+      "objective": {
+        "kind": "eliminate",
+        "target": 10,
+        "label": "Destroy 10 hostiles"
+      },
+      "boss": null,
+      "hazards": [],
+      "difficulty": 5.93,
+      "waves": 3,
+      "enemies": 19,
+      "threat": 80.4,
+      "starScore": [
+        1000,
+        1600,
+        2400
+      ],
+      "status": "VERIFIED",
+      "issues": [],
+      "verification": "static-structural"
+    },
+    {
+      "id": "ss-185",
+      "index": 185,
+      "sector": 7,
+      "local": 5,
+      "seed": 1424666238,
+      "name": "Courier Run",
+      "type": "escort",
+      "objective": {
+        "kind": "escort",
+        "target": 48,
+        "label": "Protect the courier for 48s"
+      },
+      "boss": null,
+      "hazards": [
+        "gravity"
+      ],
+      "difficulty": 6.04,
+      "waves": 4,
+      "enemies": 24,
+      "threat": 94.4,
+      "starScore": [
+        1300,
+        2000,
+        3000
+      ],
+      "status": "VERIFIED",
+      "issues": [],
+      "verification": "static-structural"
+    },
+    {
+      "id": "ss-186",
+      "index": 186,
+      "sector": 7,
+      "local": 6,
+      "seed": 1407888619,
+      "name": "Contact Report",
+      "type": "eliminate",
+      "objective": {
+        "kind": "eliminate",
+        "target": 10,
+        "label": "Destroy 10 hostiles"
+      },
+      "boss": null,
+      "hazards": [],
+      "difficulty": 6.14,
+      "waves": 4,
+      "enemies": 19,
+      "threat": 76.4,
+      "starScore": [
+        1000,
+        1600,
+        2400
+      ],
+      "status": "VERIFIED",
+      "issues": [],
+      "verification": "static-structural"
+    },
+    {
+      "id": "ss-187",
+      "index": 187,
+      "sector": 7,
+      "local": 7,
+      "seed": 1391111000,
+      "name": "Hunter Detail",
+      "type": "eliminate",
+      "objective": {
+        "kind": "eliminate",
+        "target": 13,
+        "label": "Destroy 13 hostiles"
+      },
+      "boss": null,
+      "hazards": [
+        "asteroid"
+      ],
+      "difficulty": 6.24,
+      "waves": 4,
+      "enemies": 24,
+      "threat": 94.6,
+      "starScore": [
+        1300,
+        2000,
+        3000
+      ],
+      "status": "VERIFIED",
+      "issues": [],
+      "verification": "static-structural"
+    },
+    {
+      "id": "ss-188",
+      "index": 188,
+      "sector": 7,
+      "local": 8,
+      "seed": 1374333381,
+      "name": "Holding Pattern",
+      "type": "survive",
+      "objective": {
+        "kind": "survive",
+        "target": 51,
+        "label": "Survive 51s"
+      },
+      "boss": null,
+      "hazards": [
+        "gravity"
+      ],
+      "difficulty": 6.35,
+      "waves": 4,
+      "enemies": 20,
+      "threat": 79.2,
+      "starScore": [
+        1100,
+        1700,
+        2500
+      ],
+      "status": "VERIFIED",
+      "issues": [],
+      "verification": "static-structural"
+    },
+    {
+      "id": "ss-189",
+      "index": 189,
+      "sector": 7,
+      "local": 9,
+      "seed": 1357555762,
+      "name": "Cores First",
+      "type": "resource",
+      "objective": {
+        "kind": "resource",
+        "target": 5,
+        "label": "Recover 5 energy cores"
+      },
+      "boss": null,
+      "hazards": [],
+      "difficulty": 6.45,
+      "waves": 4,
+      "enemies": 23,
+      "threat": 84,
+      "starScore": [
+        1300,
+        2000,
+        2900
+      ],
+      "status": "VERIFIED",
+      "issues": [],
+      "verification": "static-structural"
+    },
+    {
+      "id": "ss-190",
+      "index": 190,
+      "sector": 7,
+      "local": 10,
+      "seed": 1407741524,
+      "name": "Runners",
+      "type": "interception",
+      "objective": {
+        "kind": "interception",
+        "target": 4,
+        "label": "Stop 4 runners escaping"
+      },
+      "boss": null,
+      "hazards": [
+        "gravity"
+      ],
+      "difficulty": 6.55,
+      "waves": 5,
+      "enemies": 18,
+      "threat": 65.2,
+      "starScore": [
+        1000,
+        1500,
+        2300
+      ],
+      "status": "VERIFIED",
+      "issues": [],
+      "verification": "static-structural"
+    },
+    {
+      "id": "ss-191",
+      "index": 191,
+      "sector": 7,
+      "local": 11,
+      "seed": 1424519143,
+      "name": "Sweep and Burn",
+      "type": "eliminate",
+      "objective": {
+        "kind": "eliminate",
+        "target": 13,
+        "label": "Destroy 13 hostiles"
+      },
+      "boss": null,
+      "hazards": [],
+      "difficulty": 6.66,
+      "waves": 5,
+      "enemies": 24,
+      "threat": 93.4,
+      "starScore": [
+        1300,
+        2000,
+        3000
+      ],
+      "status": "VERIFIED",
+      "issues": [],
+      "verification": "static-structural"
+    },
+    {
+      "id": "ss-192",
+      "index": 192,
+      "sector": 7,
+      "local": 12,
+      "seed": 1441296762,
+      "name": "Courier Run",
+      "type": "escort",
+      "objective": {
+        "kind": "escort",
+        "target": 53,
+        "label": "Protect the courier for 53s"
+      },
+      "boss": null,
+      "hazards": [],
+      "difficulty": 6.76,
+      "waves": 5,
+      "enemies": 23,
+      "threat": 97.2,
+      "starScore": [
+        1300,
+        2000,
+        2900
+      ],
+      "status": "VERIFIED",
+      "issues": [],
+      "verification": "static-structural"
+    },
+    {
+      "id": "ss-193",
+      "index": 193,
+      "sector": 7,
+      "local": 13,
+      "seed": 1458074381,
+      "name": "Hunter Detail",
+      "type": "eliminate",
+      "objective": {
+        "kind": "eliminate",
+        "target": 13,
+        "label": "Destroy 13 hostiles"
+      },
+      "boss": null,
+      "hazards": [],
+      "difficulty": 6.86,
+      "waves": 5,
+      "enemies": 24,
+      "threat": 93,
+      "starScore": [
+        1300,
+        2000,
+        3000
+      ],
+      "status": "VERIFIED",
+      "issues": [],
+      "verification": "static-structural"
+    },
+    {
+      "id": "ss-194",
+      "index": 194,
+      "sector": 7,
+      "local": 14,
+      "seed": 1340631048,
+      "name": "Patrol Sweep",
+      "type": "eliminate",
+      "objective": {
+        "kind": "eliminate",
+        "target": 14,
+        "label": "Destroy 14 hostiles"
+      },
+      "boss": null,
+      "hazards": [
+        "asteroid"
+      ],
+      "difficulty": 6.97,
+      "waves": 5,
+      "enemies": 26,
+      "threat": 104,
+      "starScore": [
+        1400,
+        2200,
+        3300
+      ],
+      "status": "VERIFIED",
+      "issues": [],
+      "verification": "static-structural"
+    },
+    {
+      "id": "ss-195",
+      "index": 195,
+      "sector": 7,
+      "local": 15,
+      "seed": 1357408667,
+      "name": "Hold the Dock",
+      "type": "defense",
+      "objective": {
+        "kind": "defense",
+        "target": 55,
+        "label": "Defend the relay for 55s"
+      },
+      "boss": null,
+      "hazards": [
+        "gravity"
+      ],
+      "difficulty": 7.07,
+      "waves": 6,
+      "enemies": 26,
+      "threat": 105.8,
+      "starScore": [
+        1400,
+        2200,
+        3300
+      ],
+      "status": "VERIFIED",
+      "issues": [],
+      "verification": "static-structural"
+    },
+    {
+      "id": "ss-196",
+      "index": 196,
+      "sector": 7,
+      "local": 16,
+      "seed": 1374186286,
+      "name": "Cores First",
+      "type": "resource",
+      "objective": {
+        "kind": "resource",
+        "target": 5,
+        "label": "Recover 5 energy cores"
+      },
+      "boss": null,
+      "hazards": [],
+      "difficulty": 7.17,
+      "waves": 6,
+      "enemies": 28,
+      "threat": 105,
+      "starScore": [
+        1500,
+        2400,
+        3500
+      ],
+      "status": "VERIFIED",
+      "issues": [],
+      "verification": "static-structural"
+    },
+    {
+      "id": "ss-197",
+      "index": 197,
+      "sector": 7,
+      "local": 17,
+      "seed": 1390963905,
+      "name": "Asteroid Alley",
+      "type": "asteroid",
+      "objective": {
+        "kind": "asteroid",
+        "target": 56,
+        "label": "Survive the debris field for 56s"
+      },
+      "boss": null,
+      "hazards": [
+        "asteroid"
+      ],
+      "difficulty": 7.28,
+      "waves": 6,
+      "enemies": 23,
+      "threat": 91.8,
+      "starScore": [
+        1300,
+        2000,
+        2900
+      ],
+      "status": "VERIFIED",
+      "issues": [],
+      "verification": "static-structural"
+    },
+    {
+      "id": "ss-198",
+      "index": 198,
+      "sector": 7,
+      "local": 18,
+      "seed": 1273520572,
+      "name": "Hunter Detail",
+      "type": "eliminate",
+      "objective": {
+        "kind": "eliminate",
+        "target": 14,
+        "label": "Destroy 14 hostiles"
+      },
+      "boss": null,
+      "hazards": [],
+      "difficulty": 7.38,
+      "waves": 6,
+      "enemies": 26,
+      "threat": 101.6,
+      "starScore": [
+        1400,
+        2200,
+        3300
+      ],
+      "status": "VERIFIED",
+      "issues": [],
+      "verification": "static-structural"
+    },
+    {
+      "id": "ss-199",
+      "index": 199,
+      "sector": 7,
+      "local": 19,
+      "seed": 1290298191,
+      "name": "Escort Duty",
+      "type": "escort",
+      "objective": {
+        "kind": "escort",
+        "target": 57,
+        "label": "Protect the courier for 57s"
+      },
+      "boss": null,
+      "hazards": [],
+      "difficulty": 7.48,
+      "waves": 6,
+      "enemies": 31,
+      "threat": 122.8,
+      "starScore": [
+        1700,
+        2600,
+        3900
+      ],
+      "status": "VERIFIED",
+      "issues": [],
+      "verification": "static-structural"
+    },
+    {
+      "id": "ss-200",
+      "index": 200,
+      "sector": 7,
+      "local": 20,
+      "seed": 217784996,
+      "name": "Elite Sighted",
+      "type": "elite",
+      "objective": {
+        "kind": "elite",
+        "target": 2,
+        "label": "Destroy 2 elite aces"
+      },
+      "boss": null,
+      "hazards": [
+        "gravity"
+      ],
+      "difficulty": 7.59,
+      "waves": 7,
+      "enemies": 30,
+      "threat": 118.8,
+      "starScore": [
+        1700,
+        2600,
+        3800
+      ],
+      "status": "VERIFIED",
+      "issues": [],
+      "verification": "static-structural"
+    },
+    {
+      "id": "ss-201",
+      "index": 201,
+      "sector": 7,
+      "local": 21,
+      "seed": 234562615,
+      "name": "Clear the Lane",
+      "type": "eliminate",
+      "objective": {
+        "kind": "eliminate",
+        "target": 18,
+        "label": "Destroy 18 hostiles"
+      },
+      "boss": null,
+      "hazards": [
+        "asteroid"
+      ],
+      "difficulty": 7.69,
+      "waves": 7,
+      "enemies": 32,
+      "threat": 119.6,
+      "starScore": [
+        1800,
+        2700,
+        4000
+      ],
+      "status": "VERIFIED",
+      "issues": [],
+      "verification": "static-structural"
+    },
+    {
+      "id": "ss-202",
+      "index": 202,
+      "sector": 7,
+      "local": 22,
+      "seed": 251340234,
+      "name": "Holding Pattern",
+      "type": "survive",
+      "objective": {
+        "kind": "survive",
+        "target": 51,
+        "label": "Survive 51s"
+      },
+      "boss": null,
+      "hazards": [
+        "gravity"
+      ],
+      "difficulty": 7.79,
+      "waves": 7,
+      "enemies": 31,
+      "threat": 118.8,
+      "starScore": [
+        1700,
+        2600,
+        3900
+      ],
+      "status": "VERIFIED",
+      "issues": [],
+      "verification": "static-structural"
+    },
+    {
+      "id": "ss-203",
+      "index": 203,
+      "sector": 7,
+      "local": 23,
+      "seed": 268117853,
+      "name": "Cores First",
+      "type": "resource",
+      "objective": {
+        "kind": "resource",
+        "target": 5,
+        "label": "Recover 5 energy cores"
+      },
+      "boss": null,
+      "hazards": [],
+      "difficulty": 7.9,
+      "waves": 7,
+      "enemies": 29,
+      "threat": 110.4,
+      "starScore": [
+        1600,
+        2500,
+        3700
+      ],
+      "status": "VERIFIED",
+      "issues": [],
+      "verification": "static-structural"
+    },
+    {
+      "id": "ss-204",
+      "index": 204,
+      "sector": 7,
+      "local": 24,
+      "seed": 150674520,
+      "name": "Asteroid Alley",
+      "type": "asteroid",
+      "objective": {
+        "kind": "asteroid",
+        "target": 60,
+        "label": "Survive the debris field for 60s"
+      },
+      "boss": null,
+      "hazards": [
+        "asteroid"
+      ],
+      "difficulty": 8,
+      "waves": 7,
+      "enemies": 30,
+      "threat": 120,
+      "starScore": [
+        1700,
+        2600,
+        3800
+      ],
+      "status": "VERIFIED",
+      "issues": [],
+      "verification": "static-structural"
+    },
+    {
+      "id": "ss-205",
+      "index": 205,
+      "sector": 7,
+      "local": 25,
+      "seed": 167452139,
+      "name": "Gauntlet",
+      "type": "gauntlet",
+      "objective": {
+        "kind": "gauntlet",
+        "target": 35,
+        "label": "Clear all 35 hostiles"
+      },
+      "boss": null,
+      "hazards": [
+        "gravity"
+      ],
+      "difficulty": 8.1,
+      "waves": 8,
+      "enemies": 35,
+      "threat": 131.2,
+      "starScore": [
+        1900,
+        3000,
+        4400
+      ],
+      "status": "VERIFIED",
+      "issues": [],
+      "verification": "static-structural"
+    },
+    {
+      "id": "ss-206",
+      "index": 206,
+      "sector": 7,
+      "local": 26,
+      "seed": 184229758,
+      "name": "Courier Run",
+      "type": "escort",
+      "objective": {
+        "kind": "escort",
+        "target": 61,
+        "label": "Protect the courier for 61s"
+      },
+      "boss": null,
+      "hazards": [],
+      "difficulty": 8.21,
+      "waves": 8,
+      "enemies": 33,
+      "threat": 129.6,
+      "starScore": [
+        1800,
+        2800,
+        4200
+      ],
+      "status": "VERIFIED",
+      "issues": [],
+      "verification": "static-structural"
+    },
+    {
+      "id": "ss-207",
+      "index": 207,
+      "sector": 7,
+      "local": 27,
+      "seed": 201007377,
+      "name": "Sweep and Burn",
+      "type": "eliminate",
+      "objective": {
+        "kind": "eliminate",
+        "target": 16,
+        "label": "Destroy 16 hostiles"
+      },
+      "boss": null,
+      "hazards": [],
+      "difficulty": 8.31,
+      "waves": 8,
+      "enemies": 29,
+      "threat": 111.4,
+      "starScore": [
+        1600,
+        2500,
+        3700
+      ],
+      "status": "VERIFIED",
+      "issues": [],
+      "verification": "static-structural"
+    },
+    {
+      "id": "ss-208",
+      "index": 208,
+      "sector": 7,
+      "local": 28,
+      "seed": 83564044,
+      "name": "Contact Report",
+      "type": "eliminate",
+      "objective": {
+        "kind": "eliminate",
+        "target": 19,
+        "label": "Destroy 19 hostiles"
+      },
+      "boss": null,
+      "hazards": [
+        "asteroid"
+      ],
+      "difficulty": 8.41,
+      "waves": 8,
+      "enemies": 34,
+      "threat": 137.6,
+      "starScore": [
+        1900,
+        2900,
+        4300
+      ],
+      "status": "VERIFIED",
+      "issues": [],
+      "verification": "static-structural"
+    },
+    {
+      "id": "ss-209",
+      "index": 209,
+      "sector": 7,
+      "local": 29,
+      "seed": 100341663,
+      "name": "Hold the Line",
+      "type": "survive",
+      "objective": {
+        "kind": "survive",
+        "target": 51,
+        "label": "Survive 51s"
+      },
+      "boss": null,
+      "hazards": [
+        "gravity"
+      ],
+      "difficulty": 8.52,
+      "waves": 8,
+      "enemies": 35,
+      "threat": 134.6,
+      "starScore": [
+        1900,
+        3000,
+        4400
+      ],
+      "status": "VERIFIED",
+      "issues": [],
+      "verification": "static-structural"
+    },
+    {
+      "id": "ss-210",
+      "index": 210,
+      "sector": 7,
+      "local": 30,
+      "seed": 2466133037,
+      "name": "Capital Contact",
+      "type": "boss",
+      "objective": {
+        "kind": "boss",
+        "target": 1,
+        "label": "Destroy The Gravity Harbinger"
+      },
+      "boss": "harbinger",
+      "hazards": [
+        "gravity"
+      ],
+      "difficulty": 8.62,
+      "waves": 2,
+      "enemies": 14,
+      "threat": 59.4,
+      "starScore": [
+        3000,
+        4600,
+        6800
+      ],
+      "status": "VERIFIED",
+      "issues": [],
+      "verification": "static-structural"
+    },
+    {
+      "id": "ss-211",
+      "index": 211,
+      "sector": 8,
+      "local": 1,
+      "seed": 2449355418,
+      "name": "Rock Run",
+      "type": "asteroid",
+      "objective": {
+        "kind": "asteroid",
+        "target": 48,
+        "label": "Survive the debris field for 48s"
+      },
+      "boss": null,
+      "hazards": [
+        "asteroid"
+      ],
+      "difficulty": 6.54,
+      "waves": 3,
+      "enemies": 24,
+      "threat": 82.9,
+      "starScore": [
+        1300,
+        2000,
+        3000
+      ],
+      "status": "VERIFIED",
+      "issues": [],
+      "verification": "static-structural"
+    },
+    {
+      "id": "ss-212",
+      "index": 212,
+      "sector": 8,
+      "local": 2,
+      "seed": 2432577799,
+      "name": "Clear the Lane",
+      "type": "eliminate",
+      "objective": {
+        "kind": "eliminate",
+        "target": 13,
+        "label": "Destroy 13 hostiles"
+      },
+      "boss": null,
+      "hazards": [],
+      "difficulty": 6.65,
+      "waves": 3,
+      "enemies": 24,
+      "threat": 81.6,
+      "starScore": [
+        1300,
+        2000,
+        3000
+      ],
+      "status": "VERIFIED",
+      "issues": [],
+      "verification": "static-structural"
+    },
+    {
+      "id": "ss-213",
+      "index": 213,
+      "sector": 8,
+      "local": 3,
+      "seed": 2415800180,
+      "name": "Safe Passage",
+      "type": "escort",
+      "objective": {
+        "kind": "escort",
+        "target": 49,
+        "label": "Protect the courier for 49s"
+      },
+      "boss": null,
+      "hazards": [],
+      "difficulty": 6.75,
+      "waves": 3,
+      "enemies": 28,
+      "threat": 92,
+      "starScore": [
+        1500,
+        2400,
+        3500
+      ],
+      "status": "VERIFIED",
+      "issues": [],
+      "verification": "static-structural"
+    },
+    {
+      "id": "ss-214",
+      "index": 214,
+      "sector": 8,
+      "local": 4,
+      "seed": 2399022561,
+      "name": "Sweep and Burn",
+      "type": "eliminate",
+      "objective": {
+        "kind": "eliminate",
+        "target": 15,
+        "label": "Destroy 15 hostiles"
+      },
+      "boss": null,
+      "hazards": [],
+      "difficulty": 6.85,
+      "waves": 3,
+      "enemies": 27,
+      "threat": 87.4,
+      "starScore": [
+        1500,
+        2300,
+        3400
+      ],
+      "status": "VERIFIED",
+      "issues": [],
+      "verification": "static-structural"
+    },
+    {
+      "id": "ss-215",
+      "index": 215,
+      "sector": 8,
+      "local": 5,
+      "seed": 2382244942,
+      "name": "Hunter Detail",
+      "type": "eliminate",
+      "objective": {
+        "kind": "eliminate",
+        "target": 15,
+        "label": "Destroy 15 hostiles"
+      },
+      "boss": null,
+      "hazards": [
+        "gravity"
+      ],
+      "difficulty": 6.96,
+      "waves": 4,
+      "enemies": 27,
+      "threat": 92.1,
+      "starScore": [
+        1500,
+        2300,
+        3400
+      ],
+      "status": "VERIFIED",
+      "issues": [],
+      "verification": "static-structural"
+    },
+    {
+      "id": "ss-216",
+      "index": 216,
+      "sector": 8,
+      "local": 6,
+      "seed": 2365467323,
+      "name": "Holding Pattern",
+      "type": "survive",
+      "objective": {
+        "kind": "survive",
+        "target": 54,
+        "label": "Survive 54s"
+      },
+      "boss": null,
+      "hazards": [
+        "gravity"
+      ],
+      "difficulty": 7.06,
+      "waves": 4,
+      "enemies": 23,
+      "threat": 90.7,
+      "starScore": [
+        1300,
+        2000,
+        2900
+      ],
+      "status": "VERIFIED",
+      "issues": [],
+      "verification": "static-structural"
+    },
+    {
+      "id": "ss-217",
+      "index": 217,
+      "sector": 8,
+      "local": 7,
+      "seed": 2348689704,
+      "name": "Supply Drop",
+      "type": "resource",
+      "objective": {
+        "kind": "resource",
+        "target": 5,
+        "label": "Recover 5 energy cores"
+      },
+      "boss": null,
+      "hazards": [
+        "asteroid"
+      ],
+      "difficulty": 7.16,
+      "waves": 4,
+      "enemies": 23,
+      "threat": 85.4,
+      "starScore": [
+        1300,
+        2000,
+        2900
+      ],
+      "status": "VERIFIED",
+      "issues": [],
+      "verification": "static-structural"
+    },
+    {
+      "id": "ss-218",
+      "index": 218,
+      "sector": 8,
+      "local": 8,
+      "seed": 2331912085,
+      "name": "Rock Run",
+      "type": "asteroid",
+      "objective": {
+        "kind": "asteroid",
+        "target": 52,
+        "label": "Survive the debris field for 52s"
+      },
+      "boss": null,
+      "hazards": [
+        "asteroid"
+      ],
+      "difficulty": 7.27,
+      "waves": 4,
+      "enemies": 30,
+      "threat": 109.3,
+      "starScore": [
+        1700,
+        2600,
+        3800
+      ],
+      "status": "VERIFIED",
+      "issues": [],
+      "verification": "static-structural"
+    },
+    {
+      "id": "ss-219",
+      "index": 219,
+      "sector": 8,
+      "local": 9,
+      "seed": 2315134466,
+      "name": "Clear the Lane",
+      "type": "eliminate",
+      "objective": {
+        "kind": "eliminate",
+        "target": 16,
+        "label": "Destroy 16 hostiles"
+      },
+      "boss": null,
+      "hazards": [],
+      "difficulty": 7.37,
+      "waves": 4,
+      "enemies": 29,
+      "threat": 96.5,
+      "starScore": [
+        1600,
+        2500,
+        3700
+      ],
+      "status": "VERIFIED",
+      "issues": [],
+      "verification": "static-structural"
+    },
+    {
+      "id": "ss-220",
+      "index": 220,
+      "sector": 8,
+      "local": 10,
+      "seed": 2030062038,
+      "name": "Closing Window",
+      "type": "interception",
+      "objective": {
+        "kind": "interception",
+        "target": 4,
+        "label": "Stop 4 runners escaping"
+      },
+      "boss": null,
+      "hazards": [
+        "gravity"
+      ],
+      "difficulty": 7.47,
+      "waves": 5,
+      "enemies": 20,
+      "threat": 66.8,
+      "starScore": [
+        1100,
+        1700,
+        2500
+      ],
+      "status": "VERIFIED",
+      "issues": [],
+      "verification": "static-structural"
+    },
+    {
+      "id": "ss-221",
+      "index": 221,
+      "sector": 8,
+      "local": 11,
+      "seed": 2046839657,
+      "name": "Clear the Lane",
+      "type": "eliminate",
+      "objective": {
+        "kind": "eliminate",
+        "target": 15,
+        "label": "Destroy 15 hostiles"
+      },
+      "boss": null,
+      "hazards": [],
+      "difficulty": 7.58,
+      "waves": 5,
+      "enemies": 27,
+      "threat": 95.8,
+      "starScore": [
+        1500,
+        2300,
+        3400
+      ],
+      "status": "VERIFIED",
+      "issues": [],
+      "verification": "static-structural"
+    },
+    {
+      "id": "ss-222",
+      "index": 222,
+      "sector": 8,
+      "local": 12,
+      "seed": 1996506800,
+      "name": "Patrol Sweep",
+      "type": "eliminate",
+      "objective": {
+        "kind": "eliminate",
+        "target": 17,
+        "label": "Destroy 17 hostiles"
+      },
+      "boss": null,
+      "hazards": [],
+      "difficulty": 7.68,
+      "waves": 5,
+      "enemies": 31,
+      "threat": 105.2,
+      "starScore": [
+        1700,
+        2600,
+        3900
+      ],
+      "status": "VERIFIED",
+      "issues": [],
+      "verification": "static-structural"
+    },
+    {
+      "id": "ss-223",
+      "index": 223,
+      "sector": 8,
+      "local": 13,
+      "seed": 2013284419,
+      "name": "Under Siege",
+      "type": "survive",
+      "objective": {
+        "kind": "survive",
+        "target": 54,
+        "label": "Survive 54s"
+      },
+      "boss": null,
+      "hazards": [
+        "gravity"
+      ],
+      "difficulty": 7.78,
+      "waves": 5,
+      "enemies": 32,
+      "threat": 111.2,
+      "starScore": [
+        1800,
+        2700,
+        4000
+      ],
+      "status": "VERIFIED",
+      "issues": [],
+      "verification": "static-structural"
+    },
+    {
+      "id": "ss-224",
+      "index": 224,
+      "sector": 8,
+      "local": 14,
+      "seed": 2097172514,
+      "name": "Gather and Go",
+      "type": "resource",
+      "objective": {
+        "kind": "resource",
+        "target": 5,
+        "label": "Recover 5 energy cores"
+      },
+      "boss": null,
+      "hazards": [
+        "asteroid"
+      ],
+      "difficulty": 7.89,
+      "waves": 5,
+      "enemies": 29,
+      "threat": 100,
+      "starScore": [
+        1600,
+        2500,
+        3700
+      ],
+      "status": "VERIFIED",
+      "issues": [],
+      "verification": "static-structural"
+    },
+    {
+      "id": "ss-225",
+      "index": 225,
+      "sector": 8,
+      "local": 15,
+      "seed": 2113950133,
+      "name": "Station Watch",
+      "type": "defense",
+      "objective": {
+        "kind": "defense",
+        "target": 56,
+        "label": "Defend the relay for 56s"
+      },
+      "boss": null,
+      "hazards": [
+        "gravity"
+      ],
+      "difficulty": 7.99,
+      "waves": 6,
+      "enemies": 31,
+      "threat": 103.5,
+      "starScore": [
+        1700,
+        2600,
+        3900
+      ],
+      "status": "VERIFIED",
+      "issues": [],
+      "verification": "static-structural"
+    },
+    {
+      "id": "ss-226",
+      "index": 226,
+      "sector": 8,
+      "local": 16,
+      "seed": 2063617276,
+      "name": "Patrol Sweep",
+      "type": "eliminate",
+      "objective": {
+        "kind": "eliminate",
+        "target": 17,
+        "label": "Destroy 17 hostiles"
+      },
+      "boss": null,
+      "hazards": [],
+      "difficulty": 8.09,
+      "waves": 6,
+      "enemies": 30,
+      "threat": 111.7,
+      "starScore": [
+        1700,
+        2600,
+        3800
+      ],
+      "status": "VERIFIED",
+      "issues": [],
+      "verification": "static-structural"
+    },
+    {
+      "id": "ss-227",
+      "index": 227,
+      "sector": 8,
+      "local": 17,
+      "seed": 2080394895,
+      "name": "Escort Duty",
+      "type": "escort",
+      "objective": {
+        "kind": "escort",
+        "target": 58,
+        "label": "Protect the courier for 58s"
+      },
+      "boss": null,
+      "hazards": [],
+      "difficulty": 8.2,
+      "waves": 6,
+      "enemies": 28,
+      "threat": 102.4,
+      "starScore": [
+        1500,
+        2400,
+        3500
+      ],
+      "status": "VERIFIED",
+      "issues": [],
+      "verification": "static-structural"
+    },
+    {
+      "id": "ss-228",
+      "index": 228,
+      "sector": 8,
+      "local": 18,
+      "seed": 2164282990,
+      "name": "Contact Report",
+      "type": "eliminate",
+      "objective": {
+        "kind": "eliminate",
+        "target": 18,
+        "label": "Destroy 18 hostiles"
+      },
+      "boss": null,
+      "hazards": [],
+      "difficulty": 8.3,
+      "waves": 6,
+      "enemies": 32,
+      "threat": 110.6,
+      "starScore": [
+        1800,
+        2700,
+        4000
+      ],
+      "status": "VERIFIED",
+      "issues": [],
+      "verification": "static-structural"
+    },
+    {
+      "id": "ss-229",
+      "index": 229,
+      "sector": 8,
+      "local": 19,
+      "seed": 2181060609,
+      "name": "Hunter Detail",
+      "type": "eliminate",
+      "objective": {
+        "kind": "eliminate",
+        "target": 20,
+        "label": "Destroy 20 hostiles"
+      },
+      "boss": null,
+      "hazards": [],
+      "difficulty": 8.4,
+      "waves": 6,
+      "enemies": 36,
+      "threat": 117.3,
+      "starScore": [
+        2000,
+        3100,
+        4600
+      ],
+      "status": "VERIFIED",
+      "issues": [],
+      "verification": "static-structural"
+    },
+    {
+      "id": "ss-230",
+      "index": 230,
+      "sector": 8,
+      "local": 20,
+      "seed": 2130874847,
+      "name": "Ace Down",
+      "type": "elite",
+      "objective": {
+        "kind": "elite",
+        "target": 3,
+        "label": "Destroy 3 elite aces"
+      },
+      "boss": null,
+      "hazards": [
+        "gravity"
+      ],
+      "difficulty": 8.51,
+      "waves": 7,
+      "enemies": 38,
+      "threat": 122.8,
+      "starScore": [
+        2100,
+        3200,
+        4800
+      ],
+      "status": "VERIFIED",
+      "issues": [],
+      "verification": "static-structural"
+    },
+    {
+      "id": "ss-231",
+      "index": 231,
+      "sector": 8,
+      "local": 21,
+      "seed": 2114097228,
+      "name": "Cores First",
+      "type": "resource",
+      "objective": {
+        "kind": "resource",
+        "target": 5,
+        "label": "Recover 5 energy cores"
+      },
+      "boss": null,
+      "hazards": [
+        "asteroid"
+      ],
+      "difficulty": 8.61,
+      "waves": 7,
+      "enemies": 37,
+      "threat": 123.9,
+      "starScore": [
+        2000,
+        3200,
+        4700
+      ],
+      "status": "VERIFIED",
+      "issues": [],
+      "verification": "static-structural"
+    },
+    {
+      "id": "ss-232",
+      "index": 232,
+      "sector": 8,
+      "local": 22,
+      "seed": 2164430085,
+      "name": "Debris Field",
+      "type": "asteroid",
+      "objective": {
+        "kind": "asteroid",
+        "target": 61,
+        "label": "Survive the debris field for 61s"
+      },
+      "boss": null,
+      "hazards": [
+        "asteroid"
+      ],
+      "difficulty": 8.71,
+      "waves": 7,
+      "enemies": 39,
+      "threat": 125.5,
+      "starScore": [
+        2100,
+        3300,
+        4900
+      ],
+      "status": "VERIFIED",
+      "issues": [],
+      "verification": "static-structural"
+    },
+    {
+      "id": "ss-233",
+      "index": 233,
+      "sector": 8,
+      "local": 23,
+      "seed": 2147652466,
+      "name": "Clear the Lane",
+      "type": "eliminate",
+      "objective": {
+        "kind": "eliminate",
+        "target": 22,
+        "label": "Destroy 22 hostiles"
+      },
+      "boss": null,
+      "hazards": [],
+      "difficulty": 8.82,
+      "waves": 7,
+      "enemies": 40,
+      "threat": 128.7,
+      "starScore": [
+        2200,
+        3400,
+        5100
+      ],
+      "status": "VERIFIED",
+      "issues": [],
+      "verification": "static-structural"
+    },
+    {
+      "id": "ss-234",
+      "index": 234,
+      "sector": 8,
+      "local": 24,
+      "seed": 2063764371,
+      "name": "Keep It Alive",
+      "type": "escort",
+      "objective": {
+        "kind": "escort",
+        "target": 62,
+        "label": "Protect the courier for 62s"
+      },
+      "boss": null,
+      "hazards": [],
+      "difficulty": 8.92,
+      "waves": 7,
+      "enemies": 33,
+      "threat": 119.9,
+      "starScore": [
+        1800,
+        2800,
+        4200
+      ],
+      "status": "VERIFIED",
+      "issues": [],
+      "verification": "static-structural"
+    },
+    {
+      "id": "ss-235",
+      "index": 235,
+      "sector": 8,
+      "local": 25,
+      "seed": 2046986752,
+      "name": "Attrition",
+      "type": "gauntlet",
+      "objective": {
+        "kind": "gauntlet",
+        "target": 43,
+        "label": "Clear all 43 hostiles"
+      },
+      "boss": null,
+      "hazards": [
+        "gravity"
+      ],
+      "difficulty": 9.02,
+      "waves": 8,
+      "enemies": 43,
+      "threat": 132.6,
+      "starScore": [
+        2400,
+        3700,
+        5400
+      ],
+      "status": "VERIFIED",
+      "issues": [],
+      "verification": "static-structural"
+    },
+    {
+      "id": "ss-236",
+      "index": 236,
+      "sector": 8,
+      "local": 26,
+      "seed": 2097319609,
+      "name": "Clear the Lane",
+      "type": "eliminate",
+      "objective": {
+        "kind": "eliminate",
+        "target": 23,
+        "label": "Destroy 23 hostiles"
+      },
+      "boss": null,
+      "hazards": [],
+      "difficulty": 9.13,
+      "waves": 8,
+      "enemies": 42,
+      "threat": 135.4,
+      "starScore": [
+        2300,
+        3600,
+        5300
+      ],
+      "status": "VERIFIED",
+      "issues": [],
+      "verification": "static-structural"
+    },
+    {
+      "id": "ss-237",
+      "index": 237,
+      "sector": 8,
+      "local": 27,
+      "seed": 2080541990,
+      "name": "Hold the Line",
+      "type": "survive",
+      "objective": {
+        "kind": "survive",
+        "target": 54,
+        "label": "Survive 54s"
+      },
+      "boss": null,
+      "hazards": [
+        "gravity"
+      ],
+      "difficulty": 9.23,
+      "waves": 8,
+      "enemies": 41,
+      "threat": 139.6,
+      "starScore": [
+        2300,
+        3500,
+        5200
+      ],
+      "status": "VERIFIED",
+      "issues": [],
+      "verification": "static-structural"
+    },
+    {
+      "id": "ss-238",
+      "index": 238,
+      "sector": 8,
+      "local": 28,
+      "seed": 2265095799,
+      "name": "Salvage Run",
+      "type": "resource",
+      "objective": {
+        "kind": "resource",
+        "target": 5,
+        "label": "Recover 5 energy cores"
+      },
+      "boss": null,
+      "hazards": [
+        "asteroid"
+      ],
+      "difficulty": 9.33,
+      "waves": 8,
+      "enemies": 38,
+      "threat": 135.7,
+      "starScore": [
+        2100,
+        3200,
+        4800
+      ],
+      "status": "VERIFIED",
+      "issues": [],
+      "verification": "static-structural"
+    },
+    {
+      "id": "ss-239",
+      "index": 239,
+      "sector": 8,
+      "local": 29,
+      "seed": 2248318180,
+      "name": "Rock Run",
+      "type": "asteroid",
+      "objective": {
+        "kind": "asteroid",
+        "target": 65,
+        "label": "Survive the debris field for 65s"
+      },
+      "boss": null,
+      "hazards": [
+        "asteroid"
+      ],
+      "difficulty": 9.44,
+      "waves": 8,
+      "enemies": 39,
+      "threat": 140.6,
+      "starScore": [
+        2100,
+        3300,
+        4900
+      ],
+      "status": "VERIFIED",
+      "issues": [],
+      "verification": "static-structural"
+    },
+    {
+      "id": "ss-240",
+      "index": 240,
+      "sector": 8,
+      "local": 30,
+      "seed": 1961965824,
+      "name": "Citadel Gate",
+      "type": "boss",
+      "objective": {
+        "kind": "boss",
+        "target": 1,
+        "label": "Destroy The Phantom Ark"
+      },
+      "boss": "ark",
+      "hazards": [
+        "gravity"
+      ],
+      "difficulty": 9.54,
+      "waves": 2,
+      "enemies": 19,
+      "threat": 61.5,
+      "starScore": [
+        3200,
+        5000,
+        7500
+      ],
+      "status": "VERIFIED",
+      "issues": [],
+      "verification": "static-structural"
+    },
+    {
+      "id": "ss-241",
+      "index": 241,
+      "sector": 9,
+      "local": 1,
+      "seed": 1978743443,
+      "name": "Keep It Alive",
+      "type": "escort",
+      "objective": {
+        "kind": "escort",
+        "target": 50,
+        "label": "Protect the courier for 50s"
+      },
+      "boss": null,
+      "hazards": [],
+      "difficulty": 7.46,
+      "waves": 3,
+      "enemies": 19,
+      "threat": 93.2,
+      "starScore": [
+        1000,
+        1600,
+        2400
+      ],
+      "status": "VERIFIED",
+      "issues": [],
+      "verification": "static-structural"
+    },
+    {
+      "id": "ss-242",
+      "index": 242,
+      "sector": 9,
+      "local": 2,
+      "seed": 1995521062,
+      "name": "Hunter Detail",
+      "type": "eliminate",
+      "objective": {
+        "kind": "eliminate",
+        "target": 12,
+        "label": "Destroy 12 hostiles"
+      },
+      "boss": null,
+      "hazards": [],
+      "difficulty": 7.57,
+      "waves": 3,
+      "enemies": 21,
+      "threat": 93.4,
+      "starScore": [
+        1200,
+        1800,
+        2700
+      ],
+      "status": "VERIFIED",
+      "issues": [],
+      "verification": "static-structural"
+    },
+    {
+      "id": "ss-243",
+      "index": 243,
+      "sector": 9,
+      "local": 3,
+      "seed": 2012298681,
+      "name": "Contact Report",
+      "type": "eliminate",
+      "objective": {
+        "kind": "eliminate",
+        "target": 13,
+        "label": "Destroy 13 hostiles"
+      },
+      "boss": null,
+      "hazards": [],
+      "difficulty": 7.67,
+      "waves": 3,
+      "enemies": 23,
+      "threat": 88.8,
+      "starScore": [
+        1300,
+        2000,
+        2900
+      ],
+      "status": "VERIFIED",
+      "issues": [],
+      "verification": "static-structural"
+    },
+    {
+      "id": "ss-244",
+      "index": 244,
+      "sector": 9,
+      "local": 4,
+      "seed": 2029076300,
+      "name": "Holding Pattern",
+      "type": "survive",
+      "objective": {
+        "kind": "survive",
+        "target": 56,
+        "label": "Survive 56s"
+      },
+      "boss": null,
+      "hazards": [
+        "gravity"
+      ],
+      "difficulty": 7.77,
+      "waves": 3,
+      "enemies": 18,
+      "threat": 86.3,
+      "starScore": [
+        1000,
+        1500,
+        2300
+      ],
+      "status": "VERIFIED",
+      "issues": [],
+      "verification": "static-structural"
+    },
+    {
+      "id": "ss-245",
+      "index": 245,
+      "sector": 9,
+      "local": 5,
+      "seed": 2045853919,
+      "name": "Cores First",
+      "type": "resource",
+      "objective": {
+        "kind": "resource",
+        "target": 6,
+        "label": "Recover 6 energy cores"
+      },
+      "boss": null,
+      "hazards": [
+        "gravity"
+      ],
+      "difficulty": 7.88,
+      "waves": 4,
+      "enemies": 25,
+      "threat": 98.9,
+      "starScore": [
+        1400,
+        2100,
+        3200
+      ],
+      "status": "VERIFIED",
+      "issues": [],
+      "verification": "static-structural"
+    },
+    {
+      "id": "ss-246",
+      "index": 246,
+      "sector": 9,
+      "local": 6,
+      "seed": 2062631538,
+      "name": "Rock Run",
+      "type": "asteroid",
+      "objective": {
+        "kind": "asteroid",
+        "target": 53,
+        "label": "Survive the debris field for 53s"
+      },
+      "boss": null,
+      "hazards": [
+        "asteroid"
+      ],
+      "difficulty": 7.98,
+      "waves": 4,
+      "enemies": 22,
+      "threat": 98.9,
+      "starScore": [
+        1200,
+        1900,
+        2800
+      ],
+      "status": "VERIFIED",
+      "issues": [],
+      "verification": "static-structural"
+    },
+    {
+      "id": "ss-247",
+      "index": 247,
+      "sector": 9,
+      "local": 7,
+      "seed": 2079409157,
+      "name": "Clear the Lane",
+      "type": "eliminate",
+      "objective": {
+        "kind": "eliminate",
+        "target": 12,
+        "label": "Destroy 12 hostiles"
+      },
+      "boss": null,
+      "hazards": [
+        "asteroid"
+      ],
+      "difficulty": 8.08,
+      "waves": 4,
+      "enemies": 21,
+      "threat": 110.1,
+      "starScore": [
+        1200,
+        1800,
+        2700
+      ],
+      "status": "VERIFIED",
+      "issues": [],
+      "verification": "static-structural"
+    },
+    {
+      "id": "ss-248",
+      "index": 248,
+      "sector": 9,
+      "local": 8,
+      "seed": 2096186776,
+      "name": "Courier Run",
+      "type": "escort",
+      "objective": {
+        "kind": "escort",
+        "target": 54,
+        "label": "Protect the courier for 54s"
+      },
+      "boss": null,
+      "hazards": [],
+      "difficulty": 8.19,
+      "waves": 4,
+      "enemies": 22,
+      "threat": 96.5,
+      "starScore": [
+        1200,
+        1900,
+        2800
+      ],
+      "status": "VERIFIED",
+      "issues": [],
+      "verification": "static-structural"
+    },
+    {
+      "id": "ss-249",
+      "index": 249,
+      "sector": 9,
+      "local": 9,
+      "seed": 2112964395,
+      "name": "Hunter Detail",
+      "type": "eliminate",
+      "objective": {
+        "kind": "eliminate",
+        "target": 14,
+        "label": "Destroy 14 hostiles"
+      },
+      "boss": null,
+      "hazards": [],
+      "difficulty": 8.29,
+      "waves": 4,
+      "enemies": 26,
+      "threat": 113.2,
+      "starScore": [
+        1400,
+        2200,
+        3300
+      ],
+      "status": "VERIFIED",
+      "issues": [],
+      "verification": "static-structural"
+    },
+    {
+      "id": "ss-250",
+      "index": 250,
+      "sector": 9,
+      "local": 10,
+      "seed": 4210313865,
+      "name": "Runners",
+      "type": "interception",
+      "objective": {
+        "kind": "interception",
+        "target": 4,
+        "label": "Stop 4 runners escaping"
+      },
+      "boss": null,
+      "hazards": [
+        "gravity"
+      ],
+      "difficulty": 8.39,
+      "waves": 5,
+      "enemies": 14,
+      "threat": 64.2,
+      "starScore": [
+        800,
+        1200,
+        1800
+      ],
+      "status": "VERIFIED",
+      "issues": [],
+      "verification": "static-structural"
+    },
+    {
+      "id": "ss-251",
+      "index": 251,
+      "sector": 9,
+      "local": 11,
+      "seed": 4193536246,
+      "name": "Last Stand",
+      "type": "survive",
+      "objective": {
+        "kind": "survive",
+        "target": 56,
+        "label": "Survive 56s"
+      },
+      "boss": null,
+      "hazards": [
+        "gravity"
+      ],
+      "difficulty": 8.5,
+      "waves": 5,
+      "enemies": 20,
+      "threat": 102.9,
+      "starScore": [
+        1100,
+        1700,
+        2500
+      ],
+      "status": "VERIFIED",
+      "issues": [],
+      "verification": "static-structural"
+    },
+    {
+      "id": "ss-252",
+      "index": 252,
+      "sector": 9,
+      "local": 12,
+      "seed": 4176758627,
+      "name": "Cores First",
+      "type": "resource",
+      "objective": {
+        "kind": "resource",
+        "target": 6,
+        "label": "Recover 6 energy cores"
+      },
+      "boss": null,
+      "hazards": [],
+      "difficulty": 8.6,
+      "waves": 5,
+      "enemies": 23,
+      "threat": 113.9,
+      "starScore": [
+        1300,
+        2000,
+        2900
+      ],
+      "status": "VERIFIED",
+      "issues": [],
+      "verification": "static-structural"
+    },
+    {
+      "id": "ss-253",
+      "index": 253,
+      "sector": 9,
+      "local": 13,
+      "seed": 4159981008,
+      "name": "Asteroid Alley",
+      "type": "asteroid",
+      "objective": {
+        "kind": "asteroid",
+        "target": 57,
+        "label": "Survive the debris field for 57s"
+      },
+      "boss": null,
+      "hazards": [
+        "asteroid"
+      ],
+      "difficulty": 8.7,
+      "waves": 5,
+      "enemies": 27,
+      "threat": 116.7,
+      "starScore": [
+        1500,
+        2300,
+        3400
+      ],
+      "status": "VERIFIED",
+      "issues": [],
+      "verification": "static-structural"
+    },
+    {
+      "id": "ss-254",
+      "index": 254,
+      "sector": 9,
+      "local": 14,
+      "seed": 4277424341,
+      "name": "Contact Report",
+      "type": "eliminate",
+      "objective": {
+        "kind": "eliminate",
+        "target": 12,
+        "label": "Destroy 12 hostiles"
+      },
+      "boss": null,
+      "hazards": [
+        "asteroid"
+      ],
+      "difficulty": 8.81,
+      "waves": 5,
+      "enemies": 22,
+      "threat": 101,
+      "starScore": [
+        1200,
+        1900,
+        2800
+      ],
+      "status": "VERIFIED",
+      "issues": [],
+      "verification": "static-structural"
+    },
+    {
+      "id": "ss-255",
+      "index": 255,
+      "sector": 9,
+      "local": 15,
+      "seed": 4260646722,
+      "name": "Station Watch",
+      "type": "defense",
+      "objective": {
+        "kind": "defense",
+        "target": 58,
+        "label": "Defend the relay for 58s"
+      },
+      "boss": null,
+      "hazards": [
+        "gravity"
+      ],
+      "difficulty": 8.91,
+      "waves": 6,
+      "enemies": 28,
+      "threat": 117.4,
+      "starScore": [
+        1500,
+        2400,
+        3500
+      ],
+      "status": "VERIFIED",
+      "issues": [],
+      "verification": "static-structural"
+    },
+    {
+      "id": "ss-256",
+      "index": 256,
+      "sector": 9,
+      "local": 16,
+      "seed": 4243869103,
+      "name": "Patrol Sweep",
+      "type": "eliminate",
+      "objective": {
+        "kind": "eliminate",
+        "target": 11,
+        "label": "Destroy 11 hostiles"
+      },
+      "boss": null,
+      "hazards": [],
+      "difficulty": 9.01,
+      "waves": 6,
+      "enemies": 20,
+      "threat": 100.1,
+      "starScore": [
+        1100,
+        1700,
+        2500
+      ],
+      "status": "VERIFIED",
+      "issues": [],
+      "verification": "static-structural"
+    },
+    {
+      "id": "ss-257",
+      "index": 257,
+      "sector": 9,
+      "local": 17,
+      "seed": 4227091484,
+      "name": "Sweep and Burn",
+      "type": "eliminate",
+      "objective": {
+        "kind": "eliminate",
+        "target": 11,
+        "label": "Destroy 11 hostiles"
+      },
+      "boss": null,
+      "hazards": [],
+      "difficulty": 9.12,
+      "waves": 6,
+      "enemies": 20,
+      "threat": 105.7,
+      "starScore": [
+        1100,
+        1700,
+        2500
+      ],
+      "status": "VERIFIED",
+      "issues": [],
+      "verification": "static-structural"
+    },
+    {
+      "id": "ss-258",
+      "index": 258,
+      "sector": 9,
+      "local": 18,
+      "seed": 49567521,
+      "name": "Holding Pattern",
+      "type": "survive",
+      "objective": {
+        "kind": "survive",
+        "target": 56,
+        "label": "Survive 56s"
+      },
+      "boss": null,
+      "hazards": [
+        "gravity"
+      ],
+      "difficulty": 9.22,
+      "waves": 6,
+      "enemies": 28,
+      "threat": 125.3,
+      "starScore": [
+        1500,
+        2400,
+        3500
+      ],
+      "status": "VERIFIED",
+      "issues": [],
+      "verification": "static-structural"
+    },
+    {
+      "id": "ss-259",
+      "index": 259,
+      "sector": 9,
+      "local": 19,
+      "seed": 32789902,
+      "name": "Recovery",
+      "type": "resource",
+      "objective": {
+        "kind": "resource",
+        "target": 6,
+        "label": "Recover 6 energy cores"
+      },
+      "boss": null,
+      "hazards": [],
+      "difficulty": 9.32,
+      "waves": 6,
+      "enemies": 29,
+      "threat": 136.3,
+      "starScore": [
+        1600,
+        2500,
+        3700
+      ],
+      "status": "VERIFIED",
+      "issues": [],
+      "verification": "static-structural"
+    },
+    {
+      "id": "ss-260",
+      "index": 260,
+      "sector": 9,
+      "local": 20,
+      "seed": 16159378,
+      "name": "Ace Down",
+      "type": "elite",
+      "objective": {
+        "kind": "elite",
+        "target": 3,
+        "label": "Destroy 3 elite aces"
+      },
+      "boss": null,
+      "hazards": [
+        "gravity"
+      ],
+      "difficulty": 9.43,
+      "waves": 7,
+      "enemies": 26,
+      "threat": 122.1,
+      "starScore": [
+        1400,
+        2200,
+        3300
+      ],
+      "status": "VERIFIED",
+      "issues": [],
+      "verification": "static-structural"
+    },
+    {
+      "id": "ss-261",
+      "index": 261,
+      "sector": 9,
+      "local": 21,
+      "seed": 32936997,
+      "name": "Contact Report",
+      "type": "eliminate",
+      "objective": {
+        "kind": "eliminate",
+        "target": 14,
+        "label": "Destroy 14 hostiles"
+      },
+      "boss": null,
+      "hazards": [
+        "asteroid"
+      ],
+      "difficulty": 9.53,
+      "waves": 7,
+      "enemies": 26,
+      "threat": 117.2,
+      "starScore": [
+        1400,
+        2200,
+        3300
+      ],
+      "status": "VERIFIED",
+      "issues": [],
+      "verification": "static-structural"
+    },
+    {
+      "id": "ss-262",
+      "index": 262,
+      "sector": 9,
+      "local": 22,
+      "seed": 4277571436,
+      "name": "Safe Passage",
+      "type": "escort",
+      "objective": {
+        "kind": "escort",
+        "target": 63,
+        "label": "Protect the courier for 63s"
+      },
+      "boss": null,
+      "hazards": [],
+      "difficulty": 9.63,
+      "waves": 7,
+      "enemies": 24,
+      "threat": 109.9,
+      "starScore": [
+        1300,
+        2000,
+        3000
+      ],
+      "status": "VERIFIED",
+      "issues": [],
+      "verification": "static-structural"
+    },
+    {
+      "id": "ss-263",
+      "index": 263,
+      "sector": 9,
+      "local": 23,
+      "seed": 4294349055,
+      "name": "Contact Report",
+      "type": "eliminate",
+      "objective": {
+        "kind": "eliminate",
+        "target": 14,
+        "label": "Destroy 14 hostiles"
+      },
+      "boss": null,
+      "hazards": [],
+      "difficulty": 9.74,
+      "waves": 7,
+      "enemies": 26,
+      "threat": 116.8,
+      "starScore": [
+        1400,
+        2200,
+        3300
+      ],
+      "status": "VERIFIED",
+      "issues": [],
+      "verification": "static-structural"
+    },
+    {
+      "id": "ss-264",
+      "index": 264,
+      "sector": 9,
+      "local": 24,
+      "seed": 4244016198,
+      "name": "Clear the Lane",
+      "type": "eliminate",
+      "objective": {
+        "kind": "eliminate",
+        "target": 14,
+        "label": "Destroy 14 hostiles"
+      },
+      "boss": null,
+      "hazards": [],
+      "difficulty": 9.84,
+      "waves": 7,
+      "enemies": 25,
+      "threat": 124.7,
+      "starScore": [
+        1400,
+        2100,
+        3200
+      ],
+      "status": "VERIFIED",
+      "issues": [],
+      "verification": "static-structural"
+    },
+    {
+      "id": "ss-265",
+      "index": 265,
+      "sector": 9,
+      "local": 25,
+      "seed": 4260793817,
+      "name": "Gauntlet",
+      "type": "gauntlet",
+      "objective": {
+        "kind": "gauntlet",
+        "target": 27,
+        "label": "Clear all 27 hostiles"
+      },
+      "boss": null,
+      "hazards": [
+        "gravity"
+      ],
+      "difficulty": 9.94,
+      "waves": 8,
+      "enemies": 27,
+      "threat": 126.3,
+      "starScore": [
+        1500,
+        2300,
+        3400
+      ],
+      "status": "VERIFIED",
+      "issues": [],
+      "verification": "static-structural"
+    },
+    {
+      "id": "ss-266",
+      "index": 266,
+      "sector": 9,
+      "local": 26,
+      "seed": 4210460960,
+      "name": "Cores First",
+      "type": "resource",
+      "objective": {
+        "kind": "resource",
+        "target": 6,
+        "label": "Recover 6 energy cores"
+      },
+      "boss": null,
+      "hazards": [],
+      "difficulty": 10,
+      "waves": 8,
+      "enemies": 29,
+      "threat": 145.9,
+      "starScore": [
+        1600,
+        2500,
+        3700
+      ],
+      "status": "VERIFIED",
+      "issues": [],
+      "verification": "static-structural"
+    },
+    {
+      "id": "ss-267",
+      "index": 267,
+      "sector": 9,
+      "local": 27,
+      "seed": 4227238579,
+      "name": "Asteroid Alley",
+      "type": "asteroid",
+      "objective": {
+        "kind": "asteroid",
+        "target": 66,
+        "label": "Survive the debris field for 66s"
+      },
+      "boss": null,
+      "hazards": [
+        "asteroid"
+      ],
+      "difficulty": 10,
+      "waves": 8,
+      "enemies": 28,
+      "threat": 128.1,
+      "starScore": [
+        1500,
+        2400,
+        3500
+      ],
+      "status": "VERIFIED",
+      "issues": [],
+      "verification": "static-structural"
+    },
+    {
+      "id": "ss-268",
+      "index": 268,
+      "sector": 9,
+      "local": 28,
+      "seed": 150380330,
+      "name": "Patrol Sweep",
+      "type": "eliminate",
+      "objective": {
+        "kind": "eliminate",
+        "target": 14,
+        "label": "Destroy 14 hostiles"
+      },
+      "boss": null,
+      "hazards": [
+        "asteroid"
+      ],
+      "difficulty": 10,
+      "waves": 8,
+      "enemies": 25,
+      "threat": 124.9,
+      "starScore": [
+        1400,
+        2100,
+        3200
+      ],
+      "status": "VERIFIED",
+      "issues": [],
+      "verification": "static-structural"
+    },
+    {
+      "id": "ss-269",
+      "index": 269,
+      "sector": 9,
+      "local": 29,
+      "seed": 167157949,
+      "name": "Safe Passage",
+      "type": "escort",
+      "objective": {
+        "kind": "escort",
+        "target": 67,
+        "label": "Protect the courier for 67s"
+      },
+      "boss": null,
+      "hazards": [],
+      "difficulty": 10,
+      "waves": 8,
+      "enemies": 23,
+      "threat": 121.1,
+      "starScore": [
+        1300,
+        2000,
+        2900
+      ],
+      "status": "VERIFIED",
+      "issues": [],
+      "verification": "static-structural"
+    },
+    {
+      "id": "ss-270",
+      "index": 270,
+      "sector": 9,
+      "local": 30,
+      "seed": 116972187,
+      "name": "Citadel Gate",
+      "type": "boss",
+      "objective": {
+        "kind": "boss",
+        "target": 1,
+        "label": "Destroy The Iron Behemoth"
+      },
+      "boss": "behemoth",
+      "hazards": [
+        "gravity"
+      ],
+      "difficulty": 10,
+      "waves": 2,
+      "enemies": 15,
+      "threat": 62,
+      "starScore": [
+        3000,
+        4700,
+        7000
+      ],
+      "status": "VERIFIED",
+      "issues": [],
+      "verification": "static-structural"
+    },
+    {
+      "id": "ss-271",
+      "index": 271,
+      "sector": 10,
+      "local": 1,
+      "seed": 100194568,
+      "name": "Sweep and Burn",
+      "type": "eliminate",
+      "objective": {
+        "kind": "eliminate",
+        "target": 10,
+        "label": "Destroy 10 hostiles"
+      },
+      "boss": null,
+      "hazards": [],
+      "difficulty": 8.38,
+      "waves": 3,
+      "enemies": 19,
+      "threat": 91.8,
+      "starScore": [
+        1000,
+        1600,
+        2400
+      ],
+      "status": "VERIFIED",
+      "issues": [],
+      "verification": "static-structural"
+    },
+    {
+      "id": "ss-272",
+      "index": 272,
+      "sector": 10,
+      "local": 2,
+      "seed": 150527425,
+      "name": "Hold the Line",
+      "type": "survive",
+      "objective": {
+        "kind": "survive",
+        "target": 59,
+        "label": "Survive 59s"
+      },
+      "boss": null,
+      "hazards": [
+        "gravity"
+      ],
+      "difficulty": 8.49,
+      "waves": 3,
+      "enemies": 18,
+      "threat": 88.2,
+      "starScore": [
+        1000,
+        1500,
+        2300
+      ],
+      "status": "VERIFIED",
+      "issues": [],
+      "verification": "static-structural"
+    },
+    {
+      "id": "ss-273",
+      "index": 273,
+      "sector": 10,
+      "local": 3,
+      "seed": 133749806,
+      "name": "Recovery",
+      "type": "resource",
+      "objective": {
+        "kind": "resource",
+        "target": 6,
+        "label": "Recover 6 energy cores"
+      },
+      "boss": null,
+      "hazards": [],
+      "difficulty": 8.59,
+      "waves": 3,
+      "enemies": 18,
+      "threat": 88.4,
+      "starScore": [
+        1000,
+        1500,
+        2300
+      ],
+      "status": "VERIFIED",
+      "issues": [],
+      "verification": "static-structural"
+    },
+    {
+      "id": "ss-274",
+      "index": 274,
+      "sector": 10,
+      "local": 4,
+      "seed": 184082663,
+      "name": "Through the Belt",
+      "type": "asteroid",
+      "objective": {
+        "kind": "asteroid",
+        "target": 53,
+        "label": "Survive the debris field for 53s"
+      },
+      "boss": null,
+      "hazards": [
+        "asteroid"
+      ],
+      "difficulty": 8.69,
+      "waves": 3,
+      "enemies": 23,
+      "threat": 88.9,
+      "starScore": [
+        1300,
+        2000,
+        2900
+      ],
+      "status": "VERIFIED",
+      "issues": [],
+      "verification": "static-structural"
+    },
+    {
+      "id": "ss-275",
+      "index": 275,
+      "sector": 10,
+      "local": 5,
+      "seed": 167305044,
+      "name": "Hunter Detail",
+      "type": "eliminate",
+      "objective": {
+        "kind": "eliminate",
+        "target": 11,
+        "label": "Destroy 11 hostiles"
+      },
+      "boss": null,
+      "hazards": [
+        "gravity"
+      ],
+      "difficulty": 8.8,
+      "waves": 4,
+      "enemies": 20,
+      "threat": 104.6,
+      "starScore": [
+        1100,
+        1700,
+        2500
+      ],
+      "status": "VERIFIED",
+      "issues": [],
+      "verification": "static-structural"
+    },
+    {
+      "id": "ss-276",
+      "index": 276,
+      "sector": 10,
+      "local": 6,
+      "seed": 217637901,
+      "name": "Safe Passage",
+      "type": "escort",
+      "objective": {
+        "kind": "escort",
+        "target": 55,
+        "label": "Protect the courier for 55s"
+      },
+      "boss": null,
+      "hazards": [],
+      "difficulty": 8.9,
+      "waves": 4,
+      "enemies": 17,
+      "threat": 99.6,
+      "starScore": [
+        900,
+        1400,
+        2200
+      ],
+      "status": "VERIFIED",
+      "issues": [],
+      "verification": "static-structural"
+    },
+    {
+      "id": "ss-277",
+      "index": 277,
+      "sector": 10,
+      "local": 7,
+      "seed": 200860282,
+      "name": "Contact Report",
+      "type": "eliminate",
+      "objective": {
+        "kind": "eliminate",
+        "target": 13,
+        "label": "Destroy 13 hostiles"
+      },
+      "boss": null,
+      "hazards": [
+        "asteroid"
+      ],
+      "difficulty": 9,
+      "waves": 4,
+      "enemies": 23,
+      "threat": 103.8,
+      "starScore": [
+        1300,
+        2000,
+        2900
+      ],
+      "status": "VERIFIED",
+      "issues": [],
+      "verification": "static-structural"
+    },
+    {
+      "id": "ss-278",
+      "index": 278,
+      "sector": 10,
+      "local": 8,
+      "seed": 4277718531,
+      "name": "Patrol Sweep",
+      "type": "eliminate",
+      "objective": {
+        "kind": "eliminate",
+        "target": 13,
+        "label": "Destroy 13 hostiles"
+      },
+      "boss": null,
+      "hazards": [],
+      "difficulty": 9.11,
+      "waves": 4,
+      "enemies": 23,
+      "threat": 105.8,
+      "starScore": [
+        1300,
+        2000,
+        2900
+      ],
+      "status": "VERIFIED",
+      "issues": [],
+      "verification": "static-structural"
+    },
+    {
+      "id": "ss-279",
+      "index": 279,
+      "sector": 10,
+      "local": 9,
+      "seed": 4260940912,
+      "name": "Under Siege",
+      "type": "survive",
+      "objective": {
+        "kind": "survive",
+        "target": 59,
+        "label": "Survive 59s"
+      },
+      "boss": null,
+      "hazards": [
+        "gravity"
+      ],
+      "difficulty": 9.21,
+      "waves": 4,
+      "enemies": 24,
+      "threat": 99,
+      "starScore": [
+        1300,
+        2000,
+        3000
+      ],
+      "status": "VERIFIED",
+      "issues": [],
+      "verification": "static-structural"
+    },
+    {
+      "id": "ss-280",
+      "index": 280,
+      "sector": 10,
+      "local": 10,
+      "seed": 2098158252,
+      "name": "Runners",
+      "type": "interception",
+      "objective": {
+        "kind": "interception",
+        "target": 5,
+        "label": "Stop 5 runners escaping"
+      },
+      "boss": null,
+      "hazards": [
+        "gravity"
+      ],
+      "difficulty": 9.31,
+      "waves": 5,
+      "enemies": 16,
+      "threat": 75.2,
+      "starScore": [
+        900,
+        1400,
+        2000
+      ],
+      "status": "VERIFIED",
+      "issues": [],
+      "verification": "static-structural"
+    },
+    {
+      "id": "ss-281",
+      "index": 281,
+      "sector": 10,
+      "local": 11,
+      "seed": 2114935871,
+      "name": "Debris Field",
+      "type": "asteroid",
+      "objective": {
+        "kind": "asteroid",
+        "target": 58,
+        "label": "Survive the debris field for 58s"
+      },
+      "boss": null,
+      "hazards": [
+        "asteroid"
+      ],
+      "difficulty": 9.42,
+      "waves": 5,
+      "enemies": 27,
+      "threat": 113.9,
+      "starScore": [
+        1500,
+        2300,
+        3400
+      ],
+      "status": "VERIFIED",
+      "issues": [],
+      "verification": "static-structural"
+    },
+    {
+      "id": "ss-282",
+      "index": 282,
+      "sector": 10,
+      "local": 12,
+      "seed": 2131713490,
+      "name": "Hunter Detail",
+      "type": "eliminate",
+      "objective": {
+        "kind": "eliminate",
+        "target": 12,
+        "label": "Destroy 12 hostiles"
+      },
+      "boss": null,
+      "hazards": [],
+      "difficulty": 9.52,
+      "waves": 5,
+      "enemies": 22,
+      "threat": 110.3,
+      "starScore": [
+        1200,
+        1900,
+        2800
+      ],
+      "status": "VERIFIED",
+      "issues": [],
+      "verification": "static-structural"
+    },
+    {
+      "id": "ss-283",
+      "index": 283,
+      "sector": 10,
+      "local": 13,
+      "seed": 2148491109,
+      "name": "Shepherd",
+      "type": "escort",
+      "objective": {
+        "kind": "escort",
+        "target": 59,
+        "label": "Protect the courier for 59s"
+      },
+      "boss": null,
+      "hazards": [],
+      "difficulty": 9.62,
+      "waves": 5,
+      "enemies": 26,
+      "threat": 124,
+      "starScore": [
+        1400,
+        2200,
+        3300
+      ],
+      "status": "VERIFIED",
+      "issues": [],
+      "verification": "static-structural"
+    },
+    {
+      "id": "ss-284",
+      "index": 284,
+      "sector": 10,
+      "local": 14,
+      "seed": 2031047776,
+      "name": "Hunter Detail",
+      "type": "eliminate",
+      "objective": {
+        "kind": "eliminate",
+        "target": 14,
+        "label": "Destroy 14 hostiles"
+      },
+      "boss": null,
+      "hazards": [
+        "asteroid"
+      ],
+      "difficulty": 9.73,
+      "waves": 5,
+      "enemies": 25,
+      "threat": 114.9,
+      "starScore": [
+        1400,
+        2100,
+        3200
+      ],
+      "status": "VERIFIED",
+      "issues": [],
+      "verification": "static-structural"
+    },
+    {
+      "id": "ss-285",
+      "index": 285,
+      "sector": 10,
+      "local": 15,
+      "seed": 2047825395,
+      "name": "Station Watch",
+      "type": "defense",
+      "objective": {
+        "kind": "defense",
+        "target": 60,
+        "label": "Defend the relay for 60s"
+      },
+      "boss": null,
+      "hazards": [
+        "gravity"
+      ],
+      "difficulty": 9.83,
+      "waves": 6,
+      "enemies": 31,
+      "threat": 126.9,
+      "starScore": [
+        1700,
+        2600,
+        3900
+      ],
+      "status": "VERIFIED",
+      "issues": [],
+      "verification": "static-structural"
+    },
+    {
+      "id": "ss-286",
+      "index": 286,
+      "sector": 10,
+      "local": 16,
+      "seed": 2064603014,
+      "name": "Wait It Out",
+      "type": "survive",
+      "objective": {
+        "kind": "survive",
+        "target": 59,
+        "label": "Survive 59s"
+      },
+      "boss": null,
+      "hazards": [
+        "gravity"
+      ],
+      "difficulty": 9.93,
+      "waves": 6,
+      "enemies": 25,
+      "threat": 112.1,
+      "starScore": [
+        1400,
+        2100,
+        3200
+      ],
+      "status": "VERIFIED",
+      "issues": [],
+      "verification": "static-structural"
+    },
+    {
+      "id": "ss-287",
+      "index": 287,
+      "sector": 10,
+      "local": 17,
+      "seed": 2081380633,
+      "name": "Salvage Run",
+      "type": "resource",
+      "objective": {
+        "kind": "resource",
+        "target": 6,
+        "label": "Recover 6 energy cores"
+      },
+      "boss": null,
+      "hazards": [],
+      "difficulty": 10,
+      "waves": 6,
+      "enemies": 22,
+      "threat": 107.3,
+      "starScore": [
+        1200,
+        1900,
+        2800
+      ],
+      "status": "VERIFIED",
+      "issues": [],
+      "verification": "static-structural"
+    },
+    {
+      "id": "ss-288",
+      "index": 288,
+      "sector": 10,
+      "local": 18,
+      "seed": 2232379204,
+      "name": "Through the Belt",
+      "type": "asteroid",
+      "objective": {
+        "kind": "asteroid",
+        "target": 62,
+        "label": "Survive the debris field for 62s"
+      },
+      "boss": null,
+      "hazards": [
+        "asteroid"
+      ],
+      "difficulty": 10,
+      "waves": 6,
+      "enemies": 30,
+      "threat": 133.1,
+      "starScore": [
+        1700,
+        2600,
+        3800
+      ],
+      "status": "VERIFIED",
+      "issues": [],
+      "verification": "static-structural"
+    },
+    {
+      "id": "ss-289",
+      "index": 289,
+      "sector": 10,
+      "local": 19,
+      "seed": 2249156823,
+      "name": "Clear the Lane",
+      "type": "eliminate",
+      "objective": {
+        "kind": "eliminate",
+        "target": 13,
+        "label": "Destroy 13 hostiles"
+      },
+      "boss": null,
+      "hazards": [],
+      "difficulty": 10,
+      "waves": 6,
+      "enemies": 23,
+      "threat": 113,
+      "starScore": [
+        1300,
+        2000,
+        2900
+      ],
+      "status": "VERIFIED",
+      "issues": [],
+      "verification": "static-structural"
+    },
+    {
+      "id": "ss-290",
+      "index": 290,
+      "sector": 10,
+      "local": 20,
+      "seed": 2198971061,
+      "name": "Ace Down",
+      "type": "elite",
+      "objective": {
+        "kind": "elite",
+        "target": 3,
+        "label": "Destroy 3 elite aces"
+      },
+      "boss": null,
+      "hazards": [
+        "gravity"
+      ],
+      "difficulty": 10,
+      "waves": 7,
+      "enemies": 28,
+      "threat": 140.5,
+      "starScore": [
+        1500,
+        2400,
+        3500
+      ],
+      "status": "VERIFIED",
+      "issues": [],
+      "verification": "static-structural"
+    },
+    {
+      "id": "ss-291",
+      "index": 291,
+      "sector": 10,
+      "local": 21,
+      "seed": 2182193442,
+      "name": "Contact Report",
+      "type": "eliminate",
+      "objective": {
+        "kind": "eliminate",
+        "target": 14,
+        "label": "Destroy 14 hostiles"
+      },
+      "boss": null,
+      "hazards": [
+        "asteroid"
+      ],
+      "difficulty": 10,
+      "waves": 7,
+      "enemies": 25,
+      "threat": 117.5,
+      "starScore": [
+        1400,
+        2100,
+        3200
+      ],
+      "status": "VERIFIED",
+      "issues": [],
+      "verification": "static-structural"
+    },
+    {
+      "id": "ss-292",
+      "index": 292,
+      "sector": 10,
+      "local": 22,
+      "seed": 2165415823,
+      "name": "Sweep and Burn",
+      "type": "eliminate",
+      "objective": {
+        "kind": "eliminate",
+        "target": 15,
+        "label": "Destroy 15 hostiles"
+      },
+      "boss": null,
+      "hazards": [],
+      "difficulty": 10,
+      "waves": 7,
+      "enemies": 28,
+      "threat": 120.9,
+      "starScore": [
+        1500,
+        2400,
+        3500
+      ],
+      "status": "VERIFIED",
+      "issues": [],
+      "verification": "static-structural"
+    },
+    {
+      "id": "ss-293",
+      "index": 293,
+      "sector": 10,
+      "local": 23,
+      "seed": 2148638204,
+      "name": "Wait It Out",
+      "type": "survive",
+      "objective": {
+        "kind": "survive",
+        "target": 59,
+        "label": "Survive 59s"
+      },
+      "boss": null,
+      "hazards": [
+        "gravity"
+      ],
+      "difficulty": 10,
+      "waves": 7,
+      "enemies": 29,
+      "threat": 137.9,
+      "starScore": [
+        1600,
+        2500,
+        3700
+      ],
+      "status": "VERIFIED",
+      "issues": [],
+      "verification": "static-structural"
+    },
+    {
+      "id": "ss-294",
+      "index": 294,
+      "sector": 10,
+      "local": 24,
+      "seed": 2131860585,
+      "name": "Cores First",
+      "type": "resource",
+      "objective": {
+        "kind": "resource",
+        "target": 6,
+        "label": "Recover 6 energy cores"
+      },
+      "boss": null,
+      "hazards": [],
+      "difficulty": 10,
+      "waves": 7,
+      "enemies": 25,
+      "threat": 125.1,
+      "starScore": [
+        1400,
+        2100,
+        3200
+      ],
+      "status": "VERIFIED",
+      "issues": [],
+      "verification": "static-structural"
+    },
+    {
+      "id": "ss-295",
+      "index": 295,
+      "sector": 10,
+      "local": 25,
+      "seed": 2115082966,
+      "name": "The Long Fight",
+      "type": "gauntlet",
+      "objective": {
+        "kind": "gauntlet",
+        "target": 33,
+        "label": "Clear all 33 hostiles"
+      },
+      "boss": null,
+      "hazards": [
+        "gravity"
+      ],
+      "difficulty": 10,
+      "waves": 8,
+      "enemies": 33,
+      "threat": 153.3,
+      "starScore": [
+        1800,
+        2800,
+        4200
+      ],
+      "status": "VERIFIED",
+      "issues": [],
+      "verification": "static-structural"
+    },
+    {
+      "id": "ss-296",
+      "index": 296,
+      "sector": 10,
+      "local": 26,
+      "seed": 2098305347,
+      "name": "Clear the Lane",
+      "type": "eliminate",
+      "objective": {
+        "kind": "eliminate",
+        "target": 17,
+        "label": "Destroy 17 hostiles"
+      },
+      "boss": null,
+      "hazards": [],
+      "difficulty": 10,
+      "waves": 8,
+      "enemies": 30,
+      "threat": 140,
+      "starScore": [
+        1700,
+        2600,
+        3800
+      ],
+      "status": "VERIFIED",
+      "issues": [],
+      "verification": "static-structural"
+    },
+    {
+      "id": "ss-297",
+      "index": 297,
+      "sector": 10,
+      "local": 27,
+      "seed": 2081527728,
+      "name": "Escort Duty",
+      "type": "escort",
+      "objective": {
+        "kind": "escort",
+        "target": 68,
+        "label": "Protect the courier for 68s"
+      },
+      "boss": null,
+      "hazards": [],
+      "difficulty": 10,
+      "waves": 8,
+      "enemies": 29,
+      "threat": 137.5,
+      "starScore": [
+        1600,
+        2500,
+        3700
+      ],
+      "status": "VERIFIED",
+      "issues": [],
+      "verification": "static-structural"
+    },
+    {
+      "id": "ss-298",
+      "index": 298,
+      "sector": 10,
+      "local": 28,
+      "seed": 2333192013,
+      "name": "Clear the Lane",
+      "type": "eliminate",
+      "objective": {
+        "kind": "eliminate",
+        "target": 17,
+        "label": "Destroy 17 hostiles"
+      },
+      "boss": null,
+      "hazards": [
+        "asteroid"
+      ],
+      "difficulty": 10,
+      "waves": 8,
+      "enemies": 30,
+      "threat": 132.2,
+      "starScore": [
+        1700,
+        2600,
+        3800
+      ],
+      "status": "VERIFIED",
+      "issues": [],
+      "verification": "static-structural"
+    },
+    {
+      "id": "ss-299",
+      "index": 299,
+      "sector": 10,
+      "local": 29,
+      "seed": 2316414394,
+      "name": "Sweep and Burn",
+      "type": "eliminate",
+      "objective": {
+        "kind": "eliminate",
+        "target": 18,
+        "label": "Destroy 18 hostiles"
+      },
+      "boss": null,
+      "hazards": [],
+      "difficulty": 10,
+      "waves": 8,
+      "enemies": 32,
+      "threat": 153.6,
+      "starScore": [
+        1800,
+        2700,
+        4000
+      ],
+      "status": "VERIFIED",
+      "issues": [],
+      "verification": "static-structural"
+    },
+    {
+      "id": "ss-300",
+      "index": 300,
+      "sector": 10,
+      "local": 30,
+      "seed": 3952287727,
+      "name": "Break the Hull",
+      "type": "boss",
+      "objective": {
+        "kind": "boss",
+        "target": 1,
+        "label": "Destroy The Starfall Devourer"
+      },
+      "boss": "devourer",
+      "hazards": [
+        "gravity"
+      ],
+      "difficulty": 10,
+      "waves": 2,
+      "enemies": 13,
+      "threat": 63.9,
+      "starScore": [
+        2900,
+        4500,
+        6700
+      ],
+      "status": "VERIFIED",
+      "issues": [],
+      "verification": "static-structural"
+    }
+  ]
+}
