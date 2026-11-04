@@ -259,7 +259,7 @@ export class SceneRenderer {
     this.renderer.setClearColor(sector.palette.sky, 1)
     ;(this.planet.material as THREE.MeshStandardMaterial).color = new THREE.Color(sector.palette.planet)
     ;(this.planet.material as THREE.MeshStandardMaterial).emissive = new THREE.Color(sector.palette.accent).multiplyScalar(0.22)
-    this.planet.position.set(-34, 208, -80)
+    this.planet.position.set(-34, 252, -80)
     this.glow.color = new THREE.Color(sector.palette.accent)
     this.scene.fog = new THREE.Fog(new THREE.Color(sector.palette.fog), 200, 340)
   }
