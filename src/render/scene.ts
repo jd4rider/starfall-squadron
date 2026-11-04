@@ -7,6 +7,7 @@
  */
 import * as THREE from 'three'
 import { FIELD, QUALITY, type QualityId } from '../core/constants'
+import { frameField } from '../core/framing'
 import type { CombatSim, SimEvent } from '../sim/combat'
 import type { SectorSpec } from '../content/sectors'
 import { shipById } from '../content/ships'
@@ -47,6 +48,7 @@ function hullMaterial(color: THREE.ColorRepresentation, accent: THREE.ColorRepre
 }
 
 export class SceneRenderer {
+  private readonly canvas: HTMLCanvasElement
   private readonly renderer: THREE.WebGLRenderer
   private readonly scene = new THREE.Scene()
   private readonly camera: THREE.OrthographicCamera
@@ -74,11 +76,13 @@ export class SceneRenderer {
   private enemyPool = new Map<string, THREE.Group[]>()
   private asteroidMeshes: THREE.Mesh[] = []
   private quality: QualityId = 'high'
-  private aspect = 0.46
+  private viewHalfWidth = FIELD.halfWidth * 1.08
+  private viewHalfHeight = FIELD.halfHeight
   private shake = 0
   private menuTime = 0
 
   constructor(canvas: HTMLCanvasElement) {
+    this.canvas = canvas
     this.renderer = new THREE.WebGLRenderer({ canvas, antialias: true, alpha: false, powerPreference: 'high-performance' })
     this.renderer.setClearColor('#04060f', 1)
     this.camera = new THREE.OrthographicCamera(-50, 50, 89, -89, 0.1, 400)
@@ -270,17 +274,33 @@ export class SceneRenderer {
   }
 
   resize(): void {
-    const width = window.innerWidth
-    const height = window.innerHeight
-    this.aspect = width / Math.max(1, height)
+    // The canvas is what the player actually sees, and inside the arcade it is
+    // narrower than the window (portrait column on desktop), so measure it
+    // rather than the window.
+    const width = Math.max(1, this.canvas.clientWidth || window.innerWidth)
+    const height = Math.max(1, this.canvas.clientHeight || window.innerHeight)
     this.renderer.setSize(width, height, false)
-    const halfWidth = FIELD.halfWidth * 1.08
-    const halfHeight = halfWidth / this.aspect
-    this.camera.left = -halfWidth
-    this.camera.right = halfWidth
-    this.camera.top = FIELD.height / 2 + halfHeight
-    this.camera.bottom = FIELD.height / 2 - halfHeight
+
+    const frame = frameField(width, height)
+    this.viewHalfWidth = frame.halfWidth
+    this.viewHalfHeight = frame.halfHeight
+    const centerY = FIELD.height / 2
+    this.camera.left = -frame.halfWidth
+    this.camera.right = frame.halfWidth
+    this.camera.top = centerY + frame.halfHeight
+    this.camera.bottom = centerY - frame.halfHeight
     this.camera.updateProjectionMatrix()
+  }
+
+  /** Screen pixels → logical field coordinates, using the live camera framing. */
+  screenToWorld(clientX: number, clientY: number): { x: number; y: number } {
+    const rect = this.canvas.getBoundingClientRect()
+    const px = (clientX - rect.left) / Math.max(1, rect.width)
+    const py = (clientY - rect.top) / Math.max(1, rect.height)
+    return {
+      x: (px - 0.5) * 2 * this.viewHalfWidth,
+      y: FIELD.height / 2 + (0.5 - py) * 2 * this.viewHalfHeight,
+    }
   }
 
   showMenu(): void {

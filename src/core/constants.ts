@@ -6,7 +6,9 @@ export const FIELD = {
   height: 178,
   halfWidth: 50,
   halfHeight: 89,
-  playerMinY: 14,
+  // High enough that the fighter clears the bottom action buttons on short,
+  // wide viewports where the arena fills the canvas edge to edge.
+  playerMinY: 20,
   playerMaxY: 74,
   spawnY: 186,
   despawnY: -24,

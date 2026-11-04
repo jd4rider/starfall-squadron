@@ -42,10 +42,21 @@ body {
   user-select: none;
 }
 
-#app,
+/* The arena is portrait-first, so on a wide window it keeps a portrait column
+   instead of stretching the playfield into a letterbox strip. */
+#app {
+  position: fixed;
+  inset: 0;
+  margin-inline: auto;
+  width: 100%;
+  max-width: min(100%, calc(100dvh * 0.62));
+  overflow: hidden;
+  background: var(--ink);
+}
+
 #scene,
 #ui {
-  position: fixed;
+  position: absolute;
   inset: 0;
 }
 

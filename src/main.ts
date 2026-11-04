@@ -98,6 +98,11 @@ class App implements UIHandlers {
     this.renderer.setSector(sectorById(1))
     this.bindInput()
     window.addEventListener('resize', () => this.renderer.resize())
+    // The arcade embeds the game in a resizable iframe; observing the canvas
+    // catches layout changes that never fire a window resize.
+    if (typeof ResizeObserver !== 'undefined') {
+      new ResizeObserver(() => this.renderer.resize()).observe(canvas)
+    }
     document.addEventListener('visibilitychange', () => {
       if (document.hidden && this.sim && this.sim.phase === 'active') this.pause()
     })
@@ -433,14 +438,9 @@ class App implements UIHandlers {
     window.addEventListener('keyup', (event) => this.keys.delete(event.key.toLowerCase()))
   }
 
-  /** Screen → logical field coordinates, matching the orthographic camera. */
+  /** Screen → logical field coordinates, using the renderer's live framing. */
   private toWorld(clientX: number, clientY: number): { x: number; y: number } {
-    const rect = this.canvas.getBoundingClientRect()
-    const halfWidth = 50 * 1.08
-    const halfHeight = halfWidth / (rect.width / Math.max(1, rect.height))
-    const x = ((clientX - rect.left) / Math.max(1, rect.width) - 0.5) * 2 * halfWidth
-    const y = 89 + (0.5 - (clientY - rect.top) / Math.max(1, rect.height)) * 2 * halfHeight
-    return { x, y }
+    return this.renderer.screenToWorld(clientX, clientY)
   }
 
   private updateKeys(dt: number): void {
