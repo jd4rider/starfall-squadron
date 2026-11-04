@@ -128,7 +128,9 @@ describe('combat simulation', () => {
     expect(target).toBeDefined()
     if (!target) return
     target.x = 0
-    target.y = 42
+    // Directly ahead of the muzzle, so the test does not depend on where the
+    // ship happens to start.
+    target.y = game.player.y + 30
     const before = target.hp
     advance(game, 0.6)
     expect(target.hp).toBeLessThan(before)

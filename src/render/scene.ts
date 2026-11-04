@@ -268,6 +268,8 @@ export class SceneRenderer {
     const ship = shipById(shipId)
     if (this.playerMesh) this.world.remove(this.playerMesh)
     this.playerMesh = buildShip(ship.shape, ship.hullColor, ship.accentColor)
+    // The fighters read as tiny specks at the old scale on a phone screen.
+    this.playerMesh.scale.setScalar(1.7)
     this.world.add(this.playerMesh)
     if (this.hero) this.menuGroup.remove(this.hero)
     this.hero = buildShip(ship.shape, ship.hullColor, ship.accentColor)
@@ -288,13 +290,42 @@ export class SceneRenderer {
     this.viewHalfHeight = frame.halfHeight
     this.viewCenterX = frame.centerX
     this.viewCenterY = frame.centerY
-    this.camera.left = frame.centerX - frame.halfWidth
-    this.camera.right = frame.centerX + frame.halfWidth
-    this.camera.top = frame.centerY + frame.halfHeight
-    this.camera.bottom = frame.centerY - frame.halfHeight
-    this.camera.position.y = frame.centerY
+    // An orthographic frustum is expressed in view space, relative to the
+    // camera's own position — not in world coordinates. Keeping the camera on
+    // the arena centre and the frustum symmetric around it is the only way the
+    // projected field lands where frameField says it does.
+    this.camera.position.set(frame.centerX, frame.centerY, 160)
     this.camera.lookAt(frame.centerX, frame.centerY, 0)
+    this.camera.left = -frame.halfWidth
+    this.camera.right = frame.halfWidth
+    this.camera.top = frame.halfHeight
+    this.camera.bottom = -frame.halfHeight
     this.camera.updateProjectionMatrix()
+  }
+
+  /** Live camera geometry, for the debug API and layout checks. */
+  frameInfo(): Record<string, unknown> {
+    return {
+      canvasW: this.canvas.clientWidth,
+      canvasH: this.canvas.clientHeight,
+      bufferW: this.canvas.width,
+      bufferH: this.canvas.height,
+      // World-space bounds, which is what layout checks care about.
+      left: this.viewCenterX - this.viewHalfWidth,
+      right: this.viewCenterX + this.viewHalfWidth,
+      top: this.viewCenterY + this.viewHalfHeight,
+      bottom: this.viewCenterY - this.viewHalfHeight,
+      camX: this.camera.position.x,
+      camY: this.camera.position.y,
+      camZ: this.camera.position.z,
+      zoom: this.camera.zoom,
+      viewHalfW: this.viewHalfWidth,
+      viewHalfH: this.viewHalfHeight,
+      viewCenterY: this.viewCenterY,
+      player: this.playerMesh
+        ? { x: this.playerMesh.position.x, y: this.playerMesh.position.y, visible: this.playerMesh.visible }
+        : null,
+    }
   }
 
   /** Screen pixels → logical field coordinates, using the live camera framing. */
@@ -361,8 +392,8 @@ export class SceneRenderer {
       this.camera.position.x = (Math.random() - 0.5) * amount
       this.camera.position.y = FIELD.height / 2 + (Math.random() - 0.5) * amount
     } else {
-      this.camera.position.x += (0 - this.camera.position.x) * Math.min(1, dt * 8)
-      this.camera.position.y += (FIELD.height / 2 - this.camera.position.y) * Math.min(1, dt * 8)
+      this.camera.position.x += (this.viewCenterX - this.camera.position.x) * Math.min(1, dt * 8)
+      this.camera.position.y += (this.viewCenterY - this.camera.position.y) * Math.min(1, dt * 8)
     }
 
     this.renderer.render(this.scene, this.camera)
@@ -456,7 +487,7 @@ export class SceneRenderer {
       }
       mesh.position.set(enemy.x, enemy.y, 0)
       mesh.rotation.z = Math.sin(sim.time * 1.4 + enemy.path) * 0.2
-      const scale = enemy.flash > 0 ? 1 + enemy.flash * 0.16 : 1
+      const scale = (enemy.flash > 0 ? 1 + enemy.flash * 0.16 : 1) * 1.5
       mesh.scale.setScalar(scale)
       for (const child of mesh.children) {
         const material = (child as THREE.Mesh).material as THREE.MeshStandardMaterial | undefined
@@ -776,7 +807,7 @@ function buildShip(shape: string, hull: string, accent: string): THREE.Group {
       emissive: accent,
       emissiveIntensity: 0.9,
       transparent: true,
-      opacity: 0.16,
+      opacity: 0.06,
       side: THREE.DoubleSide,
       depthWrite: false,
     }),

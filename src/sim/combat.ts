@@ -288,9 +288,9 @@ export class CombatSim {
     this.player.maxShield = Math.round(ship.shield * shieldScale)
     this.player.shield = this.player.maxShield
     this.player.x = 0
-    this.player.y = 32
+    this.player.y = FIELD.playerMinY
     this.player.targetX = 0
-    this.player.targetY = 32
+    this.player.targetY = FIELD.playerMinY
     this.player.vx = 0
     this.player.vy = 0
     this.player.invuln = fresh ? 1.4 : PLAYER.respawnInvuln
@@ -301,7 +301,7 @@ export class CombatSim {
     this.drones = []
     const slots = Math.min(LIMITS.drones, ship.drones + (this.mods.drones ?? 0))
     for (let index = 0; index < slots; index += 1) {
-      this.drones.push({ x: 0, y: 26, fireTimer: 0.4, offset: index === 0 ? -7 : 7 })
+      this.drones.push({ x: 0, y: FIELD.playerMinY - 6, fireTimer: 0.4, offset: index === 0 ? -7 : 7 })
     }
     if (!fresh) this.player.lives = Math.max(0, this.player.lives - 1)
   }

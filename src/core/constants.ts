@@ -6,10 +6,10 @@ export const FIELD = {
   height: 178,
   halfWidth: 50,
   halfHeight: 89,
-  // High enough that the fighter clears the bottom action buttons on short,
-  // wide viewports where the arena fills the canvas edge to edge.
-  playerMinY: 20,
-  playerMaxY: 74,
+  // The fighter rides high in the arena and only climbs from there: it never
+  // drops toward the bottom controls, and the lane sits above mid-screen.
+  playerMinY: 76,
+  playerMaxY: 126,
   spawnY: 186,
   despawnY: -24,
 }

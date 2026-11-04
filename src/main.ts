@@ -589,6 +589,7 @@ class App implements UIHandlers {
       playerY: Math.round(this.sim.player.y * 10) / 10,
       kills: this.sim.kills,
       damageTaken: Math.round(this.sim.damageTaken),
+      frame: this.renderer.frameInfo(),
     }
   }
 
