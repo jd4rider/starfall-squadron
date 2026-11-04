@@ -1,7 +1,7 @@
 {
   "name": "starfall-squadron",
   "private": true,
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Starfall Squadron — a portrait-first 3D arcade space shooter built with Three.js.",
   "author": "jd4rider",
   "type": "module",

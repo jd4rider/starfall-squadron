@@ -42,21 +42,10 @@ body {
   user-select: none;
 }
 
-/* The arena is portrait-first, so on a wide window it keeps a portrait column
-   instead of stretching the playfield into a letterbox strip. */
-#app {
-  position: fixed;
-  inset: 0;
-  margin-inline: auto;
-  width: 100%;
-  max-width: min(100%, calc(100dvh * 0.62));
-  overflow: hidden;
-  background: var(--ink);
-}
-
+#app,
 #scene,
 #ui {
-  position: absolute;
+  position: fixed;
   inset: 0;
 }
 
@@ -235,11 +224,18 @@ button {
 .screen.menu {
   background: linear-gradient(180deg, rgba(4, 6, 15, 0) 0%, rgba(4, 6, 15, 0.25) 26%, rgba(4, 6, 15, 0.88) 56%, #04060f 100%);
   display: flex;
-  align-items: flex-end;
+  flex-direction: column;
+}
+
+/* Sits low when there is room, and scrolls from the top when there is not.
+   `align-items: flex-end` used to push the overflow off the top of the screen,
+   which cut the title off on short windows. */
+.screen.menu .screen-inner {
+  margin-top: auto;
 }
 
 .menu-hero {
-  padding-top: 18vh;
+  padding-top: clamp(0px, 10vh, 7rem);
 }
 
 .title {
@@ -659,6 +655,10 @@ button {
 .hud {
   position: absolute;
   inset: 0;
+  /* Keeps the controls beside the arena on a wide desktop window instead of
+     pinning them to the far corners, away from the ship. */
+  max-width: min(100%, calc(100dvh * 0.55));
+  margin-inline: auto;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -1039,6 +1039,25 @@ button {
 
 .left-handed .hud-lives {
   text-align: left;
+}
+
+/* Short windows: trim the menu so the title stays on screen. */
+@media (max-height: 720px) {
+  .menu-hero {
+    padding-top: 0;
+  }
+  .title {
+    font-size: clamp(1.9rem, 9vh, 2.6rem);
+  }
+  .tagline {
+    font-size: 0.78rem;
+  }
+  .btn.big {
+    min-height: 3.6rem;
+  }
+  .screen-inner {
+    gap: 0.65rem;
+  }
 }
 
 @media (min-width: 700px) {

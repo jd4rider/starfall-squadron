@@ -78,6 +78,8 @@ export class SceneRenderer {
   private quality: QualityId = 'high'
   private viewHalfWidth = FIELD.halfWidth * 1.08
   private viewHalfHeight = FIELD.halfHeight
+  private viewCenterX = 0
+  private viewCenterY = FIELD.halfHeight
   private shake = 0
   private menuTime = 0
 
@@ -284,11 +286,14 @@ export class SceneRenderer {
     const frame = frameField(width, height)
     this.viewHalfWidth = frame.halfWidth
     this.viewHalfHeight = frame.halfHeight
-    const centerY = FIELD.height / 2
-    this.camera.left = -frame.halfWidth
-    this.camera.right = frame.halfWidth
-    this.camera.top = centerY + frame.halfHeight
-    this.camera.bottom = centerY - frame.halfHeight
+    this.viewCenterX = frame.centerX
+    this.viewCenterY = frame.centerY
+    this.camera.left = frame.centerX - frame.halfWidth
+    this.camera.right = frame.centerX + frame.halfWidth
+    this.camera.top = frame.centerY + frame.halfHeight
+    this.camera.bottom = frame.centerY - frame.halfHeight
+    this.camera.position.y = frame.centerY
+    this.camera.lookAt(frame.centerX, frame.centerY, 0)
     this.camera.updateProjectionMatrix()
   }
 
@@ -298,8 +303,8 @@ export class SceneRenderer {
     const px = (clientX - rect.left) / Math.max(1, rect.width)
     const py = (clientY - rect.top) / Math.max(1, rect.height)
     return {
-      x: (px - 0.5) * 2 * this.viewHalfWidth,
-      y: FIELD.height / 2 + (0.5 - py) * 2 * this.viewHalfHeight,
+      x: this.viewCenterX + (px - 0.5) * 2 * this.viewHalfWidth,
+      y: this.viewCenterY + (0.5 - py) * 2 * this.viewHalfHeight,
     }
   }
 
