@@ -27,24 +27,51 @@ interface Particle {
 
 const TAU = Math.PI * 2
 
-function glowMaterial(color: THREE.ColorRepresentation, emissive = 0.9, metalness = 0.4): THREE.MeshStandardMaterial {
+function glowMaterial(color: THREE.ColorRepresentation, emissive = 1.15, metalness = 0.2): THREE.MeshStandardMaterial {
   return new THREE.MeshStandardMaterial({
     color,
     emissive: new THREE.Color(color),
     emissiveIntensity: emissive,
     metalness,
-    roughness: 0.35,
+    roughness: 0.5,
   })
 }
 
+/** Flat, saturated toy-plastic shading: cartoon, not chrome. */
 function hullMaterial(color: THREE.ColorRepresentation, accent: THREE.ColorRepresentation): THREE.MeshStandardMaterial {
   return new THREE.MeshStandardMaterial({
     color,
     emissive: new THREE.Color(accent),
-    emissiveIntensity: 0.22,
-    metalness: 0.75,
-    roughness: 0.32,
+    emissiveIntensity: 0.45,
+    metalness: 0.25,
+    roughness: 0.55,
   })
+}
+
+const OUTLINE_COLOR = '#080d1e'
+
+/**
+ * Inverted-hull outlines around every solid part. This is what gives the
+ * models their drawn, chunky arcade-cartoon silhouette; transparent shells
+ * (shields, flames, bubbles) are left alone so glows stay soft.
+ */
+function addToonOutline(group: THREE.Group, thickness = 1.1): void {
+  const outline = new THREE.MeshBasicMaterial({ color: OUTLINE_COLOR, side: THREE.BackSide })
+  const solids = group.children.filter((child) => {
+    const mesh = child as THREE.Mesh
+    if (!(mesh as unknown as { isMesh?: boolean }).isMesh) return false
+    const material = mesh.material as THREE.Material | undefined
+    return Boolean(material) && !material!.transparent
+  })
+  for (const child of solids) {
+    const mesh = child as THREE.Mesh
+    const shell = new THREE.Mesh(mesh.geometry, outline)
+    shell.position.copy(mesh.position)
+    shell.rotation.copy(mesh.rotation)
+    shell.scale.copy(mesh.scale).multiplyScalar(thickness)
+    shell.renderOrder = -1
+    group.add(shell)
+  }
 }
 
 export class SceneRenderer {
@@ -95,11 +122,11 @@ export class SceneRenderer {
     this.scene.add(this.menuGroup)
     this.world.visible = false
 
-    this.scene.add(new THREE.AmbientLight('#8fa8ff', 0.75))
-    const key = new THREE.DirectionalLight('#ffffff', 1.5)
+    this.scene.add(new THREE.AmbientLight('#93a9ff', 1.0))
+    const key = new THREE.DirectionalLight('#ffffff', 1.7)
     key.position.set(-40, 130, 90)
     this.scene.add(key)
-    const rim = new THREE.DirectionalLight('#7dd3fc', 0.85)
+    const rim = new THREE.DirectionalLight('#7dd3fc', 1.05)
     rim.position.set(50, 30, 40)
     this.scene.add(rim)
     this.glow = new THREE.PointLight('#4de1ff', 22, 90, 2)
@@ -814,6 +841,7 @@ function buildShip(shape: string, hull: string, accent: string): THREE.Group {
   )
   shield.name = 'shield'
   group.add(shield)
+  addToonOutline(group, 1.1)
   return group
 }
 
@@ -905,6 +933,7 @@ function buildEnemy(shape: string, color: string, accent: string, behavior: stri
     )
     group.add(bubble)
   }
+  addToonOutline(group, 1.12)
   return group
 }
 
@@ -1004,5 +1033,6 @@ function buildBoss(shape: string, color: string, accent: string): THREE.Group {
     parts.add(turret)
   }
   group.add(parts)
+  addToonOutline(group, 1.06)
   return group
 }

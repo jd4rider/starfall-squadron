@@ -3,6 +3,7 @@ import { generateMission, bossRushMission } from '../src/levels/generate'
 import { CombatSim, starsFor } from '../src/sim/combat'
 import { LIMITS } from '../src/core/constants'
 import { POWERUPS } from '../src/content/powerups'
+import { enemyById } from '../src/content/enemies'
 
 function sim(index = 1) {
   return new CombatSim({ mission: generateMission(index), shipId: 'falcon', primary: 'pulse', secondary: 'missiles', primaryLevel: 1 })
@@ -27,6 +28,47 @@ describe('combat simulation', () => {
     advance(game, 0.5)
     expect(game.bullets.length).toBeGreaterThan(0)
     expect(game.bullets.every((bullet) => !bullet.hostile)).toBe(true)
+  })
+
+  it('fires tail guns downward so ships that overshoot are still in range', () => {
+    const game = sim()
+    advance(game, 0.8)
+    const rear = game.bullets.filter((bullet) => !bullet.hostile && bullet.vy < -60)
+    expect(rear.length).toBeGreaterThan(0)
+    expect(rear.every((bullet) => bullet.y < game.player.y)).toBe(true)
+  })
+
+  it('damages an enemy that has dropped below the fighter', () => {
+    const game = sim()
+    const spec = { ...enemyById('scout'), behavior: 'advance' as const, speed: 0 }
+    game.enemies.push({
+      id: 999,
+      spec,
+      x: game.player.x,
+      y: game.player.y - 12,
+      vx: 0,
+      vy: 0,
+      baseX: game.player.x,
+      hp: 500,
+      maxHp: 500,
+      r: 3,
+      fireTimer: 99,
+      path: 0,
+      stun: 0,
+      priority: false,
+      shielded: 0,
+      flash: 0,
+      drift: 0,
+    })
+    advance(game, 1)
+    expect(game.enemies[0]?.hp).toBeLessThan(500)
+  })
+
+  it('reaches the finger quickly instead of trailing behind it', () => {
+    const game = sim()
+    game.setTarget(30, game.player.y)
+    advance(game, 0.3)
+    expect(Math.abs(game.player.x - 30)).toBeLessThan(6)
   })
 
   it('spawns the scheduled waves', () => {

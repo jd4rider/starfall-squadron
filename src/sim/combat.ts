@@ -235,6 +235,7 @@ export class CombatSim {
     maxShield: 60,
     invuln: 1.2,
     fireTimer: 0,
+    rearTimer: 0,
     secondaryTimer: 0,
     secondaryCharges: 4,
     abilityCooldown: 0,
@@ -296,6 +297,7 @@ export class CombatSim {
     this.player.invuln = fresh ? 1.4 : PLAYER.respawnInvuln
     this.player.jam = 0
     this.player.fireTimer = 0.2
+    this.player.rearTimer = 0.35
     this.player.abilityCooldown = 0
     this.player.secondaryCharges = secondaryById(this.secondary).charges
     this.drones = []
@@ -378,15 +380,14 @@ export class CombatSim {
 
   private updatePlayer(dt: number): void {
     const player = this.player
-    const speed = this.ship.speed * (this.active('speedBoost') ? 1.35 : 1) * (this.mods.speed ?? 1) * 0.85
-    const accel = this.ship.accel * (this.active('speedBoost') ? 1.3 : 1)
+    const speed = this.ship.speed * (this.active('speedBoost') ? 1.35 : 1) * (this.mods.speed ?? 1)
     const dx = player.targetX - player.x
     const dy = player.targetY - player.y
-    player.vx = clamp(player.vx + clamp(dx * 9, -accel, accel) * dt, -speed * 2.4, speed * 2.4)
-    player.vy = clamp(player.vy + clamp(dy * 9, -accel, accel) * dt, -speed * 2.4, speed * 2.4)
-    const drag = Math.max(0, 1 - 7 * dt)
-    player.vx *= drag
-    player.vy *= drag
+    // Direct exponential follow. The old accelerate-and-drag model topped the
+    // ship out around 190 units/s, so a full-screen swipe took half a second and
+    // the fighter visibly trailed the finger; this closes the gap in ~70ms.
+    player.vx = clamp(dx * 16, -speed * 7, speed * 7)
+    player.vy = clamp(dy * 16, -speed * 4, speed * 4)
     player.x = clamp(player.x + player.vx * dt, -FIELD.halfWidth + 3, FIELD.halfWidth - 3)
     player.y = clamp(player.y + player.vy * dt, FIELD.playerMinY, FIELD.playerMaxY)
     player.invuln = Math.max(0, player.invuln - dt)
@@ -403,6 +404,8 @@ export class CombatSim {
 
     player.fireTimer -= dt
     if (player.fireTimer <= 0 && player.jam <= 0) this.fireWeapon()
+    player.rearTimer -= dt
+    if (player.rearTimer <= 0 && player.jam <= 0) this.fireRearGuns()
 
     this.fireDrones(dt)
     this.missileTimer -= dt
@@ -463,6 +466,34 @@ export class CombatSim {
       )
     }
     this.events.push({ type: 'shot', x: this.player.x, y: this.player.y + 4, color: spec.color })
+  }
+
+  /**
+   * Tail guns. Enemies regularly overshoot the fighter's lane, and without a
+   * rear arc those ships are untouchable and just sit under the player.
+   */
+  private fireRearGuns(): void {
+    if (this.mods.missileOnly) return
+    const spec = weaponById(this.weaponId)
+    const level = weaponLevel(spec, this.weaponLevel)
+    const damageMul =
+      this.ship.damage * (this.active('overdrive') ? 1.6 : 1) * (this.active('damageBoost') ? 1.3 : 1)
+    this.player.rearTimer = Math.max(0.08, (level.cooldown * 1.8) / this.ship.fireRate)
+    const damage = level.damage * damageMul * 0.5
+    const speed = Math.max(110, level.speed * 0.8)
+    for (const side of [-1, 1]) {
+      this.spawnBullet(
+        this.player.x + side * 4.4,
+        this.player.y - 3.6,
+        side * 9,
+        -speed,
+        damage,
+        spec.color,
+        false,
+        { r: level.radius * 0.8, trail: true },
+      )
+    }
+    this.events.push({ type: 'shot', x: this.player.x, y: this.player.y - 4, color: spec.color })
   }
 
   private spawnBullet(
